@@ -63,4 +63,4 @@ For full transparency, we include what the respository looked like at the time o
 
 [![DOI](https://zenodo.org/badge/436320191.svg)](https://zenodo.org/badge/latestdoi/436320191)
 
-* An early pre-print of this paper is available on medRxiv: _[Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168)_
+An early pre-print of this paper is available on medRxiv: _[Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168)_
