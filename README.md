@@ -55,5 +55,12 @@ The N3C data transfer to NCATS is performed under a Johns Hopkins University Rel
 - [Anita Walden](https://cd2h.org/node/146) (![Twitter](http://i.imgur.com/wWzX9uB.png):[@awalden20](https://twitter.com/awalden20))
 - [Christopher G Chute](https://www.hopkinsmedicine.org/profiles/details/christopher-chute)
 - [Melissa A Haendel](https://medschool.cuanschutz.edu/biochemistry/people/primary-faculty/haendel-melissa) (![Github](http://i.imgur.com/9I6NRUm.png): [tis-lab](https://github.com/tis-lab) | ![Twitter](http://i.imgur.com/wWzX9uB.png):[@ontowonka](https://twitter.com/ontowonka))
+
 ## Notes
+This repository is continually updated for clarity in response to feedback. However, all code will remain public.
+
+For full transparency, we include what the respository looked like at the time of journal submission. Thus, the First release is the version of the repository that existed at the time of submission. This release is archived on Zenodo:
+
+[![DOI](https://zenodo.org/badge/436320191.svg)](https://zenodo.org/badge/latestdoi/436320191)
+
 * An early pre-print of this paper is available on medRxiv: _[Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168)_
