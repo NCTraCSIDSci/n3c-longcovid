@@ -59,7 +59,7 @@ The N3C data transfer to NCATS is performed under a Johns Hopkins University Rel
 ## Notes
 This repository is continually updated for clarity in response to feedback. However, all code will remain public.
 
-For full transparency, we include what the respository looked like at the time of journal submission. Thus, the First release is the version of the repository that existed at the time of submission. This release is archived on Zenodo:
+For full transparency, we include the state of the repository at the time of submission. Release [Publication code v1.0.0](https://github.com/NCTraCSIDSci/n3c-longcovid/releases/tag/paper) is the version of the repository that existed at the time of submission. This release is archived on Zenodo:
 
 [![DOI](https://zenodo.org/badge/436320191.svg)](https://zenodo.org/badge/latestdoi/436320191)
 
