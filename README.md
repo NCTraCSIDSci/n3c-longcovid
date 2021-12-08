@@ -4,10 +4,7 @@
 
 ## Introduction
 
-This is reproducible code for our paper, [Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168), which uses 
-
-
-public-access county-level data to highlight characteristics of COVID-19 risk factors across different levels. We use bivariate maps to show both the intersection and spatial patterning of these risk factors. The full citation is:
+This is reproducible code for our paper, [Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168), which uses data from the National COVID Cohort Collaborative’s (N3C) EHR repository to identify potential long-COVID patients. The full citation is:
 
     Pfaff ER, et al. Who has long-COVID? A big data approach. medRxiv 2021; : 2021.10.18.21265168.
 
