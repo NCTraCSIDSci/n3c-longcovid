@@ -1,4 +1,4 @@
-CREATE TABLE `/UNITE/LDS/macrovisits/procedures_to_macrovisits/join_procedures_to_macrovisits_on_date_range` TBLPROPERTIES (foundry_transform_profile = 'NUM_EXECUTORS_4') AS
+CREATE TABLE join_procedures_to_macrovisits_on_date_range  AS
     
     
     -- starting with a map of microvisit to macrovisit, generate a table of
@@ -6,7 +6,7 @@ CREATE TABLE `/UNITE/LDS/macrovisits/procedures_to_macrovisits/join_procedures_t
     WITH macrovisits_only AS
     (
         SELECT DISTINCT person_id, macrovisit_id, macrovisit_start_date, macrovisit_end_date
-        FROM `/UNITE/LDS/harmonized/microvisits_to_macrovisits`
+        FROM microvisits_to_macrovisits
         WHERE macrovisit_id IS NOT NULL
 
     ),
@@ -15,7 +15,7 @@ CREATE TABLE `/UNITE/LDS/macrovisits/procedures_to_macrovisits/join_procedures_t
     p_with_date_but_not_visit_occurrence_id AS 
     (
         SELECT *
-        FROM `/UNITE/LDS/harmonized/procedure_occurrence`  
+        FROM procedure_occurrence 
         WHERE visit_occurrence_id IS NULL
         AND procedure_date IS NOT NULL
     )

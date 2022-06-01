@@ -12,12 +12,12 @@
 
     -- inpatient visit, inpatient hospital, emergency room and intensive care
 
-CREATE TABLE `/UNITE/LDS/macrovisits/inpatient_microvisits` AS
+CREATE TABLE inpatient_microvisits AS
     
 
     SELECT *     
 
-    FROM `/UNITE/LDS/harmonized/visit_occurrence`
+    FROM visit_occurrence
 
     WHERE  
     

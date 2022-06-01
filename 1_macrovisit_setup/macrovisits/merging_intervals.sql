@@ -1,4 +1,4 @@
-CREATE TABLE `/UNITE/LDS/macrovisits/merging_intervals` AS
+CREATE TABLE merging_intervals AS
     
 
 WITH a AS
@@ -12,7 +12,7 @@ WITH a AS
             RANK() OVER (PARTITION BY person_id ORDER by visit_start_date) AS rank_value
 
 
-    FROM `/UNITE/LDS/macrovisits/inpatient_microvisits`
+    FROM inpatient_microvisits
 
 
 ),
@@ -41,6 +41,9 @@ SELECT  person_id,
         group_number,
         MIN(visit_start_date) AS macrovisit_start_date,
         MAX(visit_end_date)   AS macrovisit_end_date,
+
+        -- This step creates a unique ID for the macrovisit. If the HASH function doesn't exist in your SQL dialect
+        -- or if it does not return a numeric result, consider an alternative such as ABS(CHECKSUM(MIN(visit_start_date)))ABS(CHECKSUM(MIN(visit_start_date)))
         CONCAT(person_id, '_', group_number, '_', ABS(HASH(MIN(visit_start_date)))) AS macrovisit_id
 
 FROM c
