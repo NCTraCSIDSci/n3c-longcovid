@@ -1,4 +1,4 @@
-CREATE TABLE `/UNITE/LDS/macrovisits/merging_intervals` AS
+CREATE TABLE merging_intervals AS
     
 
 WITH a AS
@@ -12,7 +12,7 @@ WITH a AS
             RANK() OVER (PARTITION BY person_id ORDER by visit_start_date) AS rank_value
 
 
-    FROM `/UNITE/LDS/macrovisits/inpatient_microvisits`
+    FROM inpatient_microvisits
 
 
 ),
