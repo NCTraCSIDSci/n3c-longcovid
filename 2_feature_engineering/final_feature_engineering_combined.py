@@ -93,9 +93,10 @@ def build_add_labels(ctx, pre_post_dx_count_clean, pre_post_med_count_clean, lon
 # Input  pyspark dataframe:  pre_post_dx
 
 
-def build_pre_post_more_in_dx_calc(pre_post_dx):
+
+def build_pre_post_more_in_dx_calc(pre_post_dx_count_clean):
     
-    result = pre_post_dx
+    result = pre_post_dx_count_clean
     result = result.withColumn('post_only_dx', 
                                 F.when(result['pre_dx_count'] > 0, 0)
                                 .otherwise(1)
@@ -107,7 +108,7 @@ def build_pre_post_more_in_dx_calc(pre_post_dx):
                               )
 
     
-    return resultdef process(pre_post_dx):
+    return result
     
 
 
