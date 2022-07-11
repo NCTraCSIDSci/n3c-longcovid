@@ -15,6 +15,8 @@ In order to run this code, you will need:
 * At least some COVID positive patients in your data, indicated through positive PCR or antigen tests (LOINC-coded) or U07.1 diagnosis codes.
 * The ability to run Python against your OMOP data model
 
+The SQL code in this repository is written in the Spark SQL dialect. If you have a different RDBMS, most of the SQL will work but you will likely need to swap out a few functions here and there. The Python code in this repository is written in PySpark. As PySpark is not very common, we will provide a pandas translation soon (see Future version notes).
+
 ## Running our code
 This repository is intended to be run in a stepwise fashion, using the numbered folders. (I.e., first run all the scripts in 1_, then 2_, and so forth.) Each numbered folder has its own README inside with additional details.
 
