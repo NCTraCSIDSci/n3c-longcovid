@@ -1,66 +1,29 @@
-## Who has long-COVID? A big data approach 
-
-![](figures/fig_3.png)
-
 ## Introduction
 
-This is reproducible code for our paper, [Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168), which uses data from the National COVID Cohort Collaborative’s (N3C) EHR repository to identify potential long-COVID patients. The full citation is:
+This repository contains reproducible code for our paper, [Identifying who has long COVID in the USA: a machine learning approach using N3C data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00048-6/fulltext), which uses data from the National COVID Cohort Collaborative’s (N3C) EHR repository to identify potential long-COVID patients. If you use this code in your work, please cite:
 
-    Pfaff ER, et al. Who has long-COVID? A big data approach. medRxiv 2021; : 2021.10.18.21265168.
+    Pfaff ER, Girvin AT, Bennett TD, et al. Identifying who has long COVID in the USA: a machine learning approach using N3C data. Lancet Digital Health. 4(7),E532-E541. doi:10.1016/S2589-7500(22)00048-6
+
+Note that the code on the main branch of this repository has been updated since the publication of the paper, and will continue to be updated. For a snapshot of the code as it stood when the paper was published, please use the "published_paper_code" branch.
+
+## Purpose of this code
+This code is designed to identify possible long COVID patients using electronic health record data as input. As of 7/11/2022, our feature table engineering code and our pretrained model are available in this repository. The model and its intent are described in detail in the paper linked above.
+
+## Prerequisites
+In order to run this code, you will need:
+* EHR data in the OMOP data model
+* At least some COVID positive patients in your data, indicated through positive PCR or antigen tests (LOINC-coded) or U07.1 diagnosis codes.
+* The ability to run Python against your OMOP data model
+
+The SQL code in this repository is written in the Spark SQL dialect. If you have a different RDBMS, most of the SQL will work but you will likely need to swap out a few functions here and there. The Python code in this repository is written in PySpark. As PySpark is not very common, we will provide a pandas translation soon (see Future version notes).
+
+## Running our code
+This repository is intended to be run in a stepwise fashion, using the numbered folders. (I.e., first run all the scripts in 1_, then 2_, and so forth.) Each numbered folder has its own README inside with additional details.
+
+## Future version notes
+In our next update, we will: 
+* release code to enable users to retrain the model on their own data, rather than using ours.
+* provide a pandas translation of the PySpark model code for ease of use
+* provide a list of Python packages/versions in the "Prerequsite" section above
 
 
-
-## Abstract
-**Background**
-Post-acute sequelae of SARS-CoV-2 infection (PASC), otherwise known as long-COVID, have severely impacted recovery from the pandemic for patients and society alike. This new disease is characterized by evolving, heterogeneous symptoms making it challenging to derive an unambiguous long-COVID definition. Electronic health record (EHR) studies are a critical element of the NIH Researching COVID to Enhance Recovery (RECOVER) Initiative, which is addressing the urgent need to understand PASC, accurately identify who has PASC, and identify treatments. 
-
-**Methods**
-Using the National COVID Cohort Collaborative’s (N3C) EHR repository, we developed XGBoost machine learning (ML) models to identify potential long-COVID patients. We examined demographics, healthcare utilization, diagnoses, and medications for 97,995 adult COVID-19 patients. We used these features and 597 long-COVID clinic patients to train three ML models to identify potential long-COVID patients among (1) all COVID-19 patients, (2) patients hospitalized with COVID-19, and (3) patients who had COVID-19 but were not hospitalized.
-
-**Findings**
-Our models identified potential long-COVID patients with high accuracy, achieving areas under the receiver operator characteristic curve of 0.91 (all patients), 0.90 (hospitalized); and 0.85 (non-hospitalized). Important features include rate of healthcare utilization, patient age, dyspnea, and other diagnosis and medication information available within the EHR. Applying the "all patients” model to the larger N3C cohort identified 100,263 potential long-COVID patients.
-
-**Interpretation**
-Patients flagged by our models can be interpreted as “patients warranting likely to be referred to or seek care at a long-COVID specialty clinic,” an essential proxy for long-COVID diagnosis while consensus is reached on a definitionin the current absence of a definition. We also achieve the urgent goal of identifying potential long-COVID patients for clinical trials. As more data sources are identified, the models can be retrained and tuned based on study needs.
-
-**Funding**
-This study was funded by NCATS and NIH through the RECOVER Initiative.
-
-
-## Issues 
-Please report issues via email or via the [issues page](https://github.com/abhatia08/n3c-longcovid-paper1/issues)
-
-## Data Sharing Statement
-
-The N3C data transfer to NCATS is performed under a Johns Hopkins University Reliance Protocol # IRB00249128 or individual site agreements with NIH. The N3C Data Enclave is managed under the authority of the NIH; information can be found at ncats.nih.gov/n3c/resources. Enclave data is protected, and can be accessed for COVID-related research with an approved (1) IRB protocol and (2) Data Use Request (DUR). A detailed accounting of data protections and access tiers is found in [1]. Enclave and data access instructions can be found at https://covid.cd2h.org/for-researchers.
-
-## Project Structure
-
-  - `./scripts/` contains all the scripts used in the analysis. 
-  - `./figures/` contains the figures developed for publication, using the results generated by the `./scripts/` pipeline
-
-## Authors
-- [Emily R. Pfaff](https://www.med.unc.edu/medicine/directory/emily-pfaff/) (![Github](http://i.imgur.com/9I6NRUm.png):[empff](https://github.com/empfff))
-- [Andrew T. Girvin](https://scholar.google.com/citations?hl=en&user=y77jJvUAAAAJ&view_op=list_works&sortby=pubdate)(![Github](http://i.imgur.com/9I6NRUm.png):[andrewtgirvin](https://github.com/andrewtgirvin))
-- [Tellen D. Bennett](https://profiles.ucdenver.edu/display/7031630)
-- [Abhishek Bhatia](https://abhatia.me/) (![Github](http://i.imgur.com/9I6NRUm.png): [abhatia08](https://github.com/abhatia08) | ![Twitter](http://i.imgur.com/wWzX9uB.png):[@abhibhatia08](https://twitter.com/abhibhatia08))
-- [Ian M. Brooks](https://www.linkedin.com/in/imbrooks/)
-- [Rachel R Deer](https://www.utmb.edu/rehabsciences/biographies/rachel-deer-phd)
-- [Jonathan P Dekermanjian](https://coloradosph.cuanschutz.edu/resources/directory/directory-profile/Dekermanjian-Jonathan-UCD172594) (![Github](http://i.imgur.com/9I6NRUm.png): [dekermanjian](https://github.com/Dekermanjian))
-- [Sarah Elizabeth Jolley](https://www.cumedicine.us/providers/medicine/sarah-jolley)(![Twitter](http://i.imgur.com/wWzX9uB.png):[@se_jolley](https://twitter.com/se_jolley))
-- [Michael G. Kahn](https://profiles.ucdenver.edu/display/225446)
-- [Kristin Kostka](https://www.ohdsi.org/who-we-are/collaborators/kristin-kostka/)(![Github](http://i.imgur.com/9I6NRUm.png): [kmkostka](https://github.com/kmkostka ) | ![Twitter](http://i.imgur.com/wWzX9uB.png):[@kricketchirps](https://twitter.com/kricketchirps))
-- [Julie A McMurry](https://tislab.org/members/julie-mcmurry.html) (![Github](http://i.imgur.com/9I6NRUm.png): [jmcmurry](https://github.com/jmcmurry ) | ![Twitter](http://i.imgur.com/wWzX9uB.png):[@figgyjam](https://twitter.com/figgyjam))
-- [Richard Moffitt](https://bmi.stonybrookmedicine.edu/people/moffitt_richard)
-- [Anita Walden](https://cd2h.org/node/146) (![Twitter](http://i.imgur.com/wWzX9uB.png):[@awalden20](https://twitter.com/awalden20))
-- [Christopher G Chute](https://www.hopkinsmedicine.org/profiles/details/christopher-chute)
-- [Melissa A Haendel](https://medschool.cuanschutz.edu/biochemistry/people/primary-faculty/haendel-melissa) (![Github](http://i.imgur.com/9I6NRUm.png): [tis-lab](https://github.com/tis-lab) | ![Twitter](http://i.imgur.com/wWzX9uB.png):[@ontowonka](https://twitter.com/ontowonka))
-
-## Notes
-This repository is continually updated for clarity in response to feedback. However, all code will remain public.
-
-For full transparency, we include the state of the repository at the time of submission. Release [Publication code v1.0.0](https://github.com/NCTraCSIDSci/n3c-longcovid/releases/tag/paper) is the version of the repository that existed at the time of submission. This release is archived on Zenodo:
-
-[![DOI](https://zenodo.org/badge/436320191.svg)](https://zenodo.org/badge/latestdoi/436320191)
-
-An early pre-print of this paper is available on medRxiv: _[Who has long-COVID? A big data approach](https://doi.org/10.1101/2021.10.18.21265168)_
