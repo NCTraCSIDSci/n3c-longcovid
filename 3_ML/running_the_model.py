@@ -12,6 +12,7 @@ xgb_model.load_model('long_covid_model.ubj')
 person_id = test_data['person_id']
 
 test_data.drop(['person_id', 'long_covid'], axis=1, inplace=True)
+
 X = test_data
 
 y_pred = xgb_model.predict_proba(X)

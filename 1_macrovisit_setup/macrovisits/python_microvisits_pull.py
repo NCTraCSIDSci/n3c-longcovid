@@ -1,6 +1,7 @@
 """
 We did not have permission in AOU Workspace to create intermediate tables. So, I have created temporary tables to pull intermediate data.
 Also, these temporary tables are only valid for a single transaction.
+If you can create temporary tables in your data, you do not need to create these tables. However you need to pull them into dataframes for further processing.
 """
 
 import pandas as pd

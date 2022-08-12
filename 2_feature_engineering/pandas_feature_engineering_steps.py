@@ -272,7 +272,7 @@ count_dx_pre_and_post['min_long_covid_date'] = count_dx_pre_and_post['min_long_c
 count_dx_pre_and_post['min_long_covid_date'] = count_dx_pre_and_post['min_long_covid_date'].fillna('0000-00-00')
 count_dx_pre_and_post['min_long_covid_date'] = count_dx_pre_and_post['min_long_covid_date'].astype('string')
 
-## We had to follow these steps in AOU to remove the columns not in N3C model
+## We had to follow these steps in AOU to remove the columns (features) not in N3C model and add the ones that are missing.
 
 n3c_features = ["person_id",
         "long_covid",
