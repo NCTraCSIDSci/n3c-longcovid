@@ -1,10 +1,18 @@
+# N3C Long COVID (PASC) model
+
 ## Introduction
 
-This repository contains reproducible code for our paper, [Identifying who has long COVID in the USA: a machine learning approach using N3C data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00048-6/fulltext), which uses data from the National COVID Cohort Collaborative’s (N3C) EHR repository to identify potential long-COVID patients. If you use this code in your work, please cite:
+This repository contains reproducible code for computational phenotyping (automated EHR-based identification) of PASC (Post-Acute Sequelae of COVID-19) or Long COVID, developed for use in N3C (National Clinical Cohort Collaborative, formerly known as the National COVID Cohort Collaborative). 
+
+The first version, described in [Identifying who has long COVID in the USA: a machine learning approach using N3C data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00048-6/fulltext), relied on the identification of a specific COVID index date for the determination of whether or not a patient had PASC. This paper may be cited as:
 
     Pfaff ER, Girvin AT, Bennett TD, et al. Identifying who has long COVID in the USA: a machine learning approach using N3C data. Lancet Digital Health. 4(7),E532-E541. doi:10.1016/S2589-7500(22)00048-6
 
-Note that the code on the main branch of this repository has been updated since the publication of the paper, and will continue to be updated. For a snapshot of the code as it stood when the paper was published, please use the "published_paper_code" branch.
+The second version, described in [Re-engineering a machine learning phenotype to adapt to the changing COVID-19 landscape: a machine learning modelling study from the N3C and RECOVER consortia](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00069-X/fulltext), was updated based on the changing circumstances surrounding COVID-19 surveillance. It does not rely on the identification of a specific COVID index date for the determination of whether or not a patient had PASC. This paper may be cited as:
+
+    Crosskey M, McIntee T, Preiss S, et al. Re-engineering a machine learning phenotype to adapt to the changing COVID-19 landscape: a machine learning modelling study from the N3C and RECOVER consortia. Lancet Digital Health. 7(8). [doi:10.1016/S2589-7500(22)00048-6](https://doi.org/10.1016/j.landig.2025.100887)
+
+Note that the code on the main branch of this repository has been updated since the publication of the paper, and will continue to be updated. The "published_paper_code" branch presents a fixed snapshot of the code as it existed contemporary to the publication of the first paper. The "second_paper_code" branch presents a fixed snapshot of the code as it existed contemporary to the publication of the second paper.
 
 ## Purpose of this code
 This code is designed to identify possible long COVID patients using electronic health record data as input. As of 7/11/2022, our feature table engineering code and our pretrained model are available in this repository. The model and its intent are described in detail in the paper linked above.
