@@ -1,16 +1,20 @@
+# Example of a script running the source.
+import n3cpasc2
 # This sets the windows. Parameters can be adjusted as necessary.
 window_spans = generate_window_spans(start = (2020,1),
                                      end = (2024,6),
                                      window_length = 100)
-concept_table = load_concept_table()
-concept_ancestor_table = load_ancestor_table()
+concept_table = pd.read_csv('concept.csv')
+concept_ancestor_table = pd.read_csv('concept_ancestor.csv')
+condition_df = pd.read_csv('condition_seeds.csv')
+observation_df = pd.read_csv('observation_seeds.csv')
 
 # Below code generates synthetic data. 
 # In actual use, replace with proper data loading.
 person_table = generate_person_table()
 visit_table = generate_visit_table(person_df = person_table)
 condition_table = generate_condition_table(visit_df = visit_table)
-observation_table = generate_condition_table(visit_df = visit_table)
+observation_table = generate_observation_table(visit_df = visit_table)
 fact_table = generate_fact_table(visit_df = visit_table)
 
 # First stage: Create the cohort and assemble the COVID-relevant data.
@@ -75,5 +79,4 @@ model_scores_full_df = model_scores(processed_data_full_df,
 # See https://doi.org/10.1016/j.landig.2025.100887 for details.
 model_scores_val_df = model_scores(model_val_set_df,
                                    pasc_trained_model)
-
 
