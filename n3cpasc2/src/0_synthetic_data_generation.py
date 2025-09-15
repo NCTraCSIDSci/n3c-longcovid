@@ -5,12 +5,13 @@ from pyspark.sql import functions as F
 
 def generate_window_spans(start, end, window_length = 100):
     """
-    Generate a dataframe of time windows spanning from January 2020 to the current month.
+    Generate a DataFrame of time windows spanning from January 2020 to the current month.
     This is the only synthetic data generation function used in the model within the
     enclave, other generating functions are included for convenience and testing.
 
     Each window starts on the first day of a month and spans 100 days.
-    The function creates a list of window start and end dates formatted as strings.
+    The function calculates the number of monthly windows between the start and end dates,
+    then creates a list of window start and end dates formatted as strings.
 
     Returns:
         pd.DataFrame: A DataFrame with columns:
@@ -294,17 +295,16 @@ def generate_fact_table(
     visit_df,
     covid_earliest_date="2020-03-01",
     long_covid_earliest_date="2020-06-01",
-    seed=404,
-    probabilities={
-        "PCR_AG_Pos": 0.05,
-        "LL_COVID_diagnosis": 0.025,
-        "PAX1_NIRMATRELVIR": 0.015,
-        "PAX2_RITONAVIR": 0.015,
-        "PAXLOVID": 0.02,
-        "REMDISIVIR": 0.01,
-        "LL_Long_COVID_diagnosis": 0.03,
-        "B94_8": 0.02,
-        "LL_MISC": 0.005}):
+    probabilities = {
+            "PCR_AG_Pos": {"seed_1": 5, "seed_2": 5},
+            "LL_COVID_diagnosis": {"seed_1": 13, "seed_2": 10},
+            "PAX1_NIRMATRELVIR": {"seed_1": 5, "seed_2": 8},
+            "PAX2_RITONAVIR": {"seed_1": 5, "seed_2": 12},
+            "PAXLOVID": {"seed_1": 5, "seed_2": 16},
+            "REMDISIVIR": {"seed_1": 5, "seed_2": 24},
+            "LL_Long_COVID_diagnosis": {"seed_1": 13, "seed_2": 24},
+            "B94_8": {"seed_1": 13, "seed_2": 12},
+            "LL_MISC": {"seed_1": 13, "seed_2": 6}}):
     """
     Generates a synthetic COVID-related fact table from a visit-level DataFrame.
 
@@ -323,29 +323,34 @@ def generate_fact_table(
     long_covid_earliest_date : str, optional
         The earliest date to begin assigning long COVID-related flags (default is "2020-06-01").
 
-    seed : int, optional
-        Random seed for reproducibility (default is 404).
-
     probabilities : dict, optional
-        Dictionary mapping each synthetic column name to its probability of being assigned a value of 1.
-
+        Dictionary mapping each synthetic column name to its potential for being assigned a value of 1. 
+        Assuming uniformly distributed ID numbers, the share of population is the inverse of the product of the seeds.
+        This is a very pseudo level of pseudorandomness.
+        
     Returns:
     -------
     pyspark.sql.DataFrame
         A DataFrame with the original visit data plus synthetic binary flags for COVID-related events.
         Note that the synthetic binary flags are generated independently, therefore unrealistically.
     """
-    visit_fat = visit_df.select("person_id", "visit_date")
 
-    for i, (col_name, prob) in enumerate(probabilities.items()):
+    visit_skinny = visit_df.select("person_id", "visit_id", "visit_date")
+
+    for col_name, seeds in probabilities.items():
+        seed_1 = seeds["seed_1"]
+        seed_2 = seeds["seed_2"]
         threshold_date = long_covid_earliest_date if "Long_COVID" in col_name or col_name == "B94_8" else covid_earliest_date
-        visit_fat = visit_fat.withColumn(
+
+        visit_skinny = visit_skinny.withColumn(
             col_name,
             F.when(
-                F.col("visit_date") >= threshold_date,
-                F.expr(f"rand({seed + i}) < {prob}")
-            ).cast("int")
+                (F.col("visit_date") >= threshold_date) &
+                (F.col("person_id") % seed_1 == 0) &
+                (F.col("visit_id") % seed_2 == 0),
+                1
+            ).otherwise(0)
         )
 
-    return visit_fat
+    return visit_skinny
 
