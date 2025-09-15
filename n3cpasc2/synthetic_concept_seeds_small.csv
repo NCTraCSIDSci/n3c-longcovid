@@ -1,1385 +1,1385 @@
-﻿condition_concept_id,condition_concept_name,concept_seed_1,concept_seed_2
-320128,Essential hypertension,2,0
-45879404,Never smoker,2,0
-320128,Essential hypertension,117,0
-46272450,Long-term current use of drug therapy,182,0
-4193704,Type 2 diabetes mellitus without complication,364,0
-21494995,Pain assessment [Interpretation],6,4
-432867,Hyperlipidemia,5,4
-46272450,Long-term current use of drug therapy,6,2
-4144111,Gastroesophageal reflux disease without esophagitis,286,0
-442077,Anxiety disorder,6,0
-312437,Dyspnea,9,7
-43054909,Tobacco smoking status,7,1
-201826,Type 2 diabetes mellitus,7,0
-4193704,Type 2 diabetes mellitus without complication,6,1
-201826,Type 2 diabetes mellitus,468,0
-4137274,Discharge to establishment,6,5
-436096,Chronic pain,7,4
-436096,Chronic pain,390,0
-903652,Findings of tobacco or its derivatives use or exposure,7,2
-45883458,Former smoker,7,6
-36311244,Oxygen therapy,10,0
-439777,Anemia,11,5
-439777,Anemia,546,0
-36305168,Smokeless tobacco status,8,6
-3034263,Pain severity - Reported,13,6
-432867,Hyperlipidemia,195,0
-442588,Obstructive sleep apnea syndrome,299,0
-37311059,Exposure to SARS-CoV-2,9,1
-36307819,Former user,8,2
-77670,Chest pain,9,7
-438485,Postoperative state,936,0
-140673,Hypothyroidism,8,7
-4203942,Admitting diagnosis,1625,0
-40772145,Do you ever drink alcohol - including beer or wine [Reported.PHQ],10,3
-312437,Dyspnea,156,0
-434613,Generalized anxiety disorder,18,13
-37311059,Exposure to SARS-CoV-2,468,0
-313217,Atrial fibrillation,728,0
-436070,Vitamin D deficiency,16,15
-440383,Depressive disorder,11,1
-313217,Atrial fibrillation,16,9
-440383,Depressive disorder,312,0
-437663,Fever,17,13
-4170554,Hip pain,29,6
-77670,Chest pain,234,0
-4108442,Nitrous oxide concentration,17,2
-442077,Anxiety disorder,299,0
-257011,Acute upper respiratory infection,14,0
-438720,Mixed hyperlipidemia,13,10
-254761,Cough,312,0
-436659,Iron deficiency anemia,936,0
-443597,Chronic kidney disease stage 3,1625,0
-140673,Hypothyroidism,416,0
-78232,Shoulder joint pain,3250,0
-319835,Congestive heart failure,2171,0
-194133,Low back pain,12,6
-4060985,Body mass index 30+ - obesity,351,0
-4209423,Nicotine dependence,14,9
-437663,Fever,3250,0
-903657,Cigarette smoker,14,7
-37016200,Exposure to viral disease,22,13
-4042889,Finding relating to drug misuse behavior,598,0
-434005,Morbid obesity,14,5
-434005,Morbid obesity,442,0
-197320,Acute kidney injury,16,15
-36307579,Current some day user,13,11
-4167217,Family history of clinical finding,1092,0
-434613,Generalized anxiety disorder,650,0
-4079750,Osteoarthritis of knee,15,2
-25297,Acute pharyngitis,2171,0
-3003798,Blood pressure method,15,0
-439224,Allergy to drug,650,0
-437827,Pure hypercholesterolemia,1300,0
-24134,Neck pain,16,4
-601622,Pain of left knee region,1300,0
-257011,Acute upper respiratory infection,2171,0
-601619,Pain of right knee joint,18,5
-45765728,Supervision of high risk pregnancy,16,1
-443597,Chronic kidney disease stage 3,16,13
-764123,Atherosclerosis of coronary artery without angina pectoris,351,0
-46272451,Long-term current use of insulin,17,2
-4209423,Nicotine dependence,936,0
-37018196,Prediabetes,19,5
-200962,Primary malignant neoplasm of prostate,27,10
-3040950,Body site,20,16
-45768910,Uncomplicated asthma,416,0
-24134,Neck pain,819,0
-4033240,Preliminary diagnosis,16,0
-45771331,Temperature,18,3
-25297,Acute pharyngitis,22,0
-45766930,Admits alcohol use,24,14
-436070,Vitamin D deficiency,546,0
-4188598,High risk pregnancy,19,12
-764123,Atherosclerosis of coronary artery without angina pectoris,16,10
-319835,Congestive heart failure,13,2
-4216746,Positive end expiratory pressure setting,7,0
-903651,Currently doesn't use tobacco or its derivatives,20,4
-42539502,Transplanted kidney present,20,4
-316139,Heart failure,40,23
-433316,Dizziness and giddiness,442,0
-4134121,Lumbar radiculopathy,1300,0
-193782,End-stage renal disease,36,29
-200219,Abdominal pain,1300,0
-444094,Finding related to pregnancy,31,7
-4033240,Preliminary diagnosis,2171,0
-254761,Cough,13,8
-436659,Iron deficiency anemia,21,15
-80502,Osteoporosis,819,0
-438720,Mixed hyperlipidemia,390,0
-81902,Urinary tract infectious disease,936,0
-4154290,Paroxysmal atrial fibrillation,33,31
-4256640,Body mass index 40+ - severely obese,26,18
-75909,Disorder of bone,24,0
-46273937,Long-term current use of anticoagulant,1625,0
-194133,Low back pain,728,0
-4244438,Second trimester pregnancy,22,7
-45768910,Uncomplicated asthma,28,11
-437113,Asthenia,53,41
-4042889,Finding relating to drug misuse behavior,17,9
-4218813,Third trimester pregnancy,23,1
-200219,Abdominal pain,22,4
-257007,Allergic rhinitis,728,0
-46272451,Long-term current use of insulin,650,0
-4223659,Fatigue,286,0
-4256640,Body mass index 40+ - severely obese,468,0
-75860,Constipation,15,14
-80502,Osteoporosis,23,20
-46271022,Chronic kidney disease,936,0
-4152283,Main spoken language,38,12
-80180,Osteoarthritis,819,0
-433316,Dizziness and giddiness,31,25
-438485,Postoperative state,16,7
-432456,Alcohol intake - finding,2171,0
-3042924,Little interest or pleasure in doing things in last 2 weeks,24,14
-4282096,"Major depression, single episode",1300,0
-4134121,Lumbar radiculopathy,33,19
-31967,Nausea,27,4
-432456,Alcohol intake - finding,24,12
-75909,Disorder of bone,1625,0
-36717001,Long-term current use of aspirin,24,12
-27674,Nausea and vomiting,1092,0
-4001450,Lumbago with sciatica,2171,0
-377091,Seizure,52,31
-43531578,Chronic kidney disease due to type 2 diabetes mellitus,25,7
-4307376,Final inpatient visit with instructions at discharge,29,24
-2106285,"Most recent diastolic blood pressure less than 80 mm Hg (HTN, CKD, CAD) (DM)",34,13
-31317,Dysphagia,26,1
-4167217,Family history of clinical finding,26,1
-378253,Headache,1092,0
-27674,Nausea and vomiting,26,1
-443364,Patient encounter status,25,4
-321052,Peripheral vascular disease,33,13
-439224,Allergy to drug,26,0
-197684,Dysuria,819,0
-4223659,Fatigue,26,25
-3010247,Hospital discharge Dx,6,5
-903653,Never used tobacco or its derivatives,16,13
-321052,Peripheral vascular disease,2171,0
-4060985,Body mass index 30+ - obesity,22,10
-4077577,Moderate recurrent major depression,1300,0
-601622,Pain of left knee region,27,21
-437643,Abnormal gait,1092,0
-37018196,Prediabetes,1092,0
-136788,Spinal stenosis of lumbar region,32,10
-42537748,Acquired absence of organ,1092,0
-4019967,Dependence on renal dialysis,28,17
-43530807,Allergic disposition,61,11
-75860,Constipation,650,0
-4110772,Gender identity finding,28,16
-433736,Obesity,10,2
-2106281,"Most recent systolic blood pressure less than 130 mm Hg (DM) (HTN, CKD, CAD)",44,27
-601619,Pain of right knee joint,936,0
-43531578,Chronic kidney disease due to type 2 diabetes mellitus,936,0
-4043042,Sexually active,29,12
-78232,Shoulder joint pain,29,12
-441207,Adverse reaction to drug,29,11
-134736,Backache,29,11
-44786668,Date quit tobacco smoking,29,11
-378253,Headache,29,11
-37016349,Hyperglycemia due to type 2 diabetes mellitus,20,9
-437833,Hypokalemia,29,11
-437827,Pure hypercholesterolemia,13,4
-321319,Cardiomyopathy,1300,0
-196523,Diarrhea,650,0
-80180,Osteoarthritis,30,8
-44813951,Discharge details,30,7
-3001048,Peripheral artery measurement site,30,7
-432870,Thrombocytopenic disorder,2171,0
-318736,Migraine,29,8
-442793,Complication due to diabetes mellitus,31,3
-40405599,Fibromyalgia,39,26
-77074,Joint pain,69,65
-132797,Sepsis,40,25
-37016349,Hyperglycemia due to type 2 diabetes mellitus,650,0
-81902,Urinary tract infectious disease,16,0
-4346975,Lumbar spondylosis,52,11
-255848,Pneumonia,728,0
-198803,Benign prostatic hyperplasia,45,17
-37017432,Polyneuropathy due to type 2 diabetes mellitus,1300,0
-137809,Primary malignant neoplasm of female breast,23,16
-135930,Musculoskeletal finding,1625,0
-40479576,Chronic diastolic heart failure,72,60
-42894222,EHR Chief Complaint,34,26
-201620,Kidney stone,34,26
-4283657,Sexual orientation,38,22
-444070,Tachycardia,34,26
-903654,Tobacco or its derivatives user,34,26
-437113,Asthenia,416,0
-4146581,Mild intermittent asthma,728,0
-4311499,Primary malignant neoplasm of respiratory tract,34,25
-45772705,Denies alcohol use,1625,0
-442752,Muscle pain,936,0
-3019204,Body position with respect to gravity,36,21
-197381,Epigastric pain,1092,0
-434610,Hyperkalemia,36,21
-4282096,"Major depression, single episode",33,24
-4174262,Polyneuropathy,48,9
-192450,Retention of urine,59,57
-4064161,Cirrhosis of liver,36,20
-433736,Obesity,416,0
-436676,Posttraumatic stress disorder,43,13
-440704,Chronic pain syndrome,3250,0
-42537730,Coronary artery graft present,2171,0
-201618,Disorder of intestine,37,18
-4214376,Hyperglycemia,2171,0
-443454,Cerebral infarction,38,16
-45772705,Denies alcohol use,35,19
-436583,Fall,1300,0
-2102034,Medication list documented in medical record (COA),38,16
-4113821,Anxiety state,45,8
-134736,Backache,936,0
-197684,Dysuria,26,1
-200843,Finding of frequency of urination,106,53
-4170554,Hip pain,1300,0
-4214376,Hyperglycemia,48,5
-4329041,Pain,38,15
-3035482,Pain duration - Reported,38,15
-315078,Palpitations,38,15
-436962,Insomnia,21,10
-4154290,Paroxysmal atrial fibrillation,819,0
-140821,Spasm,59,52
-432870,Thrombocytopenic disorder,39,13
-441207,Adverse reaction to drug,1625,0
-4144111,Gastroesophageal reflux disease without esophagitis,8,3
-4236484,Paresthesia,43,8
-4236484,Paresthesia,1092,0
-442588,Obstructive sleep apnea syndrome,12,2
-315078,Palpitations,442,0
-37017432,Polyneuropathy due to type 2 diabetes mellitus,40,10
-40479576,Chronic diastolic heart failure,650,0
-4142875,Solitary nodule of lung,1092,0
-43530807,Allergic disposition,1092,0
-257007,Allergic rhinitis,42,6
-201618,Disorder of intestine,1300,0
-200843,Finding of frequency of urination,1300,0
-79908,Muscle weakness,48,0
-31967,Nausea,598,0
-42538119,Transplanted heart valve present,42,6
-40483287,Disorder of kidney and/or ureter,48,47
-140214,Eruption,106,47
-437233,Multiple myeloma,40,7
-9177,Other,63,47
-80809,Rheumatoid arthritis,1625,0
-43021202,Sexually active with men,43,4
-437246,Vitamin B deficiency,728,0
-443211,Benign prostatic hyperplasia with outflow obstruction,3250,0
-44782429,Chronic kidney disease due to hypertension,1625,0
-31317,Dysphagia,1625,0
-4210989,Family history with explicit context,56,46
-442752,Muscle pain,44,2
-4117695,Pain in left lower limb,69,46
-255848,Pneumonia,44,2
-4115367,Wrist joint pain,125,46
-435928,Abnormal weight loss,2171,0
-4155909,Anesthesia of skin,59,45
-45763854,Chronic kidney disease stage 3A,45,0
-4181965,Chronic ulcer of foot,45,0
-196523,Diarrhea,38,7
-193782,End-stage renal disease,1625,0
-40758879,Patient Health Questionnaire 2 item (PHQ-2) total score [Reported],45,0
-192450,Retention of urine,1625,0
-4206148,Syncope and collapse,1625,0
-4186037,Aftercare,56,44
-4060705,Body mass index 25-29 - overweight,1092,0
-4141360,Chronic atrial fibrillation,46,44
-443769,Degeneration of lumbar intervertebral disc,46,44
-3045858,"Feeling down, depressed, or hopeless in last 2 weeks",46,44
-37020730,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living",32,12
-316139,Heart failure,936,0
-444101,Hypertensive heart failure,65,44
-4195085,Nasal congestion,1092,0
-42537748,Acquired absence of organ,20,3
-197320,Acute kidney injury,936,0
-4149904,"Attention deficit hyperactivity disorder, combined type",53,43
-255573,Chronic obstructive pulmonary disease,442,0
-440704,Chronic pain syndrome,286,43
-45881517,Current every day smoker,21,1
-435796,Dehydration,58,43
-4239938,First trimester pregnancy,47,43
-435515,Hypo-osmolality and or hyponatremia,728,0
-4079750,Osteoarthritis of knee,1300,0
-254061,Pleural effusion,47,43
-4174262,Polyneuropathy,936,0
-4322024,Pulmonary hypertension,47,43
-40770349,Smoking tobacco use duration,58,43
-4155909,Anesthesia of skin,1625,0
-442793,Complication due to diabetes mellitus,1300,0
-4272240,Malaise,46,42
-80809,Rheumatoid arthritis,72,42
-4142875,Solitary nodule of lung,48,42
-437246,Vitamin B deficiency,43,42
-197381,Epigastric pain,65,41
-380378,Epilepsy,49,41
-378735,Migraine without aura,1092,0
-443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,75,41
-73754,Restless legs,3250,0
-201254,Type 1 diabetes mellitus,75,41
-436222,Altered mental status,2171,0
-44782429,Chronic kidney disease due to hypertension,91,40
-439696,Hypertensive heart and renal disease with (congestive) heart failure,1300,0
-36717001,Long-term current use of aspirin,1625,0
-3018063,Marital status and living arrangements - Reported,46,40
-3034855,Pain alleviating factors - Reported,50,40
-4310235,Reduced mobility,58,40
-439147,Amnesia,167,39
-439147,Amnesia,728,0
-45768812,Anemia in chronic kidney disease,2171,0
-44784217,Cardiac arrhythmia,1300,0
-46271811,Child-Pugh score class A,77,39
-372887,Disorder of brain,1625,0
-433740,Immunodeficiency disorder,52,39
-261325,Pulmonary emphysema,1625,0
-4035611,Seropositive rheumatoid arthritis,100,39
-40766721,Tobacco product [PhenX],52,39
-380094,Carpal tunnel syndrome,56,38
-372887,Disorder of brain,58,38
-4098604,Hypomagnesemia,53,38
-312998,Pain in thoracic spine,75,38
-432795,Traumatic or non-traumatic injury,77,38
-42537729,Aortocoronary bypass graft present,55,37
-3031680,Blood pressure measurement site,55,37
-4169095,Bradycardia,77,37
-4288310,Carotid artery obstruction,96,37
-42537730,Coronary artery graft present,55,37
-439407,Disorder of nasal cavity,1625,0
-45766714,Inflammatory dermatosis,52,37
-140648,Onychomycosis due to dermatophyte,72,37
-45763842,Patient requests non-blood medical management,91,37
-132797,Sepsis,1300,0
-4248728,Snoring,59,37
-4041285,Urogenital finding,118,37
-443211,Benign prostatic hyperplasia with outflow obstruction,56,36
-4135421,Body mass index 20-24 - normal,56,36
-374375,Impacted cerumen,87,36
-4171917,Localized edema,43,36
-4346975,Lumbar spondylosis,2171,0
-254061,Pleural effusion,1625,0
-4059290,Steatosis of liver,56,36
-4081759,Transplant follow-up,56,36
-42538117,Transplanted heart present,134,36
-440029,Viral disease,40,36
-4149353,"Attention deficit hyperactivity disorder, predominantly inattentive type",59,35
-376208,Disorder of soft tissue,61,35
-4248728,Snoring,1625,0
-4275423,Supraventricular tachycardia,1625,0
-3043462,"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]",59,35
-45768964,Uncomplicated moderate persistent asthma,72,35
-436665,Bipolar disorder,59,34
-257012,Chronic sinusitis,106,34
-40479192,Chronic systolic heart failure,59,34
-434610,Hyperkalemia,1625,0
-4329041,Pain,1300,0
-4115171,Pain in right lower limb,1625,0
-4192791,Pain management (specialty),125,34
-436353,Primary malignant neoplasm of upper outer quadrant of female breast,39,34
-3022650,Specimen drawn from,77,34
-4135421,Body mass index 20-24 - normal,1092,0
-4271661,Characteristic of pain,61,33
-4229440,Chronic congestive heart failure,1300,0
-3004518,Cigarettes smoked current (pack per day) - Reported,31,2
-40217302,"Clinical decision support mechanism national decision support company, as defined by the medicare appropriate use criteria program",59,33
-141693,Elevated blood-pressure reading without diagnosis of hypertension,2171,0
-21494983,Level of consciousness,69,33
-4047564,Routine antenatal care,23,10
-435220,Severe recurrent major depression without psychotic features,67,33
-313459,Sleep apnea,61,33
-435517,Acidosis,1092,0
-314658,Cardiomegaly,72,32
-4271661,Characteristic of pain,1300,0
-141693,Elevated blood-pressure reading without diagnosis of hypertension,87,32
-30437,Gastro-esophageal reflux disease with esophagitis,63,32
-37119138,Iron deficiency anemia due to blood loss,42,32
-762294,Pain in right foot,118,32
-436676,Posttraumatic stress disorder,2171,0
-3007397,Ventilator type,91,32
-36306143,Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS],65,32
-46271022,Chronic kidney disease,106,31
-45763854,Chronic kidney disease stage 3A,2171,0
-376065,Disorder of nervous system due to type 2 diabetes mellitus,65,31
-3045290,Edema,63,31
-377889,Hearing loss,118,31
-4119786,Interstitial lung disease,819,0
-46272452,Long-term current use of steroid,100,31
-317002,Low blood pressure,1625,0
-4271013,Melanocytic nevus,143,31
-4168216,Pelvic and perineal pain,134,31
-4150125,Persistent pain following procedure,200,31
-193322,Right lower quadrant pain,84,31
-46271075,Acute hypoxemic respiratory failure,67,30
-140352,"Acute myeloid leukemia, disease",154,30
-45763855,Chronic kidney disease stage 3B,106,30
-437758,Dependence on enabling machine or device,59,30
-40405599,Fibromyalgia,728,0
-4254485,Finding related to attentiveness,69,30
-4098604,Hypomagnesemia,1625,0
-372448,Loss of consciousness,100,30
-4195085,Nasal congestion,67,30
-4232697,Persistent atrial fibrillation,112,30
-440417,Pulmonary embolism,67,30
-4322024,Pulmonary hypertension,1300,0
-4280726,Seasonal allergic rhinitis,2171,0
-435517,Acidosis,53,29
-138384,Acquired hypothyroidism,1625,0
-434894,Acute posthemorrhagic anemia,69,29
-45768812,Anemia in chronic kidney disease,69,29
-78508,Arthralgia of the ankle and/or foot,69,29
-137275,Disorder of muscle,134,29
-436583,Fall,42,29
-438398,Leukocytosis,65,29
-2106286,"Most recent diastolic blood pressure 80-89 mm Hg (HTN, CKD, CAD) (DM)",77,29
-440897,Motor vehicle accident victim,80,29
-440417,Pulmonary embolism,819,0
-141932,Senile hyperkeratosis,72,29
-4219336,Tobacco,39,29
-4305080,Abnormal breathing,1300,0
-200528,Ascites,125,28
-4012376,Currently not sexually active,112,28
-314131,Degeneration of cervical intervertebral disc,143,28
-376208,Disorder of soft tissue,936,0
-4305831,Exposure to potentially harmful entity,72,28
-4114865,Finding relating to sexual activity,72,28
-46234789,"How hard is it for you to pay for the very basics like food, housing, medical care, and heating",72,28
-4168700,Localized enlarged lymph nodes,84,28
-438120,Opioid dependence,72,28
-140168,Psoriasis,77,28
-443731,Renal disorder due to type 2 diabetes mellitus,69,28
-4220163,Tidal volume setting,48,28
-4169095,Bradycardia,1300,0
-45763855,Chronic kidney disease stage 3B,1625,0
-376065,Disorder of nervous system due to type 2 diabetes mellitus,1625,0
-321588,Heart disease,125,27
-195562,Hemorrhoids,100,27
-437833,Hypokalemia,936,0
-4171917,Localized edema,936,0
-321596,Peripheral venous insufficiency,84,27
-37109774,Requires vaccination,1300,0
-43021203,Sexually active with women,154,27
-4229440,Chronic congestive heart failure,39,26
-4300704,Diffuse large B-cell lymphoma (nodal/systemic with skin involvement),77,26
-435788,Disorder of phosphorus metabolism,134,26
-3655355,Erectile dysfunction,96,26
-73840,"Localized, primary osteoarthritis of the shoulder region",77,26
-2106282,"Most recent systolic blood pressure 130-139 mm Hg (DM) (HTN, CKD, CAD)",118,26
-374919,Multiple sclerosis,77,26
-314666,Old myocardial infarction,77,26
-4280726,Seasonal allergic rhinitis,77,26
-378427,Tear film insufficiency,2171,0
-138384,Acquired hypothyroidism,80,25
-40481043,Acute on chronic diastolic heart failure,125,25
-314665,Atrial flutter,80,25
-321319,Cardiomyopathy,63,25
-141253,Disorder of thyroid gland,80,25
-2617827,"Eligible clinician attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications",143,25
-40762517,History of falling; immediate or within 3 months [Morse Fall Scale],334,25
-375415,Injury of head,100,25
-46272452,Long-term current use of steroid,1625,0
-317002,Low blood pressure,72,25
-435839,Lymphedema,100,25
-40762522,Mental status [Morse Fall Scale],52,25
-4228802,Mild recurrent major depression,106,25
-3044098,Poor appetite or overeating in last 2 weeks [Reported.PHQ],100,25
-261325,Pulmonary emphysema,80,25
-140821,Spasm,2171,0
-374034,Visual disturbance,112,25
-432545,Bacterial infectious disease,84,24
-198803,Benign prostatic hyperplasia,1300,0
-441840,Clinical finding,58,24
-43530950,Complication occurring during pregnancy,84,24
-374888,Dementia associated with another disease,87,24
-197607,Excessive and frequent menstruation,96,24
-197925,Hemorrhage of rectum and anus,100,24
-77074,Joint pain,1092,0
-46273937,Long-term current use of anticoagulant,28,24
-443962,Mitral valve regurgitation,1625,0
-4002359,Monoclonal gammopathy (clinical),118,24
-762296,Pain in right hand,91,24
-704996,Patient meets COVID-19 laboratory diagnostic criteria,134,24
-439392,Primary malignant neoplasm,106,24
-200051,Primary malignant neoplasm of ovary,134,24
-4310235,Reduced mobility,819,0
-36304041,Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS],65,24
-260139,Acute bronchitis,154,23
-46271075,Acute hypoxemic respiratory failure,546,0
-45766930,Admits alcohol use,3250,0
-436222,Altered mental status,112,23
-317009,Asthma,125,23
-44784217,Cardiac arrhythmia,87,23
-4195384,Chronic cough,351,0
-4174707,Dietary management surveillance,61,23
-257907,Disorder of lung,87,23
-439658,Disorder of pregnancy,65,23
-138841,Disorder of sacrum,72,23
-4179963,Family history of breast cancer,87,23
-4334494,Family history of malignant neoplasm of digestive organ,87,23
-4308509,Impaired fasting glycemia,53,23
-373478,Presbyopia,143,23
-197500,Primary malignant neoplasm of colon,154,23
-197672,Urinary incontinence,87,23
-314754,Wheezing,2171,0
-312934,Atherosclerosis of aorta,167,22
-4060705,Body mass index 25-29 - overweight,67,22
-433968,Candidiasis,118,22
-314658,Cardiomegaly,1300,0
-201061,Diaphragmatic hernia,56,22
-201061,Diaphragmatic hernia,3250,0
-36714126,Difficulty walking,118,22
-257907,Disorder of lung,936,0
-372324,Eustachian tube disorder,91,22
-4148407,FH: Cardiovascular disease,1092,0
-3022196,History of Other nonmedical drug use,154,22
-433811,Hydronephrosis,100,22
-4001450,Lumbago with sciatica,43,22
-318736,Migraine,1092,0
-138994,Myelodysplastic syndrome (clinical),91,22
-4285898,Polyp of colon,96,22
-4273391,Suicidal thoughts,91,22
-434272,Varicella,91,22
-46235140,Vital status at discharge,63,22
-261880,Atelectasis,1092,0
-312648,Benign essential hypertension,100,21
-46269757,Chronic ulcer of skin of lower leg,106,21
-46234787,"Do you belong to any clubs or organizations such as church groups unions, fraternal or athletic groups, or school groups [NHANES III]",100,21
-40326053,Dysphonia,112,21
-433595,Edema,1300,0
-37016348,Hyperglycemia due to type 1 diabetes mellitus,106,21
-435515,Hypo-osmolality and or hyponatremia,91,21
-4103703,Melena,106,21
-4119307,Neurogenic claudication,118,21
-4308655,Nonstress test,106,21
-136368,Non-toxic multinodular goiter,112,21
-37109774,Requires vaccination,96,21
-4110815,Sensorineural hearing loss of bilateral ears,69,21
-4275423,Supraventricular tachycardia,96,21
-194686,Acquired renal cystic disease,100,20
-36712983,Angina co-occurrent and due to coronary arteriosclerosis,91,20
-4189343,Aortic valve stenosis,134,20
-4177862,Chronic hypoxemic respiratory failure,598,0
-443612,Chronic kidney disease stage 4,69,20
-255573,Chronic obstructive pulmonary disease,61,20
-376400,Combined form of senile cataract,100,20
-197610,Cyst of ovary,58,20
-441641,Delivery normal,154,20
-40762523,Fall risk total [Morse Fall Scale],100,20
-316822,Heart murmur,69,20
-78505,"Localized, primary osteoarthritis of the ankle and/or foot",143,20
-79908,Muscle weakness,2171,0
-4119499,Not for resuscitation,100,20
-4117695,Pain in left lower limb,2171,0
-137820,Postoperative hypothyroidism,100,20
-4014295,Single live birth,53,20
-443580,Systolic heart failure,250,20
-193326,Urge incontinence of urine,182,20
-194406,Urinary tract obstruction,112,20
-4089462,Ventricular premature complex,100,20
-437643,Abnormal gait,61,19
-132736,Bacteremia,167,19
-4195384,Chronic cough,106,19
-37311061,COVID-19,106,19
-42873170,Dependence on supplemental oxygen,468,0
-40481089,Embolism from thrombosis of vein of lower extremity,87,19
-140214,Eruption,1625,0
-318800,Gastroesophageal reflux disease,56,19
-4204199,Hand pain,400,19
-438134,Hypersomnia,112,19
-438134,Hypersomnia,1625,0
-40757768,Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS],106,19
-4092216,Malignant neoplasm of upper lobe of lung,154,19
-4128329,Menopause present,63,19
-4168796,Muscle strain,154,19
-40484532,Nonalcoholic steatohepatitis,182,19
-437525,Overweight,106,19
-28060,Streptococcal sore throat,106,19
-441051,Thoracic aortic aneurysm without rupture,250,19
-42537742,Transplanted liver present,91,19
-438310,"Victim, motorcycle rider in vehicular AND/OR traffic accident",182,19
-439141,Abnormal weight gain,182,18
-4138763,Acceptable pain level status,112,18
-257004,Acute exacerbation of chronic obstructive pulmonary disease,118,18
-135496,Acute leukemia in remission,223,18
-37016114,Acute on chronic hypoxemic respiratory failure,1300,0
-375281,Acute suppurative otitis media without spontaneous rupture of ear drum,112,18
-73553,Arthropathy,75,18
-257012,Chronic sinusitis,1300,0
-4182210,Dementia,112,18
-197988,Generalized abdominal pain,100,18
-439696,Hypertensive heart and renal disease with (congestive) heart failure,112,18
-437390,Hypoxemia,112,18
-195083,Left lower quadrant pain,106,18
-45878118,Light tobacco smoker,112,18
-4272240,Malaise,390,0
-42872398,"Maternal obesity complicating pregnancy, childbirth and the puerperium, antepartum",112,18
-443962,Mitral valve regurgitation,112,18
-4049623,"Moderate major depression, single episode",112,18
-436059,Multiple myeloma in remission,134,18
-4114585,"Primary gonarthrosis, bilateral",112,18
-4215402,Primary insomnia,118,18
-4247238,Primary malignant neoplasm of endometrium,250,18
-75650,Proteinuria,58,18
-73754,Restless legs,112,18
-372409,Sciatica,134,18
-3045019,"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]",112,18
-443412,Type 1 diabetes mellitus without complication,106,18
-37016114,Acute on chronic hypoxemic respiratory failure,154,17
-199074,Acute pancreatitis,250,17
-261880,Atelectasis,118,17
-375545,Cataract,118,17
-44782719,Chronic combined systolic and diastolic heart failure,134,17
-432738,Chronic fatigue syndrome,134,17
-194696,Dysmenorrhea,134,17
-4059015,Falls,118,17
-80813,Lumbosacral spondylosis without myelopathy,134,17
-378735,Migraine without aura,80,17
-2106236,Most recent hemoglobin A1c (HbA1c) level less than 7.0% (DM),154,17
-133711,Overlapping malignant neoplasm of female breast,118,17
-4141454,Recurrent major depression in partial remission,200,17
-4023050,Sexual partners,1625,0
-45768964,Uncomplicated moderate persistent asthma,819,0
-4152351,"Abdominal distension, gaseous",125,16
-4227594,Acne vulgaris,125,16
-196463,Alcoholic cirrhosis,125,16
-321318,Angina pectoris,334,16
-259848,Chronic rhinitis,143,16
-437116,Closed fracture of distal end of radius,106,16
-201606,Crohn's disease,500,16
-40766945,Current smoker,125,16
-435796,Dehydration,1300,0
-4266809,Diverticular disease,125,16
-4122339,Drug-induced immunodeficiency,250,16
-4307024,Follow-up encounter,72,16
-40762521,Gait [Morse Fall Scale],154,16
-196456,Gallstone,125,16
-3663197,Glaucoma suspect,200,16
-133810,Hyperparathyroidism due to renal insufficiency,125,16
-194175,Left upper quadrant pain,334,16
-438398,Leukocytosis,2171,0
-443600,Localized infection of skin AND/OR subcutaneous tissue,96,16
-46272734,Long-term current use of antibiotic,125,16
-40766231,Marital status [NHANES],125,16
-381549,Migraine with aura,143,16
-444100,Mood disorder,125,16
-135777,Neoplasm of uncertain behavior of skin,118,16
-4079749,Osteoarthritis of hip,72,16
-2101944,Pain severity quantified; no pain present (COA) (ONC),125,16
-198985,Primary malignant neoplasm of kidney,106,16
-199754,Primary malignant neoplasm of pancreas,125,16
-4282316,Recurrent major depression,154,16
-45881518,"Smoker, current status unknown",125,16
-444070,Tachycardia,468,0
-378427,Tear film insufficiency,65,16
-443782,Tremor,125,16
-4305080,Abnormal breathing,91,15
-435928,Abnormal weight loss,77,15
-141323,Acute maxillary sinusitis,134,15
-433758,Childhood emotional disorder,134,15
-432738,Chronic fatigue syndrome,442,0
-4225273,Chronic gastritis,134,15
-443611,Chronic kidney disease stage 5,167,15
-4000609,Disorder of upper gastrointestinal tract,134,15
-433595,Edema,96,15
-75004,Frank hematuria,134,15
-4132434,"Gestation period, 8 weeks",154,15
-440674,Gout,75,15
-437390,Hypoxemia,468,0
-440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",134,15
-4195572,"Mild major depression, single episode",200,15
-4077577,Moderate recurrent major depression,77,15
-437165,Motor vehicle traffic accident,134,15
-199075,Neurogenic urinary bladder,167,15
-40304526,Nocturia,134,15
-439297,Nuclear senile cataract,55,15
-436074,Panic disorder,167,15
-381270,Parkinson's disease,134,15
-3042932,Patient Health Questionnaire 9 item (PHQ-9) total score [Reported],250,15
-4232691,Permanent atrial fibrillation,134,15
-2313972,Physician or other qualified health care professional services for outpatient cardiac rehabilitation; with continuous ECG monitoring (per session),134,15
-444239,Postprocedural state finding,154,15
-435262,Primary open angle glaucoma,134,15
-45885135,Unknown if ever smoked,134,15
-46273463,Upper respiratory tract infection caused by Influenza virus,143,15
-4103295,Ventricular tachycardia,134,15
-441408,Vomiting,134,15
-314754,Wheezing,134,15
-4152351,"Abdominal distension, gaseous",2171,0
-442306,Adjustment disorder with depressed mood,143,14
-435243,Alcohol dependence,53,14
-439776,Autism spectrum disorder,118,14
-439794,Central sleep apnea syndrome,100,14
-439794,Central sleep apnea syndrome,1092,0
-255573,Chronic obstructive lung disease,2171,0
-43530666,Dementia with behavioral disturbance,250,14
-437758,Dependence on enabling machine or device,1092,0
-4268911,Disorientated,167,14
-40326053,Dysphonia,1625,0
-3043801,Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ],154,14
-74104,Fetal condition affecting obstetrical care of mother,223,14
-201340,Gastritis,134,14
-4110961,Generalized ischemic myocardial dysfunction,77,14
-3964826,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living during assessment period [CMS Assessment]",182,14
-435511,Hypercalcemia,143,14
-434004,Hypervolemia,200,14
-196168,Irregular periods,143,14
-46272453,Long-term current use of inhaled steroid,143,14
-3043785,Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ],112,14
-319041,Orthostatic hypotension,200,14
-4115171,Pain in right lower limb,67,14
-4011457,Patient visit for,250,14
-134460,Plantar fascial fibromatosis,250,14
-74582,Primary malignant neoplasm of rectum,91,14
-435783,Schizophrenia,286,14
-72418,Scoliosis deformity of spine,112,14
-4261842,Sick sinus syndrome,143,14
-3045933,"Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]",143,14
-201916,Ureteric stone,154,14
-200845,Urgent desire to urinate,143,14
-4135932,Uterine scar from previous surgery affecting pregnancy,143,14
-35942506,Valid FIPS code,223,14
-4270024,Acute non-ST segment elevation myocardial infarction,143,13
-440083,Acute stress disorder,223,13
-433753,Alcohol abuse,112,13
-35609491,Alcohol units consumed per week,100,13
-36031661,Altered level of consciousness during assessment period [CAM.CMS],87,13
-201078,Atrophic vaginitis,200,13
-4307956,Bipolar II disorder,286,13
-4096682,Bleeding from nose,154,13
-40756859,"Body Mass Index (BMI), documented (PV)",134,13
-137548,Cervical radiculopathy,50,13
-43530652,Chronic intractable migraine without aura,200,13
-194984,Disease of liver,106,13
-77030,Disorder of breast,500,13
-21492245,"Do you feel stress - tense, restless, nervous, or anxious, or unable to sleep at night because your mind is troubled all the time - these days [OSQ]",134,13
-201909,Female infertility,250,13
-314379,First degree atrioventricular block,154,13
-4024659,Gestational diabetes mellitus,154,13
-133729,Hyperparathyroidism,167,13
-37311319,Hypovolemia,223,13
-4312538,Inadequate immune status,182,13
-4288544,Inguinal hernia,154,13
-436962,Insomnia,507,0
-46235085,Laboratory comment [Text] in Report Narrative,154,13
-75036,"Localized, primary osteoarthritis of the hand",223,13
-132841,Malignant lymphoma of lymph nodes of multiple sites,223,13
-379805,Myopia,143,13
-372328,Otitis media,125,13
-4147829,Pain in pelvis,154,13
-3035225,Pain primary location - Reported,96,13
-40443308,Polycystic ovary syndrome,154,13
-132412,Post-laminectomy syndrome,250,13
-135618,Pruritic rash,154,13
-4256228,Respiratory failure,154,13
-136773,Rosacea,223,13
-4023050,Sexual partners,154,13
-377844,Status migrainosus,400,13
-45765650,Surveillance of contraception,154,13
-138717,Toxic diffuse goiter,154,13
-4201387,Tracheostomy present,223,13
-4245842,Umbilical hernia,167,13
-45768963,Uncomplicated mild persistent asthma,154,13
-4092743,Unsteady when standing,154,13
-36661380,Whether patient is employed in a healthcare setting,154,13
-436675,Anorexia nervosa,250,12
-77234,Benign neoplasm of colon,167,12
-444444,Benign neoplasm of transverse colon,200,12
-432585,Blood coagulation disorder,200,12
-4300092,Cannabis-induced organic mental disorder,182,12
-435613,Cellulitis,167,12
-141941,Cervical spondylosis without myelopathy,167,12
-2101934,Discharge medications reconciled with the current medication list in outpatient medical record (COA) (GER),286,12
-321887,Disorder of artery,223,12
-192963,Disorder of pancreas,223,12
-199991,Disorder of transplanted kidney,200,12
-4200056,Finding of vision of eye,400,12
-195847,Gastroparesis syndrome,182,12
-439727,Human immunodeficiency virus infection,69,12
-435510,Hypocalcemia,250,12
-316998,Left bundle branch block,167,12
-4182562,Lower abdominal pain,154,12
-78472,Microscopic hematuria,167,12
-135930,Musculoskeletal finding,63,12
-195867,Noninflammatory disorder of the vagina,67,12
-4032799,Opioid-induced organic mental disorder,200,12
-259153,Pain in throat,182,12
-4111231,Pain in toe,100,12
-604801,Pain of knee region,667,12
-4330445,Pleuritic pain,96,12
-4068482,Prolapsed lumbar intervertebral disc,167,12
-440360,Pure hyperglyceridemia,125,12
-435790,Secondary polycythemia,250,12
-72711,Shoulder stiff,167,12
-4111412,"Tricuspid incompetence, non-rheumatic",3250,0
-81893,Ulcerative colitis,223,12
-443883,Acute disease,1625,0
-4099889,Anemia of pregnancy,223,11
-133834,Atopic dermatitis,182,11
-4281109,Autoimmune thyroiditis,167,11
-437478,Bite of nonvenomous arthropod,286,11
-256451,Bronchitis,2171,0
-434327,Cannabis abuse,334,11
-4286497,Centriacinar emphysema,223,11
-434500,Closed fracture of neck of femur,182,11
-40481919,Coronary atherosclerosis,100,11
-441267,Cystic fibrosis,223,11
-22340,Esophageal varices without bleeding,400,11
-438383,Essential thrombocythemia,250,11
-3044964,Feeling tired or having little energy in last 2 weeks [Reported.PHQ],143,11
-4148407,FH: Cardiovascular disease,91,11
-4254485,Finding related to attentiveness,416,0
-4201388,Gastrostomy present,167,11
-4241223,Hidradenitis suppurativa,286,11
-444101,Hypertensive heart failure,3250,0
-24609,Hypoglycemia,182,11
-4035439,Idiopathic osteoarthritis,182,11
-4344500,Impingement syndrome of shoulder region,182,11
-4056713,"Injury of muscle and tendon of abdomen, lower back and pelvis",400,11
-141104,Intervertebral disc disorder of lumbar region with myelopathy,334,11
-4146209,Iron deficiency,96,11
-74635,Lumbosacral radiculopathy,500,11
-760895,Mass of left breast,250,11
-4038838,Non-Hodgkin's lymphoma (clinical),200,11
-440374,Obsessive-compulsive disorder,400,11
-440530,Oropharyngeal dysphagia,182,11
-138525,Pain in limb,182,11
-4115170,Pain in right arm,286,11
-4240723,Patient discharge,182,11
-72693,Poor fetal growth affecting management,200,11
-4046550,Postoperative care,182,11
-4138617,Psychophysiologic insomnia,200,11
-3014036,Pulse oximetry site,250,11
-314059,Right bundle branch block,106,11
-4048512,Sprain of upper extremity,334,11
-4116323,Tear of medial meniscus of knee,182,11
-4017107,Traumatic subdural hemorrhage,182,11
-4307820,Unplanned pregnancy,200,11
-320420,Vitreous degeneration,182,11
-321314,Abdominal aortic aneurysm without rupture,200,10
-77965,Acquired trigger finger,200,10
-43531681,Acute deep vein thrombosis of lower limb,223,10
-257004,Acute exacerbation of chronic obstructive pulmonary disease,2171,0
-36684319,Adjustment disorder with mixed anxiety and depressed mood,106,10
-438567,Adult failure to thrive syndrome,200,10
-2101941,"Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)",100,10
-437247,Anemia of chronic disease,200,10
-4147565,Body mass index less than 20,223,10
-80767,Breast lump,200,10
-321042,Cardiac arrest,223,10
-3050127,Census block group 1970and80and90,250,10
-138379,"Chronic lymphoid leukemia, disease",286,10
-259848,Chronic rhinitis,2171,0
-440795,Complication occurring during labor and delivery,286,10
-435875,"Complication of pregnancy, childbirth and/or puerperium",400,10
-3027027,Diagnosis,334,10
-4180628,Disorder of body system,72,10
-31610,Disorder of esophagus,223,10
-440371,Disorder of immune function,200,10
-4102986,Disorder of psychological development,200,10
-77630,Disorder of shoulder,200,10
-435232,Disorder of speech and language development,200,10
-4164898,Diverticulosis of large intestine without diverticulitis,72,10
-433440,Dysthymia,200,10
-4170770,Epidermoid cyst,250,10
-4011683,Escherichia coli,167,10
-40479426,Exposure to sexually transmissible disorder,400,10
-4051114,Family history of diabetes mellitus,200,10
-4197819,Fibrosis of lung,334,10
-318566,Flushing,286,10
-443874,"Gestation period, 34 weeks",400,10
-438543,"Gestation period, 36 weeks",200,10
-442355,"Gestation period, 37 weeks",167,10
-4245975,Hepatic failure,200,10
-4130851,Injury of upper extremity,200,10
-4093672,Knee stiff,200,10
-765053,Mass of right breast,250,10
-134898,Non-toxic uninodular goiter,77,10
-2514400,"Observation care discharge day management (This code is to be utilized to report all services provided to a patient on discharge from outpatient hospital ""observation status"" if the discharge is on other than the initial date of ""observation status."" To report services to a patient designated as ""observation status"" or ""inpatient status"" and discharged on the same date, use the codes for Observation or Inpatient Care Services [including Admission and Discharge Services, 99234-99236 as appropriate.])",200,10
-314666,Old myocardial infarction,1300,0
-37206607,Overactive urinary bladder,200,10
-4077895,Pain in finger,125,10
-4115169,Pain in left arm,200,10
-4024561,Pain in lower limb,286,10
-4211231,Panic disorder without agoraphobia,200,10
-434228,Passenger in vehicular AND/OR traffic accident,154,10
-40319772,Psoriatic arthritis,154,10
-198263,Right upper quadrant pain,100,10
-43530881,Suspected fetal disorder,286,10
-257628,Systemic lupus erythematosus,96,10
-134442,Systemic sclerosis,2000,10
-376382,Tension-type headache,286,10
-437264,Tobacco dependence syndrome,200,10
-373503,Transient cerebral ischemia,143,10
-4271686,Uses rhythm method of contraception,334,10
-4089462,Ventricular premature complex,1625,0
-197494,Viral hepatitis C,200,10
-801308,Visit complexity inherent to evaluation and management associated with medical care services that serve as the continuing focal point for all needed health care services and/or with medical care services that are part of ongoing care related to a patie...,182,10
-4092879,Absent kidney,223,9
-4117957,Activity,286,9
-257581,Acute asthma,223,9
-436677,Adjustment disorder,223,9
-438409,Attention deficit hyperactivity disorder,223,9
-2617820,Bmi is documented within normal parameters and no follow-up plan is required,223,9
-1009229,Cardiac rhythm,223,9
-317576,Coronary arteriosclerosis,286,9
-4012376,Currently not sexually active,1625,0
-4151134,Cyst of pancreas,223,9
-195588,Cystitis,667,9
-42873170,Dependence on supplemental oxygen,223,9
-4008576,Diabetes mellitus without complication,400,9
-441830,Disorder of fluid AND/OR electrolyte,250,9
-439407,Disorder of nasal cavity,87,9
-444211,Disorder of thigh,286,9
-4122339,Drug-induced immunodeficiency,1625,0
-433527,Endometriosis (clinical),223,9
-43531003,Essential tremor,250,9
-4167696,Estrogen receptor positive tumor,400,9
-437986,Failure to thrive,250,9
-4027470,Feeding disability,223,9
-4299954,Feeding problem,667,9
-4032878,Hair follicle disorder,223,9
-2314342,Handling and/or conveyance of specimen for transfer from the office to a laboratory,223,9
-198400,Hemangioma of skin and subcutaneous tissue,223,9
-79864,Hematuria syndrome,134,9
-3040464,Hospital discharge DRG [Interpretation],167,9
-40771103,How often do you have a drink containing alcohol,223,9
-4172432,Hyperpigmentation of skin,223,9
-4110948,Hypertension secondary to endocrine disorder,286,9
-440129,Hypertrophy of nasal turbinates,286,9
-433740,Immunodeficiency disorder,1300,0
-193518,Intestinal obstruction,223,9
-4115991,Knee joint effusion,134,9
-4115991,Knee joint effusion,223,9
-374027,Lesion of ulnar nerve,223,9
-4152384,Non-rheumatic aortic sclerosis,154,9
-4031164,Non-scarring alopecia,223,9
-44784631,Pain due to neoplastic disease,154,9
-4103476,Pain of ear,286,9
-432881,Pancytopenia,167,9
-36713112,Pancytopenia due to antineoplastic chemotherapy,223,9
-43530742,Paralytic syndrome on one side of the body as late effect of cerebrovascular accident,223,9
-40756893,"Patient screened for tobacco use and received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user (PV, CAD)",250,9
-257683,Posterior rhinorrhea,6500,0
-26638,Primary malignant neoplasm of esophagus,223,9
-4168192,Procedure not done,223,9
-4263748,Recurrent major depression in full remission,223,9
-44784283,Requires influenza virus vaccination,400,9
-438688,Sarcoidosis,223,9
-136497,Scar conditions and fibrosis of skin,250,9
-195771,Secondary diabetes mellitus,223,9
-254443,Sjögren's syndrome,334,9
-435524,Sleep disorder,2171,0
-436785,Spinal stenosis in cervical region,223,9
-4133015,Sprain of anterior cruciate ligament of knee,400,9
-4093347,Stool finding,400,9
-4037487,Symptom aggravating factors,223,9
-4177206,Tubulointerstitial nephritis,223,9
-45768963,Uncomplicated mild persistent asthma,3250,0
-440785,Vomiting of pregnancy,334,9
-192438,Abdominal mass,286,8
-36715792,Acquired absence of breast,286,8
-138825,Actinic keratosis,134,8
-257004,Acute exacerbation of chronic obstructive airways disease,334,8
-134305,Acute lymphoid leukemia,112,8
-260123,Acute sinusitis,250,8
-4081648,Acute vaginitis,250,8
-443800,Amenorrhea,250,8
-46269816,Ascites due to alcoholic cirrhosis,182,8
-4112752,Basal cell carcinoma of skin,286,8
-4173824,B-cell chronic lymphocytic leukemia variant,250,8
-81878,Benign paroxysmal positional vertigo,250,8
-194992,Celiac disease,667,8
-198964,Chronic hepatitis C,250,8
-195596,Chronic pancreatitis,250,8
-2108254,"Collection of blood specimen using established central or peripheral catheter, venous, not otherwise specified",400,8
-312723,Congenital heart disease,1000,8
-74132,Degeneration of lumbosacral intervertebral disc,250,8
-201337,Disorder of urinary bladder,250,8
-763082,Documentation of past medical history,250,8
-30753,Esophagitis,400,8
-437175,"Fall on same level from slipping, tripping or stumbling",250,8
-435655,"Gestation period, 39 weeks",250,8
-4031364,Healthcare supervision finding,250,8
-30683,Hemoglobin SS disease without crisis,200,8
-440329,Herpes zoster without complication,250,8
-376415,Hypermetropia,400,8
-45757363,Hypoglycemia due to type 2 diabetes mellitus,250,8
-36714388,Influenza caused by seasonal influenza virus,250,8
-75576,Irritable bowel syndrome,250,8
-197676,Large liver,250,8
-435224,Leukopenia,250,8
-46272453,Long-term current use of inhaled steroid,819,0
-443392,Malignant neoplastic disease,167,8
-373852,Neuralgia,200,8
-1244604,"Neuroendocrine neoplasm, malignant",250,8
-4280354,Nutritional anemia,334,8
-4224926,Obstruction of esophagus,286,8
-381290,Ocular hypertension,500,8
-43054907,"Pediatric diastolic blood pressure percentile [Per age, sex and height]",250,8
-4112839,Pneumonitis caused by inhalation of regurgitated food,400,8
-4299535,Pregnancy,250,8
-42528957,Pregnancy status,250,8
-4216244,Preoperative state,250,8
-440649,Primary malignant neoplasm of head of pancreas,250,8
-4157454,"Primary malignant neoplasm of lower lobe, bronchus or lung",250,8
-441515,Primary malignant neoplasm of lower outer quadrant of female breast,250,8
-436635,Primary malignant neoplasm of sigmoid colon,334,8
-133424,Primary malignant neoplasm of thyroid gland,154,8
-43530685,Proliferative retinopathy due to type 2 diabetes mellitus,154,8
-2102041,"Review of all medications by a prescribing practitioner or clinical pharmacist (such as, prescriptions, OTCs, herbal therapies and supplements) documented in the medical record (COA)",250,8
-4088035,Screening status,250,8
-374366,Sensorineural hearing loss,200,8
-435524,Sleep disorder,250,8
-79061,Slow transit constipation,200,8
-4206148,Syncope and collapse,154,8
-36303803,Tobacco use duration,250,8
-36714994,Typical atrial flutter,400,8
-374034,Visual disturbance,3250,0
-36661382,Whether the patient was admitted to intensive care unit (ICU) for condition of interest,286,8
-75911,Acquired hallux valgus,286,7
-443883,Acute disease,167,7
-375519,Alcohol withdrawal,286,7
-35624756,Anemia due to and following chemotherapy,334,7
-4241530,Asymptomatic human immunodeficiency virus infection,286,7
-45763549,Bilateral tinnitus,286,7
-4110192,Cerebral infarction due to thrombosis of cerebral arteries,286,7
-443601,Chronic kidney disease stage 2,223,7
-134603,Chronic myeloid leukemia,286,7
-255573,Chronic obstructive lung disease,65,7
-4211657,Closed fracture of lower leg,286,7
-78273,Closed fracture of multiple ribs,286,7
-2211852,"Continuing medical physics consultation, including assessment of treatment parameters, quality assurance of dose delivery, and review of patient treatment documentation in support of the radiation oncologist, reported per week of therapy",286,7
-45884037,Current some day smoker,134,7
-40486120,Delay in physiological development,286,7
-373499,Disorder of eye region,286,7
-72986,Disorder of lower leg,286,7
-4062791,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",286,7
-376966,Exudative age-related macular degeneration,182,7
-192671,Gastrointestinal hemorrhage,100,7
-4168217,Generalized hyperhidrosis,286,7
-4169954,Genitourinary tract hemorrhage,91,7
-4139934,Homeless,286,7
-40772146,"How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]",286,7
-441829,Hyperosmolality and or hypernatremia,286,7
-443919,Hypertensive renal failure,200,7
-4103532,Immune thrombocytopenia,286,7
-74125,Inflammatory polyarthropathy,500,7
-4119786,Interstitial lung disease,106,7
-40762520,Intravenous apparatus [Morse Fall Scale],250,7
-4060424,"Mental disorders during pregnancy, childbirth and the puerperium",400,7
-43531561,Myasthenia gravis without exacerbation,400,7
-4204047,Neurological symptom,1092,0
-4305297,Noncompliance with medication regimen,667,7
-4322482,Noncompliance with treatment,286,7
-141663,Osteomyelitis,400,7
-903656,Passive smoker,286,7
-2101922,Patient screened for future fall risk; documentation of no falls in the past year or only 1 fall without injury in the past year (GER),400,7
-201131,Pelvic mass,286,7
-443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,1625,0
-253796,Pneumothorax,400,7
-380055,Primary malignant neoplasm of brain,143,7
-196360,Primary malignant neoplasm of urinary bladder,286,7
-314962,Raynaud's disease,286,7
-380706,Regular astigmatism,334,7
-4195677,Rheumatic tricuspid valve regurgitation,334,7
-36713471,Routine postpartum follow-up,286,7
-4132624,Scheduling,182,7
-40762518,Secondary diagnosis is present,200,7
-201965,Shock,667,7
-141825,Simple goiter,286,7
-137682,Skin sensation disturbance,286,7
-77079,Spinal stenosis,250,7
-81151,Sprain of ankle,223,7
-377575,Tinnitus,286,7
-318169,Varicose veins of lower extremity,286,7
-441188,"Victim, pedestrian in vehicular AND/OR traffic accident",286,7
-40484102,Abnormal finding on evaluation procedure,250,6
-257004,Acute exacerbation of chronic obstructive airways disease,1092,0
-44782733,Acute on chronic combined systolic and diastolic heart failure,334,6
-435508,Adrenal cortical hypofunction,334,6
-4105886,Adverse reaction,334,6
-4228361,Asteatosis cutis,334,6
-378424,Astigmatism,334,6
-4289309,Atrial septal defect,334,6
-442111,Benign neoplasm of ascending colon,334,6
-4242816,Benign neoplasm of pituitary gland,334,6
-256449,Bronchiectasis,334,6
-198571,Cardiogenic shock,500,6
-759852,Cellulitis of left lower limb,250,6
-903667,Chewing tobacco user,400,6
-439005,Chronic alcoholism in remission,200,6
-255841,Chronic bronchitis,667,6
-320744,Complete atrioventricular block,167,6
-379019,Conjunctivitis,334,6
-44784264,Consultation for malignant neoplasm disease,223,6
-4009303,Diabetic ketoacidosis without coma,400,6
-4163710,Dilated cardiomyopathy,334,6
-197917,Disorder of biliary tract,334,6
-4153380,Disorder of carotid artery,182,6
-443733,Disorder of eye due to type 2 diabetes mellitus,334,6
-192353,Disorder of gallbladder,334,6
-317248,Disorder of hematopoietic structure,334,6
-4191597,Disorder of refraction,334,6
-201603,Disorder of teeth AND/OR supporting structures,286,6
-4047982,Drug indicated,250,6
-4070750,Drug-induced constipation,400,6
-439080,Dyspareunia,334,6
-441085,Elderly primigravida,286,6
-379010,Epiretinal membrane,334,6
-4140830,Fall on same level,286,6
-4171594,Family history of malignant neoplasm,334,6
-4168217,Generalized hyperhidrosis,1000,6
-193871,Genuine stress incontinence,334,6
-443871,"Gestation period, 38 weeks",334,6
-442980,Hand joint stiff,500,6
-4247398,Health status,61,6
-37018854,Hematuria co-occurrent and due to acute cystitis,334,6
-40481896,Hypertensive urgency,334,6
-440072,Hypogammaglobulinemia,334,6
-40483107,Inflamed seborrheic keratosis,286,6
-444130,Injury of foot,500,6
-72404,Joint stiffness,334,6
-4114222,Malignant tumor of head and neck,500,6
-4202667,Medical consultation on inpatient,400,6
-372892,Metabolic encephalopathy,200,6
-4146581,Mild intermittent asthma,59,6
-45757435,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,286,6
-441277,Mixed receptive-expressive language disorder,334,6
-443524,Mixed urinary incontinence,334,6
-433930,Motor vehicle on road in collision with another motor vehicle,286,6
-4089048,New patient consultation,400,6
-4170137,Non-suppurative otitis media,334,6
-4012865,Normal ocular motility,334,6
-201066,Obstruction of bile duct,334,6
-43020581,On waiting list for organ transplant,286,6
-4025325,Periapical abscess,334,6
-255348,Polymyalgia rheumatica,286,6
-257683,Posterior rhinorrhea,334,6
-194079,Post-surgical malabsorption,334,6
-134159,Precordial pain,250,6
-321074,"Pre-existing hypertension complicating pregnancy, childbirth and puerperium",334,6
-4239381,Psychoactive substance abuse,334,6
-4256228,Respiratory failure,1625,0
-4286201,Schizoaffective disorder,667,6
-137053,Seborrheic dermatitis,134,6
-4083556,Seronegative rheumatoid arthritis,223,6
-4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),182,6
-4276360,Undernutrition,334,6
-4147938,Uses depot contraception,400,6
-37108763,Vaccination needed,400,6
-4093531,Absence of toe,286,5
-194081,Acute cystitis,182,5
-46273719,Acute hypercapnic respiratory failure,334,5
-315564,Aortic valve regurgitation,286,5
-443563,Arteriosclerosis of coronary artery bypass graft,400,5
-4003171,Benign neoplasm of meninges,400,5
-434626,Borderline personality disorder,143,5
-256451,Bronchitis,143,5
-4067069,Callosity,200,5
-4084966,Candida infection of genital region,400,5
-134668,Chronic maxillary sinusitis,400,5
-4188331,Chronic pulmonary edema,400,5
-4307981,Clostridium difficile colitis,400,5
-4305272,Contraception care,400,5
-133228,Dental caries,250,5
-443587,Diastolic heart failure,167,5
-35622958,Disorder in remission,667,5
-4028387,Disorder of integument,286,5
-36717267,Ectasia of thoracic aorta,167,5
-4116166,Elbow joint pain,154,5
-37017812,Environmental tobacco smoke exposure,1000,5
-27918,Eosinophilic esophagitis,400,5
-45772937,Exacerbation of moderate persistent asthma,286,5
-433577,Hammer toe,400,5
-1617701,"Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months",334,5
-23325,Heartburn,286,5
-316866,Hypertensive disorder,400,5
-4124693,Hypertrophic cardiomyopathy,286,5
-141375,Hypertrophic condition of skin,400,5
-440320,Infection caused by Escherichia coli,400,5
-4208390,Inflammation of sacroiliac joint,400,5
-137977,Jaundice,400,5
-42528926,Lab test location performed [Type],400,5
-4001171,Liver cell carcinoma,400,5
-198520,Lumbar spondylosis with myelopathy,400,5
-439082,Menopausal syndrome,334,5
-2106289,"Most recent diastolic blood pressure greater than or equal to 90 mm Hg (HTN, CKD, CAD) (DM)",400,5
-2106284,"Most recent systolic blood pressure greater than or equal to 140 mm Hg (HTN, CKD, CAD) (DM)",200,5
-374313,Neoplasm of uncertain behavior of soft tissues,334,5
-4086701,No abnormality detected - examination result,400,5
-4053604,Open wound of lower leg,400,5
-4242103,Osteoarthrosis of the carpometacarpal joint of the thumb,400,5
-765131,Pain in left foot,56,5
-43054908,"Pediatric systolic blood pressure percentile [Per age, sex and height]",400,5
-139750,Primary malignant neoplasm of skin,400,5
-200687,Renal disorder due to type 1 diabetes mellitus,400,5
-4088034,Repeat prescription monitoring status,250,5
-197006,Residual hemorrhoidal skin tags,334,5
-35624213,Secondary cataract,400,5
-196236,Septic shock,286,5
-4061844,Skin changes due to chronic exposure to non-ionizing radiation,334,5
-43530727,Spontaneous cerebral hemorrhage,286,5
-36712695,Suspected fetal abnormality affecting management of mother,286,5
-46235357,Total score [AUDIT-C],334,5
-4111412,"Tricuspid incompetence, non-rheumatic",400,5
-45768965,Uncomplicated severe persistent asthma,223,5
-4207158,Uses IUD (intrauterine device) contraception,400,5
-197236,Uterine leiomyoma,250,5
-141095,Acne,500,4
-4296653,Acute ST segment elevation myocardial infarction,500,4
-436075,Adjustment disorder with anxious mood,500,4
-2101942,"Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)",286,4
-4320803,Anomaly of chromosome pair 21,500,4
-725112,"Anticoagulant management for a patient taking warfarin, must include review and interpretation of a new home, office, or lab international normalized ratio (INR) test result, patient instructions, dosage adjustment (as needed), and scheduling of additional test(s), when performed",167,4
-314054,Aortic valve disorder,400,4
-138102,Benign neoplasm of skin,667,4
-439674,Chronic viral hepatitis B without delta-agent,500,4
-2101897,"Current tobacco non-user (CAD, CAP, COPD, PV) (DM) (IBD)",100,4
-201820,Diabetes mellitus,500,4
-373474,Diplopia,223,4
-193165,Disorder of adrenal gland,250,4
-200452,Disorder of female genital organs,500,4
-45770886,Disorder of plasma protein metabolism,500,4
-4138760,Exacerbation of intermittent asthma,500,4
-40757770,"Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]",250,4
-43530690,Foot ulcer due to type 2 diabetes mellitus,134,4
-26942,Hemoglobin SS disease with crisis,250,4
-3026671,History of Alcohol use Narrative,500,4
-40770405,History of Procedure,286,4
-40758549,Hours after meal [Time],286,4
-319034,Hypertensive heart disease without congestive heart failure,286,4
-78474,Hypertrophy of breast,500,4
-4098611,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,500,4
-197675,Incontinence of feces,400,4
-4044935,Indication of,223,4
-4043371,Inflammatory disorder of digestive tract,500,4
-194993,Intestinal malabsorption,286,4
-4057826,Irritable bowel syndrome with diarrhea,500,4
-3002314,Last menstrual period start date,334,4
-81379,Lateral epicondylitis,500,4
-46271893,Long-term current use of immunosuppressive drug,400,4
-4321437,Medication education,334,4
-4172970,Nontraumatic rotator cuff tear,500,4
-73819,Pain of breast,167,4
-3016379,Pathologist name,500,4
-192680,Portal hypertension,500,4
-195321,Postmenopausal bleeding,400,4
-4167493,Pregnancy-induced hypertension,500,4
-2101910,Presence or absence of urinary incontinence assessed (GER),500,4
-4247719,Primary malignant neoplasm of ascending colon,667,4
-432845,Primary malignant neoplasm of central portion of female breast,200,4
-46286594,Problem related to lifestyle,500,4
-4117686,Rheumatoid arthritis of multiple joints,500,4
-4244078,"Schizoaffective disorder, bipolar type",400,4
-42742432,Screening for depression performed (DEM),500,4
-3001034,Specimen site Narrative,500,4
-135526,Spinal cord disease,500,4
-4059290,Steatosis of liver,3250,0
-437969,Talipes planus,500,4
-26662,Testicular hypofunction,106,4
-138387,Thyrotoxicosis,500,4
-40758326,Transfusion status Qualitative,400,4
-42539698,Transplanted lung present,182,4
-4149369,Uses spermicidal contraception,500,4
-439935,Abnormal posture,400,3
-77963,Achilles tendinitis,667,3
-380111,Acute atopic conjunctivitis,250,3
-40480602,Acute on chronic systolic heart failure,106,3
-443558,Allergic rhinitis caused by animal dander,1000,3
-378419,Alzheimer's disease,334,3
-441258,Anemia in neoplastic disease,400,3
-4145825,Anorectal disorder,250,3
-37110250,Atherosclerosis of artery of lower limb,154,3
-4130023,Atrophy of thyroid - acquired,250,3
-374367,Bilateral hearing loss,667,3
-759853,Cellulitis of right lower limb,667,3
-4177862,Chronic hypoxemic respiratory failure,286,3
-40217297,"Clinical decision support mechanism stanson, as defined by the medicare appropriate use criteria program",250,3
-195575,Crohn's disease of small and large intestines,286,3
-196738,Disorder of male genital organ,667,3
-2102074,Functional status assessed (COA) (RA),334,3
-45884038,Heavy tobacco smoker,500,3
-261687,Hemoptysis,250,3
-4188155,Hernia of anterior abdominal wall,334,3
-4057044,Injury of muscle and tendon at neck level,1000,3
-315085,Lymphadenopathy,667,3
-141232,Malignant melanoma of skin,667,3
-439795,Minimal cognitive impairment,334,3
-4098458,Moderate protein-calorie malnutrition (weight for age 60-74 percent of standard),667,3
-40481872,Multigravida of advanced maternal age,84,3
-4200520,Neck swelling,400,3
-45766207,Non-rheumatic mitral valve stenosis with regurgitation,334,3
-4031164,Non-scarring alopecia,2171,0
-73819,Pain of breast,286,3
-2101943,Pain severity quantified; pain present (COA) (ONC),334,3
-196360,Primary malignant neoplasm of bladder,667,3
-440956,Primary malignant neoplasm of upper inner quadrant of female breast,667,3
-4300515,Respiratory function,3250,0
-435829,Rheumatic disease of heart valve,250,3
-4036084,Snuff use,100,3
-4111921,Squamous cell carcinoma of skin,667,3
-4306292,Upper abdominal pain,667,3
-36661383,Whether patient resides in a congregate care setting,667,3
-37109843,Absence of lower limb,223,2
-141816,Acute lymphoid leukemia in remission,500,2
-312327,Acute myocardial infarction,334,2
-40480603,Acute systolic heart failure,286,2
-441482,Administrative reason for encounter,125,2
-256439,Allergic rhinitis caused by pollen,167,2
-4338120,Altered bowel function,500,2
-440424,Aphasia,1000,2
-4115173,Atrial premature complex,286,2
-443344,Barrett's esophagus,286,2
-4023310,Blindness AND/OR vision impairment level,1000,2
-256449,Bronchiectasis,2171,0
-40479192,Chronic systolic heart failure,1625,0
-31821,Disorder of endocrine system,1000,2
-73008,Enthesopathy,400,2
-4197819,Fibrosis of lung,936,0
-4166231,Genetic predisposition,125,2
-444267,"Gestation period, 35 weeks",500,2
-4231770,Hereditary thrombophilia,667,2
-443410,Infective pneumonia,1000,2
-444131,Injury of lower leg,500,2
-4001664,Intrahepatic bile duct carcinoma,500,2
-4150299,Localization-related idiopathic epilepsy,250,2
-36713107,Lumbar spondylolisthesis,182,2
-4204047,Neurological symptom,1000,2
-372629,Nonexudative age-related macular degeneration,1000,2
-135287,Non-neoplastic nevus,2000,2
-3661408,Pneumonia caused by SARS-CoV-2,819,0
-4084229,Primary gout,1000,2
-376647,Primary malignant neoplasm of soft tissues,400,2
-46234710,Symptom,200,2
-4127117,Varicose ulcer of lower extremity,250,2
-140641,Verruca vulgaris,223,2
-4104431,Alcohol intoxication,334,1
-4098292,Antiphospholipid syndrome,500,1
-3015556,Blood bank comment,667,1
-3011011,Blood product unit [Identifier],334,1
-29735,Candidiasis of mouth,334,1
-377910,Deviated nasal septum,200,1
-4302537,Digestive system finding,400,1
-442558,"Gestation period, 32 weeks",1000,1
-437541,Glaucoma,182,1
-4297894,Greater trochanteric pain syndrome,1000,1
-139099,Ingrowing nail,286,1
-45768480,Longstanding persistent atrial fibrillation,667,1
-4185711,Loss of sense of smell,2171,0
-380097,Macular edema due to diabetes mellitus,400,1
-35624757,Neutropenia due to and following chemotherapy,400,1
-4108814,Pericardial effusion - noninflammatory,334,1
-75897,Polyarthropathy,1000,1
-136934,Primary hyperparathyroidism,667,1
-43530714,Sensory disorder of smell and/or taste,1625,0
-139900,Urticaria,2000,1
-46236895,Whether the patient was hospitalized for condition of interest,667,1
-376707,Acute conjunctivitis,2000,0
-441542,Anxiety,286,0
-4309063,Behavior finding,667,0
-4134120,Cerebral palsy,334,0
-434490,Chill,500,0
-4165998,Generalized enlarged lymph nodes,2000,0
-4033837,Melanocytic nevus of trunk,500,0
-435988,"Motor vehicle accident, driver",106,0
-4301699,Neuropathy,250,0
-4202045,Postviral fatigue syndrome,1625,0
-200527,Splenomegaly,334,0
-45773394,Surveillance of oral contraception,400,0
+condition_concept_id,observation_concept_id,condition_concept_name,observation_concept_name,concept_seed_1,concept_seed_2
+320128,320128,Essential hypertension,Essential hypertension,2,0
+45879404,45879404,Never smoker,Never smoker,2,0
+320128,320128,Essential hypertension,Essential hypertension,117,0
+46272450,46272450,Long-term current use of drug therapy,Long-term current use of drug therapy,182,0
+4193704,4193704,Type 2 diabetes mellitus without complication,Type 2 diabetes mellitus without complication,364,0
+21494995,21494995,Pain assessment [Interpretation],Pain assessment [Interpretation],6,4
+432867,432867,Hyperlipidemia,Hyperlipidemia,5,4
+46272450,46272450,Long-term current use of drug therapy,Long-term current use of drug therapy,6,2
+4144111,4144111,Gastroesophageal reflux disease without esophagitis,Gastroesophageal reflux disease without esophagitis,286,0
+442077,442077,Anxiety disorder,Anxiety disorder,6,0
+312437,312437,Dyspnea,Dyspnea,9,7
+43054909,43054909,Tobacco smoking status,Tobacco smoking status,7,1
+201826,201826,Type 2 diabetes mellitus,Type 2 diabetes mellitus,7,0
+4193704,4193704,Type 2 diabetes mellitus without complication,Type 2 diabetes mellitus without complication,6,1
+201826,201826,Type 2 diabetes mellitus,Type 2 diabetes mellitus,468,0
+4137274,4137274,Discharge to establishment,Discharge to establishment,6,5
+436096,436096,Chronic pain,Chronic pain,7,4
+436096,436096,Chronic pain,Chronic pain,390,0
+903652,903652,Findings of tobacco or its derivatives use or exposure,Findings of tobacco or its derivatives use or exposure,7,2
+45883458,45883458,Former smoker,Former smoker,7,6
+36311244,36311244,Oxygen therapy,Oxygen therapy,10,0
+439777,439777,Anemia,Anemia,11,5
+439777,439777,Anemia,Anemia,546,0
+36305168,36305168,Smokeless tobacco status,Smokeless tobacco status,8,6
+3034263,3034263,Pain severity - Reported,Pain severity - Reported,13,6
+432867,432867,Hyperlipidemia,Hyperlipidemia,195,0
+442588,442588,Obstructive sleep apnea syndrome,Obstructive sleep apnea syndrome,299,0
+37311059,37311059,Exposure to SARS-CoV-2,Exposure to SARS-CoV-2,9,1
+36307819,36307819,Former user,Former user,8,2
+77670,77670,Chest pain,Chest pain,9,7
+438485,438485,Postoperative state,Postoperative state,936,0
+140673,140673,Hypothyroidism,Hypothyroidism,8,7
+4203942,4203942,Admitting diagnosis,Admitting diagnosis,1625,0
+40772145,40772145,Do you ever drink alcohol - including beer or wine [Reported.PHQ],Do you ever drink alcohol - including beer or wine [Reported.PHQ],10,3
+312437,312437,Dyspnea,Dyspnea,156,0
+434613,434613,Generalized anxiety disorder,Generalized anxiety disorder,18,13
+37311059,37311059,Exposure to SARS-CoV-2,Exposure to SARS-CoV-2,468,0
+313217,313217,Atrial fibrillation,Atrial fibrillation,728,0
+436070,436070,Vitamin D deficiency,Vitamin D deficiency,16,15
+440383,440383,Depressive disorder,Depressive disorder,11,1
+313217,313217,Atrial fibrillation,Atrial fibrillation,16,9
+440383,440383,Depressive disorder,Depressive disorder,312,0
+437663,437663,Fever,Fever,17,13
+4170554,4170554,Hip pain,Hip pain,29,6
+77670,77670,Chest pain,Chest pain,234,0
+4108442,4108442,Nitrous oxide concentration,Nitrous oxide concentration,17,2
+442077,442077,Anxiety disorder,Anxiety disorder,299,0
+257011,257011,Acute upper respiratory infection,Acute upper respiratory infection,14,0
+438720,438720,Mixed hyperlipidemia,Mixed hyperlipidemia,13,10
+254761,254761,Cough,Cough,312,0
+436659,436659,Iron deficiency anemia,Iron deficiency anemia,936,0
+443597,443597,Chronic kidney disease stage 3,Chronic kidney disease stage 3,1625,0
+140673,140673,Hypothyroidism,Hypothyroidism,416,0
+78232,78232,Shoulder joint pain,Shoulder joint pain,3250,0
+319835,319835,Congestive heart failure,Congestive heart failure,2171,0
+194133,194133,Low back pain,Low back pain,12,6
+4060985,4060985,Body mass index 30+ - obesity,Body mass index 30+ - obesity,351,0
+4209423,4209423,Nicotine dependence,Nicotine dependence,14,9
+437663,437663,Fever,Fever,3250,0
+903657,903657,Cigarette smoker,Cigarette smoker,14,7
+37016200,37016200,Exposure to viral disease,Exposure to viral disease,22,13
+4042889,4042889,Finding relating to drug misuse behavior,Finding relating to drug misuse behavior,598,0
+434005,434005,Morbid obesity,Morbid obesity,14,5
+434005,434005,Morbid obesity,Morbid obesity,442,0
+197320,197320,Acute kidney injury,Acute kidney injury,16,15
+36307579,36307579,Current some day user,Current some day user,13,11
+4167217,4167217,Family history of clinical finding,Family history of clinical finding,1092,0
+434613,434613,Generalized anxiety disorder,Generalized anxiety disorder,650,0
+4079750,4079750,Osteoarthritis of knee,Osteoarthritis of knee,15,2
+25297,25297,Acute pharyngitis,Acute pharyngitis,2171,0
+3003798,3003798,Blood pressure method,Blood pressure method,15,0
+439224,439224,Allergy to drug,Allergy to drug,650,0
+437827,437827,Pure hypercholesterolemia,Pure hypercholesterolemia,1300,0
+24134,24134,Neck pain,Neck pain,16,4
+601622,601622,Pain of left knee region,Pain of left knee region,1300,0
+257011,257011,Acute upper respiratory infection,Acute upper respiratory infection,2171,0
+601619,601619,Pain of right knee joint,Pain of right knee joint,18,5
+45765728,45765728,Supervision of high risk pregnancy,Supervision of high risk pregnancy,16,1
+443597,443597,Chronic kidney disease stage 3,Chronic kidney disease stage 3,16,13
+764123,764123,Atherosclerosis of coronary artery without angina pectoris,Atherosclerosis of coronary artery without angina pectoris,351,0
+46272451,46272451,Long-term current use of insulin,Long-term current use of insulin,17,2
+4209423,4209423,Nicotine dependence,Nicotine dependence,936,0
+37018196,37018196,Prediabetes,Prediabetes,19,5
+200962,200962,Primary malignant neoplasm of prostate,Primary malignant neoplasm of prostate,27,10
+3040950,3040950,Body site,Body site,20,16
+45768910,45768910,Uncomplicated asthma,Uncomplicated asthma,416,0
+24134,24134,Neck pain,Neck pain,819,0
+4033240,4033240,Preliminary diagnosis,Preliminary diagnosis,16,0
+45771331,45771331,Temperature,Temperature,18,3
+25297,25297,Acute pharyngitis,Acute pharyngitis,22,0
+45766930,45766930,Admits alcohol use,Admits alcohol use,24,14
+436070,436070,Vitamin D deficiency,Vitamin D deficiency,546,0
+4188598,4188598,High risk pregnancy,High risk pregnancy,19,12
+764123,764123,Atherosclerosis of coronary artery without angina pectoris,Atherosclerosis of coronary artery without angina pectoris,16,10
+319835,319835,Congestive heart failure,Congestive heart failure,13,2
+4216746,4216746,Positive end expiratory pressure setting,Positive end expiratory pressure setting,7,0
+903651,903651,Currently doesn't use tobacco or its derivatives,Currently doesn't use tobacco or its derivatives,20,4
+42539502,42539502,Transplanted kidney present,Transplanted kidney present,20,4
+316139,316139,Heart failure,Heart failure,40,23
+433316,433316,Dizziness and giddiness,Dizziness and giddiness,442,0
+4134121,4134121,Lumbar radiculopathy,Lumbar radiculopathy,1300,0
+193782,193782,End-stage renal disease,End-stage renal disease,36,29
+200219,200219,Abdominal pain,Abdominal pain,1300,0
+444094,444094,Finding related to pregnancy,Finding related to pregnancy,31,7
+4033240,4033240,Preliminary diagnosis,Preliminary diagnosis,2171,0
+254761,254761,Cough,Cough,13,8
+436659,436659,Iron deficiency anemia,Iron deficiency anemia,21,15
+80502,80502,Osteoporosis,Osteoporosis,819,0
+438720,438720,Mixed hyperlipidemia,Mixed hyperlipidemia,390,0
+81902,81902,Urinary tract infectious disease,Urinary tract infectious disease,936,0
+4154290,4154290,Paroxysmal atrial fibrillation,Paroxysmal atrial fibrillation,33,31
+4256640,4256640,Body mass index 40+ - severely obese,Body mass index 40+ - severely obese,26,18
+75909,75909,Disorder of bone,Disorder of bone,24,0
+46273937,46273937,Long-term current use of anticoagulant,Long-term current use of anticoagulant,1625,0
+194133,194133,Low back pain,Low back pain,728,0
+4244438,4244438,Second trimester pregnancy,Second trimester pregnancy,22,7
+45768910,45768910,Uncomplicated asthma,Uncomplicated asthma,28,11
+437113,437113,Asthenia,Asthenia,53,41
+4042889,4042889,Finding relating to drug misuse behavior,Finding relating to drug misuse behavior,17,9
+4218813,4218813,Third trimester pregnancy,Third trimester pregnancy,23,1
+200219,200219,Abdominal pain,Abdominal pain,22,4
+257007,257007,Allergic rhinitis,Allergic rhinitis,728,0
+46272451,46272451,Long-term current use of insulin,Long-term current use of insulin,650,0
+4223659,4223659,Fatigue,Fatigue,286,0
+4256640,4256640,Body mass index 40+ - severely obese,Body mass index 40+ - severely obese,468,0
+75860,75860,Constipation,Constipation,15,14
+80502,80502,Osteoporosis,Osteoporosis,23,20
+46271022,46271022,Chronic kidney disease,Chronic kidney disease,936,0
+4152283,4152283,Main spoken language,Main spoken language,38,12
+80180,80180,Osteoarthritis,Osteoarthritis,819,0
+433316,433316,Dizziness and giddiness,Dizziness and giddiness,31,25
+438485,438485,Postoperative state,Postoperative state,16,7
+432456,432456,Alcohol intake - finding,Alcohol intake - finding,2171,0
+3042924,3042924,Little interest or pleasure in doing things in last 2 weeks,Little interest or pleasure in doing things in last 2 weeks,24,14
+4282096,4282096,"Major depression, single episode","Major depression, single episode",1300,0
+4134121,4134121,Lumbar radiculopathy,Lumbar radiculopathy,33,19
+31967,31967,Nausea,Nausea,27,4
+432456,432456,Alcohol intake - finding,Alcohol intake - finding,24,12
+75909,75909,Disorder of bone,Disorder of bone,1625,0
+36717001,36717001,Long-term current use of aspirin,Long-term current use of aspirin,24,12
+27674,27674,Nausea and vomiting,Nausea and vomiting,1092,0
+4001450,4001450,Lumbago with sciatica,Lumbago with sciatica,2171,0
+377091,377091,Seizure,Seizure,52,31
+43531578,43531578,Chronic kidney disease due to type 2 diabetes mellitus,Chronic kidney disease due to type 2 diabetes mellitus,25,7
+4307376,4307376,Final inpatient visit with instructions at discharge,Final inpatient visit with instructions at discharge,29,24
+2106285,2106285,"Most recent diastolic blood pressure less than 80 mm Hg (HTN, CKD, CAD) (DM)","Most recent diastolic blood pressure less than 80 mm Hg (HTN, CKD, CAD) (DM)",34,13
+31317,31317,Dysphagia,Dysphagia,26,1
+4167217,4167217,Family history of clinical finding,Family history of clinical finding,26,1
+378253,378253,Headache,Headache,1092,0
+27674,27674,Nausea and vomiting,Nausea and vomiting,26,1
+443364,443364,Patient encounter status,Patient encounter status,25,4
+321052,321052,Peripheral vascular disease,Peripheral vascular disease,33,13
+439224,439224,Allergy to drug,Allergy to drug,26,0
+197684,197684,Dysuria,Dysuria,819,0
+4223659,4223659,Fatigue,Fatigue,26,25
+3010247,3010247,Hospital discharge Dx,Hospital discharge Dx,6,5
+903653,903653,Never used tobacco or its derivatives,Never used tobacco or its derivatives,16,13
+321052,321052,Peripheral vascular disease,Peripheral vascular disease,2171,0
+4060985,4060985,Body mass index 30+ - obesity,Body mass index 30+ - obesity,22,10
+4077577,4077577,Moderate recurrent major depression,Moderate recurrent major depression,1300,0
+601622,601622,Pain of left knee region,Pain of left knee region,27,21
+437643,437643,Abnormal gait,Abnormal gait,1092,0
+37018196,37018196,Prediabetes,Prediabetes,1092,0
+136788,136788,Spinal stenosis of lumbar region,Spinal stenosis of lumbar region,32,10
+42537748,42537748,Acquired absence of organ,Acquired absence of organ,1092,0
+4019967,4019967,Dependence on renal dialysis,Dependence on renal dialysis,28,17
+43530807,43530807,Allergic disposition,Allergic disposition,61,11
+75860,75860,Constipation,Constipation,650,0
+4110772,4110772,Gender identity finding,Gender identity finding,28,16
+433736,433736,Obesity,Obesity,10,2
+2106281,2106281,"Most recent systolic blood pressure less than 130 mm Hg (DM) (HTN, CKD, CAD)","Most recent systolic blood pressure less than 130 mm Hg (DM) (HTN, CKD, CAD)",44,27
+601619,601619,Pain of right knee joint,Pain of right knee joint,936,0
+43531578,43531578,Chronic kidney disease due to type 2 diabetes mellitus,Chronic kidney disease due to type 2 diabetes mellitus,936,0
+4043042,4043042,Sexually active,Sexually active,29,12
+78232,78232,Shoulder joint pain,Shoulder joint pain,29,12
+441207,441207,Adverse reaction to drug,Adverse reaction to drug,29,11
+134736,134736,Backache,Backache,29,11
+44786668,44786668,Date quit tobacco smoking,Date quit tobacco smoking,29,11
+378253,378253,Headache,Headache,29,11
+37016349,37016349,Hyperglycemia due to type 2 diabetes mellitus,Hyperglycemia due to type 2 diabetes mellitus,20,9
+437833,437833,Hypokalemia,Hypokalemia,29,11
+437827,437827,Pure hypercholesterolemia,Pure hypercholesterolemia,13,4
+321319,321319,Cardiomyopathy,Cardiomyopathy,1300,0
+196523,196523,Diarrhea,Diarrhea,650,0
+80180,80180,Osteoarthritis,Osteoarthritis,30,8
+44813951,44813951,Discharge details,Discharge details,30,7
+3001048,3001048,Peripheral artery measurement site,Peripheral artery measurement site,30,7
+432870,432870,Thrombocytopenic disorder,Thrombocytopenic disorder,2171,0
+318736,318736,Migraine,Migraine,29,8
+442793,442793,Complication due to diabetes mellitus,Complication due to diabetes mellitus,31,3
+40405599,40405599,Fibromyalgia,Fibromyalgia,39,26
+77074,77074,Joint pain,Joint pain,69,65
+132797,132797,Sepsis,Sepsis,40,25
+37016349,37016349,Hyperglycemia due to type 2 diabetes mellitus,Hyperglycemia due to type 2 diabetes mellitus,650,0
+81902,81902,Urinary tract infectious disease,Urinary tract infectious disease,16,0
+4346975,4346975,Lumbar spondylosis,Lumbar spondylosis,52,11
+255848,255848,Pneumonia,Pneumonia,728,0
+198803,198803,Benign prostatic hyperplasia,Benign prostatic hyperplasia,45,17
+37017432,37017432,Polyneuropathy due to type 2 diabetes mellitus,Polyneuropathy due to type 2 diabetes mellitus,1300,0
+137809,137809,Primary malignant neoplasm of female breast,Primary malignant neoplasm of female breast,23,16
+135930,135930,Musculoskeletal finding,Musculoskeletal finding,1625,0
+40479576,40479576,Chronic diastolic heart failure,Chronic diastolic heart failure,72,60
+42894222,42894222,EHR Chief Complaint,EHR Chief Complaint,34,26
+201620,201620,Kidney stone,Kidney stone,34,26
+4283657,4283657,Sexual orientation,Sexual orientation,38,22
+444070,444070,Tachycardia,Tachycardia,34,26
+903654,903654,Tobacco or its derivatives user,Tobacco or its derivatives user,34,26
+437113,437113,Asthenia,Asthenia,416,0
+4146581,4146581,Mild intermittent asthma,Mild intermittent asthma,728,0
+4311499,4311499,Primary malignant neoplasm of respiratory tract,Primary malignant neoplasm of respiratory tract,34,25
+45772705,45772705,Denies alcohol use,Denies alcohol use,1625,0
+442752,442752,Muscle pain,Muscle pain,936,0
+3019204,3019204,Body position with respect to gravity,Body position with respect to gravity,36,21
+197381,197381,Epigastric pain,Epigastric pain,1092,0
+434610,434610,Hyperkalemia,Hyperkalemia,36,21
+4282096,4282096,"Major depression, single episode","Major depression, single episode",33,24
+4174262,4174262,Polyneuropathy,Polyneuropathy,48,9
+192450,192450,Retention of urine,Retention of urine,59,57
+4064161,4064161,Cirrhosis of liver,Cirrhosis of liver,36,20
+433736,433736,Obesity,Obesity,416,0
+436676,436676,Posttraumatic stress disorder,Posttraumatic stress disorder,43,13
+440704,440704,Chronic pain syndrome,Chronic pain syndrome,3250,0
+42537730,42537730,Coronary artery graft present,Coronary artery graft present,2171,0
+201618,201618,Disorder of intestine,Disorder of intestine,37,18
+4214376,4214376,Hyperglycemia,Hyperglycemia,2171,0
+443454,443454,Cerebral infarction,Cerebral infarction,38,16
+45772705,45772705,Denies alcohol use,Denies alcohol use,35,19
+436583,436583,Fall,Fall,1300,0
+2102034,2102034,Medication list documented in medical record (COA),Medication list documented in medical record (COA),38,16
+4113821,4113821,Anxiety state,Anxiety state,45,8
+134736,134736,Backache,Backache,936,0
+197684,197684,Dysuria,Dysuria,26,1
+200843,200843,Finding of frequency of urination,Finding of frequency of urination,106,53
+4170554,4170554,Hip pain,Hip pain,1300,0
+4214376,4214376,Hyperglycemia,Hyperglycemia,48,5
+4329041,4329041,Pain,Pain,38,15
+3035482,3035482,Pain duration - Reported,Pain duration - Reported,38,15
+315078,315078,Palpitations,Palpitations,38,15
+436962,436962,Insomnia,Insomnia,21,10
+4154290,4154290,Paroxysmal atrial fibrillation,Paroxysmal atrial fibrillation,819,0
+140821,140821,Spasm,Spasm,59,52
+432870,432870,Thrombocytopenic disorder,Thrombocytopenic disorder,39,13
+441207,441207,Adverse reaction to drug,Adverse reaction to drug,1625,0
+4144111,4144111,Gastroesophageal reflux disease without esophagitis,Gastroesophageal reflux disease without esophagitis,8,3
+4236484,4236484,Paresthesia,Paresthesia,43,8
+4236484,4236484,Paresthesia,Paresthesia,1092,0
+442588,442588,Obstructive sleep apnea syndrome,Obstructive sleep apnea syndrome,12,2
+315078,315078,Palpitations,Palpitations,442,0
+37017432,37017432,Polyneuropathy due to type 2 diabetes mellitus,Polyneuropathy due to type 2 diabetes mellitus,40,10
+40479576,40479576,Chronic diastolic heart failure,Chronic diastolic heart failure,650,0
+4142875,4142875,Solitary nodule of lung,Solitary nodule of lung,1092,0
+43530807,43530807,Allergic disposition,Allergic disposition,1092,0
+257007,257007,Allergic rhinitis,Allergic rhinitis,42,6
+201618,201618,Disorder of intestine,Disorder of intestine,1300,0
+200843,200843,Finding of frequency of urination,Finding of frequency of urination,1300,0
+79908,79908,Muscle weakness,Muscle weakness,48,0
+31967,31967,Nausea,Nausea,598,0
+42538119,42538119,Transplanted heart valve present,Transplanted heart valve present,42,6
+40483287,40483287,Disorder of kidney and/or ureter,Disorder of kidney and/or ureter,48,47
+140214,140214,Eruption,Eruption,106,47
+437233,437233,Multiple myeloma,Multiple myeloma,40,7
+9177,9177,Other,Other,63,47
+80809,80809,Rheumatoid arthritis,Rheumatoid arthritis,1625,0
+43021202,43021202,Sexually active with men,Sexually active with men,43,4
+437246,437246,Vitamin B deficiency,Vitamin B deficiency,728,0
+443211,443211,Benign prostatic hyperplasia with outflow obstruction,Benign prostatic hyperplasia with outflow obstruction,3250,0
+44782429,44782429,Chronic kidney disease due to hypertension,Chronic kidney disease due to hypertension,1625,0
+31317,31317,Dysphagia,Dysphagia,1625,0
+4210989,4210989,Family history with explicit context,Family history with explicit context,56,46
+442752,442752,Muscle pain,Muscle pain,44,2
+4117695,4117695,Pain in left lower limb,Pain in left lower limb,69,46
+255848,255848,Pneumonia,Pneumonia,44,2
+4115367,4115367,Wrist joint pain,Wrist joint pain,125,46
+435928,435928,Abnormal weight loss,Abnormal weight loss,2171,0
+4155909,4155909,Anesthesia of skin,Anesthesia of skin,59,45
+45763854,45763854,Chronic kidney disease stage 3A,Chronic kidney disease stage 3A,45,0
+4181965,4181965,Chronic ulcer of foot,Chronic ulcer of foot,45,0
+196523,196523,Diarrhea,Diarrhea,38,7
+193782,193782,End-stage renal disease,End-stage renal disease,1625,0
+40758879,40758879,Patient Health Questionnaire 2 item (PHQ-2) total score [Reported],Patient Health Questionnaire 2 item (PHQ-2) total score [Reported],45,0
+192450,192450,Retention of urine,Retention of urine,1625,0
+4206148,4206148,Syncope and collapse,Syncope and collapse,1625,0
+4186037,4186037,Aftercare,Aftercare,56,44
+4060705,4060705,Body mass index 25-29 - overweight,Body mass index 25-29 - overweight,1092,0
+4141360,4141360,Chronic atrial fibrillation,Chronic atrial fibrillation,46,44
+443769,443769,Degeneration of lumbar intervertebral disc,Degeneration of lumbar intervertebral disc,46,44
+3045858,3045858,"Feeling down, depressed, or hopeless in last 2 weeks","Feeling down, depressed, or hopeless in last 2 weeks",46,44
+37020730,37020730,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living","Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living",32,12
+316139,316139,Heart failure,Heart failure,936,0
+444101,444101,Hypertensive heart failure,Hypertensive heart failure,65,44
+4195085,4195085,Nasal congestion,Nasal congestion,1092,0
+42537748,42537748,Acquired absence of organ,Acquired absence of organ,20,3
+197320,197320,Acute kidney injury,Acute kidney injury,936,0
+4149904,4149904,"Attention deficit hyperactivity disorder, combined type","Attention deficit hyperactivity disorder, combined type",53,43
+255573,255573,Chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,442,0
+440704,440704,Chronic pain syndrome,Chronic pain syndrome,286,43
+45881517,45881517,Current every day smoker,Current every day smoker,21,1
+435796,435796,Dehydration,Dehydration,58,43
+4239938,4239938,First trimester pregnancy,First trimester pregnancy,47,43
+435515,435515,Hypo-osmolality and or hyponatremia,Hypo-osmolality and or hyponatremia,728,0
+4079750,4079750,Osteoarthritis of knee,Osteoarthritis of knee,1300,0
+254061,254061,Pleural effusion,Pleural effusion,47,43
+4174262,4174262,Polyneuropathy,Polyneuropathy,936,0
+4322024,4322024,Pulmonary hypertension,Pulmonary hypertension,47,43
+40770349,40770349,Smoking tobacco use duration,Smoking tobacco use duration,58,43
+4155909,4155909,Anesthesia of skin,Anesthesia of skin,1625,0
+442793,442793,Complication due to diabetes mellitus,Complication due to diabetes mellitus,1300,0
+4272240,4272240,Malaise,Malaise,46,42
+80809,80809,Rheumatoid arthritis,Rheumatoid arthritis,72,42
+4142875,4142875,Solitary nodule of lung,Solitary nodule of lung,48,42
+437246,437246,Vitamin B deficiency,Vitamin B deficiency,43,42
+197381,197381,Epigastric pain,Epigastric pain,65,41
+380378,380378,Epilepsy,Epilepsy,49,41
+378735,378735,Migraine without aura,Migraine without aura,1092,0
+443729,443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,Peripheral circulatory disorder due to type 2 diabetes mellitus,75,41
+73754,73754,Restless legs,Restless legs,3250,0
+201254,201254,Type 1 diabetes mellitus,Type 1 diabetes mellitus,75,41
+436222,436222,Altered mental status,Altered mental status,2171,0
+44782429,44782429,Chronic kidney disease due to hypertension,Chronic kidney disease due to hypertension,91,40
+439696,439696,Hypertensive heart and renal disease with (congestive) heart failure,Hypertensive heart and renal disease with (congestive) heart failure,1300,0
+36717001,36717001,Long-term current use of aspirin,Long-term current use of aspirin,1625,0
+3018063,3018063,Marital status and living arrangements - Reported,Marital status and living arrangements - Reported,46,40
+3034855,3034855,Pain alleviating factors - Reported,Pain alleviating factors - Reported,50,40
+4310235,4310235,Reduced mobility,Reduced mobility,58,40
+439147,439147,Amnesia,Amnesia,167,39
+439147,439147,Amnesia,Amnesia,728,0
+45768812,45768812,Anemia in chronic kidney disease,Anemia in chronic kidney disease,2171,0
+44784217,44784217,Cardiac arrhythmia,Cardiac arrhythmia,1300,0
+46271811,46271811,Child-Pugh score class A,Child-Pugh score class A,77,39
+372887,372887,Disorder of brain,Disorder of brain,1625,0
+433740,433740,Immunodeficiency disorder,Immunodeficiency disorder,52,39
+261325,261325,Pulmonary emphysema,Pulmonary emphysema,1625,0
+4035611,4035611,Seropositive rheumatoid arthritis,Seropositive rheumatoid arthritis,100,39
+40766721,40766721,Tobacco product [PhenX],Tobacco product [PhenX],52,39
+380094,380094,Carpal tunnel syndrome,Carpal tunnel syndrome,56,38
+372887,372887,Disorder of brain,Disorder of brain,58,38
+4098604,4098604,Hypomagnesemia,Hypomagnesemia,53,38
+312998,312998,Pain in thoracic spine,Pain in thoracic spine,75,38
+432795,432795,Traumatic or non-traumatic injury,Traumatic or non-traumatic injury,77,38
+42537729,42537729,Aortocoronary bypass graft present,Aortocoronary bypass graft present,55,37
+3031680,3031680,Blood pressure measurement site,Blood pressure measurement site,55,37
+4169095,4169095,Bradycardia,Bradycardia,77,37
+4288310,4288310,Carotid artery obstruction,Carotid artery obstruction,96,37
+42537730,42537730,Coronary artery graft present,Coronary artery graft present,55,37
+439407,439407,Disorder of nasal cavity,Disorder of nasal cavity,1625,0
+45766714,45766714,Inflammatory dermatosis,Inflammatory dermatosis,52,37
+140648,140648,Onychomycosis due to dermatophyte,Onychomycosis due to dermatophyte,72,37
+45763842,45763842,Patient requests non-blood medical management,Patient requests non-blood medical management,91,37
+132797,132797,Sepsis,Sepsis,1300,0
+4248728,4248728,Snoring,Snoring,59,37
+4041285,4041285,Urogenital finding,Urogenital finding,118,37
+443211,443211,Benign prostatic hyperplasia with outflow obstruction,Benign prostatic hyperplasia with outflow obstruction,56,36
+4135421,4135421,Body mass index 20-24 - normal,Body mass index 20-24 - normal,56,36
+374375,374375,Impacted cerumen,Impacted cerumen,87,36
+4171917,4171917,Localized edema,Localized edema,43,36
+4346975,4346975,Lumbar spondylosis,Lumbar spondylosis,2171,0
+254061,254061,Pleural effusion,Pleural effusion,1625,0
+4059290,4059290,Steatosis of liver,Steatosis of liver,56,36
+4081759,4081759,Transplant follow-up,Transplant follow-up,56,36
+42538117,42538117,Transplanted heart present,Transplanted heart present,134,36
+440029,440029,Viral disease,Viral disease,40,36
+4149353,4149353,"Attention deficit hyperactivity disorder, predominantly inattentive type","Attention deficit hyperactivity disorder, predominantly inattentive type",59,35
+376208,376208,Disorder of soft tissue,Disorder of soft tissue,61,35
+4248728,4248728,Snoring,Snoring,1625,0
+4275423,4275423,Supraventricular tachycardia,Supraventricular tachycardia,1625,0
+3043462,3043462,"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]","Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]",59,35
+45768964,45768964,Uncomplicated moderate persistent asthma,Uncomplicated moderate persistent asthma,72,35
+436665,436665,Bipolar disorder,Bipolar disorder,59,34
+257012,257012,Chronic sinusitis,Chronic sinusitis,106,34
+40479192,40479192,Chronic systolic heart failure,Chronic systolic heart failure,59,34
+434610,434610,Hyperkalemia,Hyperkalemia,1625,0
+4329041,4329041,Pain,Pain,1300,0
+4115171,4115171,Pain in right lower limb,Pain in right lower limb,1625,0
+4192791,4192791,Pain management (specialty),Pain management (specialty),125,34
+436353,436353,Primary malignant neoplasm of upper outer quadrant of female breast,Primary malignant neoplasm of upper outer quadrant of female breast,39,34
+3022650,3022650,Specimen drawn from,Specimen drawn from,77,34
+4135421,4135421,Body mass index 20-24 - normal,Body mass index 20-24 - normal,1092,0
+4271661,4271661,Characteristic of pain,Characteristic of pain,61,33
+4229440,4229440,Chronic congestive heart failure,Chronic congestive heart failure,1300,0
+3004518,3004518,Cigarettes smoked current (pack per day) - Reported,Cigarettes smoked current (pack per day) - Reported,31,2
+40217302,40217302,"Clinical decision support mechanism national decision support company, as defined by the medicare appropriate use criteria program","Clinical decision support mechanism national decision support company, as defined by the medicare appropriate use criteria program",59,33
+141693,141693,Elevated blood-pressure reading without diagnosis of hypertension,Elevated blood-pressure reading without diagnosis of hypertension,2171,0
+21494983,21494983,Level of consciousness,Level of consciousness,69,33
+4047564,4047564,Routine antenatal care,Routine antenatal care,23,10
+435220,435220,Severe recurrent major depression without psychotic features,Severe recurrent major depression without psychotic features,67,33
+313459,313459,Sleep apnea,Sleep apnea,61,33
+435517,435517,Acidosis,Acidosis,1092,0
+314658,314658,Cardiomegaly,Cardiomegaly,72,32
+4271661,4271661,Characteristic of pain,Characteristic of pain,1300,0
+141693,141693,Elevated blood-pressure reading without diagnosis of hypertension,Elevated blood-pressure reading without diagnosis of hypertension,87,32
+30437,30437,Gastro-esophageal reflux disease with esophagitis,Gastro-esophageal reflux disease with esophagitis,63,32
+37119138,37119138,Iron deficiency anemia due to blood loss,Iron deficiency anemia due to blood loss,42,32
+762294,762294,Pain in right foot,Pain in right foot,118,32
+436676,436676,Posttraumatic stress disorder,Posttraumatic stress disorder,2171,0
+3007397,3007397,Ventilator type,Ventilator type,91,32
+36306143,36306143,Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS],Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS],65,32
+46271022,46271022,Chronic kidney disease,Chronic kidney disease,106,31
+45763854,45763854,Chronic kidney disease stage 3A,Chronic kidney disease stage 3A,2171,0
+376065,376065,Disorder of nervous system due to type 2 diabetes mellitus,Disorder of nervous system due to type 2 diabetes mellitus,65,31
+3045290,3045290,Edema,Edema,63,31
+377889,377889,Hearing loss,Hearing loss,118,31
+4119786,4119786,Interstitial lung disease,Interstitial lung disease,819,0
+46272452,46272452,Long-term current use of steroid,Long-term current use of steroid,100,31
+317002,317002,Low blood pressure,Low blood pressure,1625,0
+4271013,4271013,Melanocytic nevus,Melanocytic nevus,143,31
+4168216,4168216,Pelvic and perineal pain,Pelvic and perineal pain,134,31
+4150125,4150125,Persistent pain following procedure,Persistent pain following procedure,200,31
+193322,193322,Right lower quadrant pain,Right lower quadrant pain,84,31
+46271075,46271075,Acute hypoxemic respiratory failure,Acute hypoxemic respiratory failure,67,30
+140352,140352,"Acute myeloid leukemia, disease","Acute myeloid leukemia, disease",154,30
+45763855,45763855,Chronic kidney disease stage 3B,Chronic kidney disease stage 3B,106,30
+437758,437758,Dependence on enabling machine or device,Dependence on enabling machine or device,59,30
+40405599,40405599,Fibromyalgia,Fibromyalgia,728,0
+4254485,4254485,Finding related to attentiveness,Finding related to attentiveness,69,30
+4098604,4098604,Hypomagnesemia,Hypomagnesemia,1625,0
+372448,372448,Loss of consciousness,Loss of consciousness,100,30
+4195085,4195085,Nasal congestion,Nasal congestion,67,30
+4232697,4232697,Persistent atrial fibrillation,Persistent atrial fibrillation,112,30
+440417,440417,Pulmonary embolism,Pulmonary embolism,67,30
+4322024,4322024,Pulmonary hypertension,Pulmonary hypertension,1300,0
+4280726,4280726,Seasonal allergic rhinitis,Seasonal allergic rhinitis,2171,0
+435517,435517,Acidosis,Acidosis,53,29
+138384,138384,Acquired hypothyroidism,Acquired hypothyroidism,1625,0
+434894,434894,Acute posthemorrhagic anemia,Acute posthemorrhagic anemia,69,29
+45768812,45768812,Anemia in chronic kidney disease,Anemia in chronic kidney disease,69,29
+78508,78508,Arthralgia of the ankle and/or foot,Arthralgia of the ankle and/or foot,69,29
+137275,137275,Disorder of muscle,Disorder of muscle,134,29
+436583,436583,Fall,Fall,42,29
+438398,438398,Leukocytosis,Leukocytosis,65,29
+2106286,2106286,"Most recent diastolic blood pressure 80-89 mm Hg (HTN, CKD, CAD) (DM)","Most recent diastolic blood pressure 80-89 mm Hg (HTN, CKD, CAD) (DM)",77,29
+440897,440897,Motor vehicle accident victim,Motor vehicle accident victim,80,29
+440417,440417,Pulmonary embolism,Pulmonary embolism,819,0
+141932,141932,Senile hyperkeratosis,Senile hyperkeratosis,72,29
+4219336,4219336,Tobacco,Tobacco,39,29
+4305080,4305080,Abnormal breathing,Abnormal breathing,1300,0
+200528,200528,Ascites,Ascites,125,28
+4012376,4012376,Currently not sexually active,Currently not sexually active,112,28
+314131,314131,Degeneration of cervical intervertebral disc,Degeneration of cervical intervertebral disc,143,28
+376208,376208,Disorder of soft tissue,Disorder of soft tissue,936,0
+4305831,4305831,Exposure to potentially harmful entity,Exposure to potentially harmful entity,72,28
+4114865,4114865,Finding relating to sexual activity,Finding relating to sexual activity,72,28
+46234789,46234789,"How hard is it for you to pay for the very basics like food, housing, medical care, and heating","How hard is it for you to pay for the very basics like food, housing, medical care, and heating",72,28
+4168700,4168700,Localized enlarged lymph nodes,Localized enlarged lymph nodes,84,28
+438120,438120,Opioid dependence,Opioid dependence,72,28
+140168,140168,Psoriasis,Psoriasis,77,28
+443731,443731,Renal disorder due to type 2 diabetes mellitus,Renal disorder due to type 2 diabetes mellitus,69,28
+4220163,4220163,Tidal volume setting,Tidal volume setting,48,28
+4169095,4169095,Bradycardia,Bradycardia,1300,0
+45763855,45763855,Chronic kidney disease stage 3B,Chronic kidney disease stage 3B,1625,0
+376065,376065,Disorder of nervous system due to type 2 diabetes mellitus,Disorder of nervous system due to type 2 diabetes mellitus,1625,0
+321588,321588,Heart disease,Heart disease,125,27
+195562,195562,Hemorrhoids,Hemorrhoids,100,27
+437833,437833,Hypokalemia,Hypokalemia,936,0
+4171917,4171917,Localized edema,Localized edema,936,0
+321596,321596,Peripheral venous insufficiency,Peripheral venous insufficiency,84,27
+37109774,37109774,Requires vaccination,Requires vaccination,1300,0
+43021203,43021203,Sexually active with women,Sexually active with women,154,27
+4229440,4229440,Chronic congestive heart failure,Chronic congestive heart failure,39,26
+4300704,4300704,Diffuse large B-cell lymphoma (nodal/systemic with skin involvement),Diffuse large B-cell lymphoma (nodal/systemic with skin involvement),77,26
+435788,435788,Disorder of phosphorus metabolism,Disorder of phosphorus metabolism,134,26
+3655355,3655355,Erectile dysfunction,Erectile dysfunction,96,26
+73840,73840,"Localized, primary osteoarthritis of the shoulder region","Localized, primary osteoarthritis of the shoulder region",77,26
+2106282,2106282,"Most recent systolic blood pressure 130-139 mm Hg (DM) (HTN, CKD, CAD)","Most recent systolic blood pressure 130-139 mm Hg (DM) (HTN, CKD, CAD)",118,26
+374919,374919,Multiple sclerosis,Multiple sclerosis,77,26
+314666,314666,Old myocardial infarction,Old myocardial infarction,77,26
+4280726,4280726,Seasonal allergic rhinitis,Seasonal allergic rhinitis,77,26
+378427,378427,Tear film insufficiency,Tear film insufficiency,2171,0
+138384,138384,Acquired hypothyroidism,Acquired hypothyroidism,80,25
+40481043,40481043,Acute on chronic diastolic heart failure,Acute on chronic diastolic heart failure,125,25
+314665,314665,Atrial flutter,Atrial flutter,80,25
+321319,321319,Cardiomyopathy,Cardiomyopathy,63,25
+141253,141253,Disorder of thyroid gland,Disorder of thyroid gland,80,25
+2617827,2617827,"Eligible clinician attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications","Eligible clinician attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications",143,25
+40762517,40762517,History of falling; immediate or within 3 months [Morse Fall Scale],History of falling; immediate or within 3 months [Morse Fall Scale],334,25
+375415,375415,Injury of head,Injury of head,100,25
+46272452,46272452,Long-term current use of steroid,Long-term current use of steroid,1625,0
+317002,317002,Low blood pressure,Low blood pressure,72,25
+435839,435839,Lymphedema,Lymphedema,100,25
+40762522,40762522,Mental status [Morse Fall Scale],Mental status [Morse Fall Scale],52,25
+4228802,4228802,Mild recurrent major depression,Mild recurrent major depression,106,25
+3044098,3044098,Poor appetite or overeating in last 2 weeks [Reported.PHQ],Poor appetite or overeating in last 2 weeks [Reported.PHQ],100,25
+261325,261325,Pulmonary emphysema,Pulmonary emphysema,80,25
+140821,140821,Spasm,Spasm,2171,0
+374034,374034,Visual disturbance,Visual disturbance,112,25
+432545,432545,Bacterial infectious disease,Bacterial infectious disease,84,24
+198803,198803,Benign prostatic hyperplasia,Benign prostatic hyperplasia,1300,0
+441840,441840,Clinical finding,Clinical finding,58,24
+43530950,43530950,Complication occurring during pregnancy,Complication occurring during pregnancy,84,24
+374888,374888,Dementia associated with another disease,Dementia associated with another disease,87,24
+197607,197607,Excessive and frequent menstruation,Excessive and frequent menstruation,96,24
+197925,197925,Hemorrhage of rectum and anus,Hemorrhage of rectum and anus,100,24
+77074,77074,Joint pain,Joint pain,1092,0
+46273937,46273937,Long-term current use of anticoagulant,Long-term current use of anticoagulant,28,24
+443962,443962,Mitral valve regurgitation,Mitral valve regurgitation,1625,0
+4002359,4002359,Monoclonal gammopathy (clinical),Monoclonal gammopathy (clinical),118,24
+762296,762296,Pain in right hand,Pain in right hand,91,24
+704996,704996,Patient meets COVID-19 laboratory diagnostic criteria,Patient meets COVID-19 laboratory diagnostic criteria,134,24
+439392,439392,Primary malignant neoplasm,Primary malignant neoplasm,106,24
+200051,200051,Primary malignant neoplasm of ovary,Primary malignant neoplasm of ovary,134,24
+4310235,4310235,Reduced mobility,Reduced mobility,819,0
+36304041,36304041,Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS],Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS],65,24
+260139,260139,Acute bronchitis,Acute bronchitis,154,23
+46271075,46271075,Acute hypoxemic respiratory failure,Acute hypoxemic respiratory failure,546,0
+45766930,45766930,Admits alcohol use,Admits alcohol use,3250,0
+436222,436222,Altered mental status,Altered mental status,112,23
+317009,317009,Asthma,Asthma,125,23
+44784217,44784217,Cardiac arrhythmia,Cardiac arrhythmia,87,23
+4195384,4195384,Chronic cough,Chronic cough,351,0
+4174707,4174707,Dietary management surveillance,Dietary management surveillance,61,23
+257907,257907,Disorder of lung,Disorder of lung,87,23
+439658,439658,Disorder of pregnancy,Disorder of pregnancy,65,23
+138841,138841,Disorder of sacrum,Disorder of sacrum,72,23
+4179963,4179963,Family history of breast cancer,Family history of breast cancer,87,23
+4334494,4334494,Family history of malignant neoplasm of digestive organ,Family history of malignant neoplasm of digestive organ,87,23
+4308509,4308509,Impaired fasting glycemia,Impaired fasting glycemia,53,23
+373478,373478,Presbyopia,Presbyopia,143,23
+197500,197500,Primary malignant neoplasm of colon,Primary malignant neoplasm of colon,154,23
+197672,197672,Urinary incontinence,Urinary incontinence,87,23
+314754,314754,Wheezing,Wheezing,2171,0
+312934,312934,Atherosclerosis of aorta,Atherosclerosis of aorta,167,22
+4060705,4060705,Body mass index 25-29 - overweight,Body mass index 25-29 - overweight,67,22
+433968,433968,Candidiasis,Candidiasis,118,22
+314658,314658,Cardiomegaly,Cardiomegaly,1300,0
+201061,201061,Diaphragmatic hernia,Diaphragmatic hernia,56,22
+201061,201061,Diaphragmatic hernia,Diaphragmatic hernia,3250,0
+36714126,36714126,Difficulty walking,Difficulty walking,118,22
+257907,257907,Disorder of lung,Disorder of lung,936,0
+372324,372324,Eustachian tube disorder,Eustachian tube disorder,91,22
+4148407,4148407,FH: Cardiovascular disease,FH: Cardiovascular disease,1092,0
+3022196,3022196,History of Other nonmedical drug use,History of Other nonmedical drug use,154,22
+433811,433811,Hydronephrosis,Hydronephrosis,100,22
+4001450,4001450,Lumbago with sciatica,Lumbago with sciatica,43,22
+318736,318736,Migraine,Migraine,1092,0
+138994,138994,Myelodysplastic syndrome (clinical),Myelodysplastic syndrome (clinical),91,22
+4285898,4285898,Polyp of colon,Polyp of colon,96,22
+4273391,4273391,Suicidal thoughts,Suicidal thoughts,91,22
+434272,434272,Varicella,Varicella,91,22
+46235140,46235140,Vital status at discharge,Vital status at discharge,63,22
+261880,261880,Atelectasis,Atelectasis,1092,0
+312648,312648,Benign essential hypertension,Benign essential hypertension,100,21
+46269757,46269757,Chronic ulcer of skin of lower leg,Chronic ulcer of skin of lower leg,106,21
+46234787,46234787,"Do you belong to any clubs or organizations such as church groups unions, fraternal or athletic groups, or school groups [NHANES III]","Do you belong to any clubs or organizations such as church groups unions, fraternal or athletic groups, or school groups [NHANES III]",100,21
+40326053,40326053,Dysphonia,Dysphonia,112,21
+433595,433595,Edema,Edema,1300,0
+37016348,37016348,Hyperglycemia due to type 1 diabetes mellitus,Hyperglycemia due to type 1 diabetes mellitus,106,21
+435515,435515,Hypo-osmolality and or hyponatremia,Hypo-osmolality and or hyponatremia,91,21
+4103703,4103703,Melena,Melena,106,21
+4119307,4119307,Neurogenic claudication,Neurogenic claudication,118,21
+4308655,4308655,Nonstress test,Nonstress test,106,21
+136368,136368,Non-toxic multinodular goiter,Non-toxic multinodular goiter,112,21
+37109774,37109774,Requires vaccination,Requires vaccination,96,21
+4110815,4110815,Sensorineural hearing loss of bilateral ears,Sensorineural hearing loss of bilateral ears,69,21
+4275423,4275423,Supraventricular tachycardia,Supraventricular tachycardia,96,21
+194686,194686,Acquired renal cystic disease,Acquired renal cystic disease,100,20
+36712983,36712983,Angina co-occurrent and due to coronary arteriosclerosis,Angina co-occurrent and due to coronary arteriosclerosis,91,20
+4189343,4189343,Aortic valve stenosis,Aortic valve stenosis,134,20
+4177862,4177862,Chronic hypoxemic respiratory failure,Chronic hypoxemic respiratory failure,598,0
+443612,443612,Chronic kidney disease stage 4,Chronic kidney disease stage 4,69,20
+255573,255573,Chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,61,20
+376400,376400,Combined form of senile cataract,Combined form of senile cataract,100,20
+197610,197610,Cyst of ovary,Cyst of ovary,58,20
+441641,441641,Delivery normal,Delivery normal,154,20
+40762523,40762523,Fall risk total [Morse Fall Scale],Fall risk total [Morse Fall Scale],100,20
+316822,316822,Heart murmur,Heart murmur,69,20
+78505,78505,"Localized, primary osteoarthritis of the ankle and/or foot","Localized, primary osteoarthritis of the ankle and/or foot",143,20
+79908,79908,Muscle weakness,Muscle weakness,2171,0
+4119499,4119499,Not for resuscitation,Not for resuscitation,100,20
+4117695,4117695,Pain in left lower limb,Pain in left lower limb,2171,0
+137820,137820,Postoperative hypothyroidism,Postoperative hypothyroidism,100,20
+4014295,4014295,Single live birth,Single live birth,53,20
+443580,443580,Systolic heart failure,Systolic heart failure,250,20
+193326,193326,Urge incontinence of urine,Urge incontinence of urine,182,20
+194406,194406,Urinary tract obstruction,Urinary tract obstruction,112,20
+4089462,4089462,Ventricular premature complex,Ventricular premature complex,100,20
+437643,437643,Abnormal gait,Abnormal gait,61,19
+132736,132736,Bacteremia,Bacteremia,167,19
+4195384,4195384,Chronic cough,Chronic cough,106,19
+37311061,37311061,COVID-19,COVID-19,106,19
+42873170,42873170,Dependence on supplemental oxygen,Dependence on supplemental oxygen,468,0
+40481089,40481089,Embolism from thrombosis of vein of lower extremity,Embolism from thrombosis of vein of lower extremity,87,19
+140214,140214,Eruption,Eruption,1625,0
+318800,318800,Gastroesophageal reflux disease,Gastroesophageal reflux disease,56,19
+4204199,4204199,Hand pain,Hand pain,400,19
+438134,438134,Hypersomnia,Hypersomnia,112,19
+438134,438134,Hypersomnia,Hypersomnia,1625,0
+40757768,40757768,Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS],Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS],106,19
+4092216,4092216,Malignant neoplasm of upper lobe of lung,Malignant neoplasm of upper lobe of lung,154,19
+4128329,4128329,Menopause present,Menopause present,63,19
+4168796,4168796,Muscle strain,Muscle strain,154,19
+40484532,40484532,Nonalcoholic steatohepatitis,Nonalcoholic steatohepatitis,182,19
+437525,437525,Overweight,Overweight,106,19
+28060,28060,Streptococcal sore throat,Streptococcal sore throat,106,19
+441051,441051,Thoracic aortic aneurysm without rupture,Thoracic aortic aneurysm without rupture,250,19
+42537742,42537742,Transplanted liver present,Transplanted liver present,91,19
+438310,438310,"Victim, motorcycle rider in vehicular AND/OR traffic accident","Victim, motorcycle rider in vehicular AND/OR traffic accident",182,19
+439141,439141,Abnormal weight gain,Abnormal weight gain,182,18
+4138763,4138763,Acceptable pain level status,Acceptable pain level status,112,18
+257004,257004,Acute exacerbation of chronic obstructive pulmonary disease,Acute exacerbation of chronic obstructive pulmonary disease,118,18
+135496,135496,Acute leukemia in remission,Acute leukemia in remission,223,18
+37016114,37016114,Acute on chronic hypoxemic respiratory failure,Acute on chronic hypoxemic respiratory failure,1300,0
+375281,375281,Acute suppurative otitis media without spontaneous rupture of ear drum,Acute suppurative otitis media without spontaneous rupture of ear drum,112,18
+73553,73553,Arthropathy,Arthropathy,75,18
+257012,257012,Chronic sinusitis,Chronic sinusitis,1300,0
+4182210,4182210,Dementia,Dementia,112,18
+197988,197988,Generalized abdominal pain,Generalized abdominal pain,100,18
+439696,439696,Hypertensive heart and renal disease with (congestive) heart failure,Hypertensive heart and renal disease with (congestive) heart failure,112,18
+437390,437390,Hypoxemia,Hypoxemia,112,18
+195083,195083,Left lower quadrant pain,Left lower quadrant pain,106,18
+45878118,45878118,Light tobacco smoker,Light tobacco smoker,112,18
+4272240,4272240,Malaise,Malaise,390,0
+42872398,42872398,"Maternal obesity complicating pregnancy, childbirth and the puerperium, antepartum","Maternal obesity complicating pregnancy, childbirth and the puerperium, antepartum",112,18
+443962,443962,Mitral valve regurgitation,Mitral valve regurgitation,112,18
+4049623,4049623,"Moderate major depression, single episode","Moderate major depression, single episode",112,18
+436059,436059,Multiple myeloma in remission,Multiple myeloma in remission,134,18
+4114585,4114585,"Primary gonarthrosis, bilateral","Primary gonarthrosis, bilateral",112,18
+4215402,4215402,Primary insomnia,Primary insomnia,118,18
+4247238,4247238,Primary malignant neoplasm of endometrium,Primary malignant neoplasm of endometrium,250,18
+75650,75650,Proteinuria,Proteinuria,58,18
+73754,73754,Restless legs,Restless legs,112,18
+372409,372409,Sciatica,Sciatica,134,18
+3045019,3045019,"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]","Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]",112,18
+443412,443412,Type 1 diabetes mellitus without complication,Type 1 diabetes mellitus without complication,106,18
+37016114,37016114,Acute on chronic hypoxemic respiratory failure,Acute on chronic hypoxemic respiratory failure,154,17
+199074,199074,Acute pancreatitis,Acute pancreatitis,250,17
+261880,261880,Atelectasis,Atelectasis,118,17
+375545,375545,Cataract,Cataract,118,17
+44782719,44782719,Chronic combined systolic and diastolic heart failure,Chronic combined systolic and diastolic heart failure,134,17
+432738,432738,Chronic fatigue syndrome,Chronic fatigue syndrome,134,17
+194696,194696,Dysmenorrhea,Dysmenorrhea,134,17
+4059015,4059015,Falls,Falls,118,17
+80813,80813,Lumbosacral spondylosis without myelopathy,Lumbosacral spondylosis without myelopathy,134,17
+378735,378735,Migraine without aura,Migraine without aura,80,17
+2106236,2106236,Most recent hemoglobin A1c (HbA1c) level less than 7.0% (DM),Most recent hemoglobin A1c (HbA1c) level less than 7.0% (DM),154,17
+133711,133711,Overlapping malignant neoplasm of female breast,Overlapping malignant neoplasm of female breast,118,17
+4141454,4141454,Recurrent major depression in partial remission,Recurrent major depression in partial remission,200,17
+4023050,4023050,Sexual partners,Sexual partners,1625,0
+45768964,45768964,Uncomplicated moderate persistent asthma,Uncomplicated moderate persistent asthma,819,0
+4152351,4152351,"Abdominal distension, gaseous","Abdominal distension, gaseous",125,16
+4227594,4227594,Acne vulgaris,Acne vulgaris,125,16
+196463,196463,Alcoholic cirrhosis,Alcoholic cirrhosis,125,16
+321318,321318,Angina pectoris,Angina pectoris,334,16
+259848,259848,Chronic rhinitis,Chronic rhinitis,143,16
+437116,437116,Closed fracture of distal end of radius,Closed fracture of distal end of radius,106,16
+201606,201606,Crohn's disease,Crohn's disease,500,16
+40766945,40766945,Current smoker,Current smoker,125,16
+435796,435796,Dehydration,Dehydration,1300,0
+4266809,4266809,Diverticular disease,Diverticular disease,125,16
+4122339,4122339,Drug-induced immunodeficiency,Drug-induced immunodeficiency,250,16
+4307024,4307024,Follow-up encounter,Follow-up encounter,72,16
+40762521,40762521,Gait [Morse Fall Scale],Gait [Morse Fall Scale],154,16
+196456,196456,Gallstone,Gallstone,125,16
+3663197,3663197,Glaucoma suspect,Glaucoma suspect,200,16
+133810,133810,Hyperparathyroidism due to renal insufficiency,Hyperparathyroidism due to renal insufficiency,125,16
+194175,194175,Left upper quadrant pain,Left upper quadrant pain,334,16
+438398,438398,Leukocytosis,Leukocytosis,2171,0
+443600,443600,Localized infection of skin AND/OR subcutaneous tissue,Localized infection of skin AND/OR subcutaneous tissue,96,16
+46272734,46272734,Long-term current use of antibiotic,Long-term current use of antibiotic,125,16
+40766231,40766231,Marital status [NHANES],Marital status [NHANES],125,16
+381549,381549,Migraine with aura,Migraine with aura,143,16
+444100,444100,Mood disorder,Mood disorder,125,16
+135777,135777,Neoplasm of uncertain behavior of skin,Neoplasm of uncertain behavior of skin,118,16
+4079749,4079749,Osteoarthritis of hip,Osteoarthritis of hip,72,16
+2101944,2101944,Pain severity quantified; no pain present (COA) (ONC),Pain severity quantified; no pain present (COA) (ONC),125,16
+198985,198985,Primary malignant neoplasm of kidney,Primary malignant neoplasm of kidney,106,16
+199754,199754,Primary malignant neoplasm of pancreas,Primary malignant neoplasm of pancreas,125,16
+4282316,4282316,Recurrent major depression,Recurrent major depression,154,16
+45881518,45881518,"Smoker, current status unknown","Smoker, current status unknown",125,16
+444070,444070,Tachycardia,Tachycardia,468,0
+378427,378427,Tear film insufficiency,Tear film insufficiency,65,16
+443782,443782,Tremor,Tremor,125,16
+4305080,4305080,Abnormal breathing,Abnormal breathing,91,15
+435928,435928,Abnormal weight loss,Abnormal weight loss,77,15
+141323,141323,Acute maxillary sinusitis,Acute maxillary sinusitis,134,15
+433758,433758,Childhood emotional disorder,Childhood emotional disorder,134,15
+432738,432738,Chronic fatigue syndrome,Chronic fatigue syndrome,442,0
+4225273,4225273,Chronic gastritis,Chronic gastritis,134,15
+443611,443611,Chronic kidney disease stage 5,Chronic kidney disease stage 5,167,15
+4000609,4000609,Disorder of upper gastrointestinal tract,Disorder of upper gastrointestinal tract,134,15
+433595,433595,Edema,Edema,96,15
+75004,75004,Frank hematuria,Frank hematuria,134,15
+4132434,4132434,"Gestation period, 8 weeks","Gestation period, 8 weeks",154,15
+440674,440674,Gout,Gout,75,15
+437390,437390,Hypoxemia,Hypoxemia,468,0
+440276,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft","Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",134,15
+4195572,4195572,"Mild major depression, single episode","Mild major depression, single episode",200,15
+4077577,4077577,Moderate recurrent major depression,Moderate recurrent major depression,77,15
+437165,437165,Motor vehicle traffic accident,Motor vehicle traffic accident,134,15
+199075,199075,Neurogenic urinary bladder,Neurogenic urinary bladder,167,15
+40304526,40304526,Nocturia,Nocturia,134,15
+439297,439297,Nuclear senile cataract,Nuclear senile cataract,55,15
+436074,436074,Panic disorder,Panic disorder,167,15
+381270,381270,Parkinson's disease,Parkinson's disease,134,15
+3042932,3042932,Patient Health Questionnaire 9 item (PHQ-9) total score [Reported],Patient Health Questionnaire 9 item (PHQ-9) total score [Reported],250,15
+4232691,4232691,Permanent atrial fibrillation,Permanent atrial fibrillation,134,15
+2313972,2313972,Physician or other qualified health care professional services for outpatient cardiac rehabilitation; with continuous ECG monitoring (per session),Physician or other qualified health care professional services for outpatient cardiac rehabilitation; with continuous ECG monitoring (per session),134,15
+444239,444239,Postprocedural state finding,Postprocedural state finding,154,15
+435262,435262,Primary open angle glaucoma,Primary open angle glaucoma,134,15
+45885135,45885135,Unknown if ever smoked,Unknown if ever smoked,134,15
+46273463,46273463,Upper respiratory tract infection caused by Influenza virus,Upper respiratory tract infection caused by Influenza virus,143,15
+4103295,4103295,Ventricular tachycardia,Ventricular tachycardia,134,15
+441408,441408,Vomiting,Vomiting,134,15
+314754,314754,Wheezing,Wheezing,134,15
+4152351,4152351,"Abdominal distension, gaseous","Abdominal distension, gaseous",2171,0
+442306,442306,Adjustment disorder with depressed mood,Adjustment disorder with depressed mood,143,14
+435243,435243,Alcohol dependence,Alcohol dependence,53,14
+439776,439776,Autism spectrum disorder,Autism spectrum disorder,118,14
+439794,439794,Central sleep apnea syndrome,Central sleep apnea syndrome,100,14
+439794,439794,Central sleep apnea syndrome,Central sleep apnea syndrome,1092,0
+255573,255573,Chronic obstructive lung disease,Chronic obstructive lung disease,2171,0
+43530666,43530666,Dementia with behavioral disturbance,Dementia with behavioral disturbance,250,14
+437758,437758,Dependence on enabling machine or device,Dependence on enabling machine or device,1092,0
+4268911,4268911,Disorientated,Disorientated,167,14
+40326053,40326053,Dysphonia,Dysphonia,1625,0
+3043801,3043801,Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ],Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ],154,14
+74104,74104,Fetal condition affecting obstetrical care of mother,Fetal condition affecting obstetrical care of mother,223,14
+201340,201340,Gastritis,Gastritis,134,14
+4110961,4110961,Generalized ischemic myocardial dysfunction,Generalized ischemic myocardial dysfunction,77,14
+3964826,3964826,"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living during assessment period [CMS Assessment]","Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living during assessment period [CMS Assessment]",182,14
+435511,435511,Hypercalcemia,Hypercalcemia,143,14
+434004,434004,Hypervolemia,Hypervolemia,200,14
+196168,196168,Irregular periods,Irregular periods,143,14
+46272453,46272453,Long-term current use of inhaled steroid,Long-term current use of inhaled steroid,143,14
+3043785,3043785,Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ],Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ],112,14
+319041,319041,Orthostatic hypotension,Orthostatic hypotension,200,14
+4115171,4115171,Pain in right lower limb,Pain in right lower limb,67,14
+4011457,4011457,Patient visit for,Patient visit for,250,14
+134460,134460,Plantar fascial fibromatosis,Plantar fascial fibromatosis,250,14
+74582,74582,Primary malignant neoplasm of rectum,Primary malignant neoplasm of rectum,91,14
+435783,435783,Schizophrenia,Schizophrenia,286,14
+72418,72418,Scoliosis deformity of spine,Scoliosis deformity of spine,112,14
+4261842,4261842,Sick sinus syndrome,Sick sinus syndrome,143,14
+3045933,3045933,"Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]","Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]",143,14
+201916,201916,Ureteric stone,Ureteric stone,154,14
+200845,200845,Urgent desire to urinate,Urgent desire to urinate,143,14
+4135932,4135932,Uterine scar from previous surgery affecting pregnancy,Uterine scar from previous surgery affecting pregnancy,143,14
+35942506,35942506,Valid FIPS code,Valid FIPS code,223,14
+4270024,4270024,Acute non-ST segment elevation myocardial infarction,Acute non-ST segment elevation myocardial infarction,143,13
+440083,440083,Acute stress disorder,Acute stress disorder,223,13
+433753,433753,Alcohol abuse,Alcohol abuse,112,13
+35609491,35609491,Alcohol units consumed per week,Alcohol units consumed per week,100,13
+36031661,36031661,Altered level of consciousness during assessment period [CAM.CMS],Altered level of consciousness during assessment period [CAM.CMS],87,13
+201078,201078,Atrophic vaginitis,Atrophic vaginitis,200,13
+4307956,4307956,Bipolar II disorder,Bipolar II disorder,286,13
+4096682,4096682,Bleeding from nose,Bleeding from nose,154,13
+40756859,40756859,"Body Mass Index (BMI), documented (PV)","Body Mass Index (BMI), documented (PV)",134,13
+137548,137548,Cervical radiculopathy,Cervical radiculopathy,50,13
+43530652,43530652,Chronic intractable migraine without aura,Chronic intractable migraine without aura,200,13
+194984,194984,Disease of liver,Disease of liver,106,13
+77030,77030,Disorder of breast,Disorder of breast,500,13
+21492245,21492245,"Do you feel stress - tense, restless, nervous, or anxious, or unable to sleep at night because your mind is troubled all the time - these days [OSQ]","Do you feel stress - tense, restless, nervous, or anxious, or unable to sleep at night because your mind is troubled all the time - these days [OSQ]",134,13
+201909,201909,Female infertility,Female infertility,250,13
+314379,314379,First degree atrioventricular block,First degree atrioventricular block,154,13
+4024659,4024659,Gestational diabetes mellitus,Gestational diabetes mellitus,154,13
+133729,133729,Hyperparathyroidism,Hyperparathyroidism,167,13
+37311319,37311319,Hypovolemia,Hypovolemia,223,13
+4312538,4312538,Inadequate immune status,Inadequate immune status,182,13
+4288544,4288544,Inguinal hernia,Inguinal hernia,154,13
+436962,436962,Insomnia,Insomnia,507,0
+46235085,46235085,Laboratory comment [Text] in Report Narrative,Laboratory comment [Text] in Report Narrative,154,13
+75036,75036,"Localized, primary osteoarthritis of the hand","Localized, primary osteoarthritis of the hand",223,13
+132841,132841,Malignant lymphoma of lymph nodes of multiple sites,Malignant lymphoma of lymph nodes of multiple sites,223,13
+379805,379805,Myopia,Myopia,143,13
+372328,372328,Otitis media,Otitis media,125,13
+4147829,4147829,Pain in pelvis,Pain in pelvis,154,13
+3035225,3035225,Pain primary location - Reported,Pain primary location - Reported,96,13
+40443308,40443308,Polycystic ovary syndrome,Polycystic ovary syndrome,154,13
+132412,132412,Post-laminectomy syndrome,Post-laminectomy syndrome,250,13
+135618,135618,Pruritic rash,Pruritic rash,154,13
+4256228,4256228,Respiratory failure,Respiratory failure,154,13
+136773,136773,Rosacea,Rosacea,223,13
+4023050,4023050,Sexual partners,Sexual partners,154,13
+377844,377844,Status migrainosus,Status migrainosus,400,13
+45765650,45765650,Surveillance of contraception,Surveillance of contraception,154,13
+138717,138717,Toxic diffuse goiter,Toxic diffuse goiter,154,13
+4201387,4201387,Tracheostomy present,Tracheostomy present,223,13
+4245842,4245842,Umbilical hernia,Umbilical hernia,167,13
+45768963,45768963,Uncomplicated mild persistent asthma,Uncomplicated mild persistent asthma,154,13
+4092743,4092743,Unsteady when standing,Unsteady when standing,154,13
+36661380,36661380,Whether patient is employed in a healthcare setting,Whether patient is employed in a healthcare setting,154,13
+436675,436675,Anorexia nervosa,Anorexia nervosa,250,12
+77234,77234,Benign neoplasm of colon,Benign neoplasm of colon,167,12
+444444,444444,Benign neoplasm of transverse colon,Benign neoplasm of transverse colon,200,12
+432585,432585,Blood coagulation disorder,Blood coagulation disorder,200,12
+4300092,4300092,Cannabis-induced organic mental disorder,Cannabis-induced organic mental disorder,182,12
+435613,435613,Cellulitis,Cellulitis,167,12
+141941,141941,Cervical spondylosis without myelopathy,Cervical spondylosis without myelopathy,167,12
+2101934,2101934,Discharge medications reconciled with the current medication list in outpatient medical record (COA) (GER),Discharge medications reconciled with the current medication list in outpatient medical record (COA) (GER),286,12
+321887,321887,Disorder of artery,Disorder of artery,223,12
+192963,192963,Disorder of pancreas,Disorder of pancreas,223,12
+199991,199991,Disorder of transplanted kidney,Disorder of transplanted kidney,200,12
+4200056,4200056,Finding of vision of eye,Finding of vision of eye,400,12
+195847,195847,Gastroparesis syndrome,Gastroparesis syndrome,182,12
+439727,439727,Human immunodeficiency virus infection,Human immunodeficiency virus infection,69,12
+435510,435510,Hypocalcemia,Hypocalcemia,250,12
+316998,316998,Left bundle branch block,Left bundle branch block,167,12
+4182562,4182562,Lower abdominal pain,Lower abdominal pain,154,12
+78472,78472,Microscopic hematuria,Microscopic hematuria,167,12
+135930,135930,Musculoskeletal finding,Musculoskeletal finding,63,12
+195867,195867,Noninflammatory disorder of the vagina,Noninflammatory disorder of the vagina,67,12
+4032799,4032799,Opioid-induced organic mental disorder,Opioid-induced organic mental disorder,200,12
+259153,259153,Pain in throat,Pain in throat,182,12
+4111231,4111231,Pain in toe,Pain in toe,100,12
+604801,604801,Pain of knee region,Pain of knee region,667,12
+4330445,4330445,Pleuritic pain,Pleuritic pain,96,12
+4068482,4068482,Prolapsed lumbar intervertebral disc,Prolapsed lumbar intervertebral disc,167,12
+440360,440360,Pure hyperglyceridemia,Pure hyperglyceridemia,125,12
+435790,435790,Secondary polycythemia,Secondary polycythemia,250,12
+72711,72711,Shoulder stiff,Shoulder stiff,167,12
+4111412,4111412,"Tricuspid incompetence, non-rheumatic","Tricuspid incompetence, non-rheumatic",3250,0
+81893,81893,Ulcerative colitis,Ulcerative colitis,223,12
+443883,443883,Acute disease,Acute disease,1625,0
+4099889,4099889,Anemia of pregnancy,Anemia of pregnancy,223,11
+133834,133834,Atopic dermatitis,Atopic dermatitis,182,11
+4281109,4281109,Autoimmune thyroiditis,Autoimmune thyroiditis,167,11
+437478,437478,Bite of nonvenomous arthropod,Bite of nonvenomous arthropod,286,11
+256451,256451,Bronchitis,Bronchitis,2171,0
+434327,434327,Cannabis abuse,Cannabis abuse,334,11
+4286497,4286497,Centriacinar emphysema,Centriacinar emphysema,223,11
+434500,434500,Closed fracture of neck of femur,Closed fracture of neck of femur,182,11
+40481919,40481919,Coronary atherosclerosis,Coronary atherosclerosis,100,11
+441267,441267,Cystic fibrosis,Cystic fibrosis,223,11
+22340,22340,Esophageal varices without bleeding,Esophageal varices without bleeding,400,11
+438383,438383,Essential thrombocythemia,Essential thrombocythemia,250,11
+3044964,3044964,Feeling tired or having little energy in last 2 weeks [Reported.PHQ],Feeling tired or having little energy in last 2 weeks [Reported.PHQ],143,11
+4148407,4148407,FH: Cardiovascular disease,FH: Cardiovascular disease,91,11
+4254485,4254485,Finding related to attentiveness,Finding related to attentiveness,416,0
+4201388,4201388,Gastrostomy present,Gastrostomy present,167,11
+4241223,4241223,Hidradenitis suppurativa,Hidradenitis suppurativa,286,11
+444101,444101,Hypertensive heart failure,Hypertensive heart failure,3250,0
+24609,24609,Hypoglycemia,Hypoglycemia,182,11
+4035439,4035439,Idiopathic osteoarthritis,Idiopathic osteoarthritis,182,11
+4344500,4344500,Impingement syndrome of shoulder region,Impingement syndrome of shoulder region,182,11
+4056713,4056713,"Injury of muscle and tendon of abdomen, lower back and pelvis","Injury of muscle and tendon of abdomen, lower back and pelvis",400,11
+141104,141104,Intervertebral disc disorder of lumbar region with myelopathy,Intervertebral disc disorder of lumbar region with myelopathy,334,11
+4146209,4146209,Iron deficiency,Iron deficiency,96,11
+74635,74635,Lumbosacral radiculopathy,Lumbosacral radiculopathy,500,11
+760895,760895,Mass of left breast,Mass of left breast,250,11
+4038838,4038838,Non-Hodgkin's lymphoma (clinical),Non-Hodgkin's lymphoma (clinical),200,11
+440374,440374,Obsessive-compulsive disorder,Obsessive-compulsive disorder,400,11
+440530,440530,Oropharyngeal dysphagia,Oropharyngeal dysphagia,182,11
+138525,138525,Pain in limb,Pain in limb,182,11
+4115170,4115170,Pain in right arm,Pain in right arm,286,11
+4240723,4240723,Patient discharge,Patient discharge,182,11
+72693,72693,Poor fetal growth affecting management,Poor fetal growth affecting management,200,11
+4046550,4046550,Postoperative care,Postoperative care,182,11
+4138617,4138617,Psychophysiologic insomnia,Psychophysiologic insomnia,200,11
+3014036,3014036,Pulse oximetry site,Pulse oximetry site,250,11
+314059,314059,Right bundle branch block,Right bundle branch block,106,11
+4048512,4048512,Sprain of upper extremity,Sprain of upper extremity,334,11
+4116323,4116323,Tear of medial meniscus of knee,Tear of medial meniscus of knee,182,11
+4017107,4017107,Traumatic subdural hemorrhage,Traumatic subdural hemorrhage,182,11
+4307820,4307820,Unplanned pregnancy,Unplanned pregnancy,200,11
+320420,320420,Vitreous degeneration,Vitreous degeneration,182,11
+321314,321314,Abdominal aortic aneurysm without rupture,Abdominal aortic aneurysm without rupture,200,10
+77965,77965,Acquired trigger finger,Acquired trigger finger,200,10
+43531681,43531681,Acute deep vein thrombosis of lower limb,Acute deep vein thrombosis of lower limb,223,10
+257004,257004,Acute exacerbation of chronic obstructive pulmonary disease,Acute exacerbation of chronic obstructive pulmonary disease,2171,0
+36684319,36684319,Adjustment disorder with mixed anxiety and depressed mood,Adjustment disorder with mixed anxiety and depressed mood,106,10
+438567,438567,Adult failure to thrive syndrome,Adult failure to thrive syndrome,200,10
+2101941,2101941,"Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)","Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)",100,10
+437247,437247,Anemia of chronic disease,Anemia of chronic disease,200,10
+4147565,4147565,Body mass index less than 20,Body mass index less than 20,223,10
+80767,80767,Breast lump,Breast lump,200,10
+321042,321042,Cardiac arrest,Cardiac arrest,223,10
+3050127,3050127,Census block group 1970and80and90,Census block group 1970and80and90,250,10
+138379,138379,"Chronic lymphoid leukemia, disease","Chronic lymphoid leukemia, disease",286,10
+259848,259848,Chronic rhinitis,Chronic rhinitis,2171,0
+440795,440795,Complication occurring during labor and delivery,Complication occurring during labor and delivery,286,10
+435875,435875,"Complication of pregnancy, childbirth and/or puerperium","Complication of pregnancy, childbirth and/or puerperium",400,10
+3027027,3027027,Diagnosis,Diagnosis,334,10
+4180628,4180628,Disorder of body system,Disorder of body system,72,10
+31610,31610,Disorder of esophagus,Disorder of esophagus,223,10
+440371,440371,Disorder of immune function,Disorder of immune function,200,10
+4102986,4102986,Disorder of psychological development,Disorder of psychological development,200,10
+77630,77630,Disorder of shoulder,Disorder of shoulder,200,10
+435232,435232,Disorder of speech and language development,Disorder of speech and language development,200,10
+4164898,4164898,Diverticulosis of large intestine without diverticulitis,Diverticulosis of large intestine without diverticulitis,72,10
+433440,433440,Dysthymia,Dysthymia,200,10
+4170770,4170770,Epidermoid cyst,Epidermoid cyst,250,10
+4011683,4011683,Escherichia coli,Escherichia coli,167,10
+40479426,40479426,Exposure to sexually transmissible disorder,Exposure to sexually transmissible disorder,400,10
+4051114,4051114,Family history of diabetes mellitus,Family history of diabetes mellitus,200,10
+4197819,4197819,Fibrosis of lung,Fibrosis of lung,334,10
+318566,318566,Flushing,Flushing,286,10
+443874,443874,"Gestation period, 34 weeks","Gestation period, 34 weeks",400,10
+438543,438543,"Gestation period, 36 weeks","Gestation period, 36 weeks",200,10
+442355,442355,"Gestation period, 37 weeks","Gestation period, 37 weeks",167,10
+4245975,4245975,Hepatic failure,Hepatic failure,200,10
+4130851,4130851,Injury of upper extremity,Injury of upper extremity,200,10
+4093672,4093672,Knee stiff,Knee stiff,200,10
+765053,765053,Mass of right breast,Mass of right breast,250,10
+134898,134898,Non-toxic uninodular goiter,Non-toxic uninodular goiter,77,10
+2514400,2514400,"Observation care discharge day management (This code is to be utilized to report all services provided to a patient on discharge from outpatient hospital ""observation status"" if the discharge is on other than the initial date of ""observation status."" To report services to a patient designated as ""observation status"" or ""inpatient status"" and discharged on the same date, use the codes for Observation or Inpatient Care Services [including Admission and Discharge Services, 99234-99236 as appropriate.])","Observation care discharge day management (This code is to be utilized to report all services provided to a patient on discharge from outpatient hospital ""observation status"" if the discharge is on other than the initial date of ""observation status."" To report services to a patient designated as ""observation status"" or ""inpatient status"" and discharged on the same date, use the codes for Observation or Inpatient Care Services [including Admission and Discharge Services, 99234-99236 as appropriate.])",200,10
+314666,314666,Old myocardial infarction,Old myocardial infarction,1300,0
+37206607,37206607,Overactive urinary bladder,Overactive urinary bladder,200,10
+4077895,4077895,Pain in finger,Pain in finger,125,10
+4115169,4115169,Pain in left arm,Pain in left arm,200,10
+4024561,4024561,Pain in lower limb,Pain in lower limb,286,10
+4211231,4211231,Panic disorder without agoraphobia,Panic disorder without agoraphobia,200,10
+434228,434228,Passenger in vehicular AND/OR traffic accident,Passenger in vehicular AND/OR traffic accident,154,10
+40319772,40319772,Psoriatic arthritis,Psoriatic arthritis,154,10
+198263,198263,Right upper quadrant pain,Right upper quadrant pain,100,10
+43530881,43530881,Suspected fetal disorder,Suspected fetal disorder,286,10
+257628,257628,Systemic lupus erythematosus,Systemic lupus erythematosus,96,10
+134442,134442,Systemic sclerosis,Systemic sclerosis,2000,10
+376382,376382,Tension-type headache,Tension-type headache,286,10
+437264,437264,Tobacco dependence syndrome,Tobacco dependence syndrome,200,10
+373503,373503,Transient cerebral ischemia,Transient cerebral ischemia,143,10
+4271686,4271686,Uses rhythm method of contraception,Uses rhythm method of contraception,334,10
+4089462,4089462,Ventricular premature complex,Ventricular premature complex,1625,0
+197494,197494,Viral hepatitis C,Viral hepatitis C,200,10
+801308,801308,Visit complexity inherent to evaluation and management associated with medical care services that serve as the continuing focal point for all needed health care services and/or with medical care services that are part of ongoing care related to a patie...,Visit complexity inherent to evaluation and management associated with medical care services that serve as the continuing focal point for all needed health care services and/or with medical care services that are part of ongoing care related to a patie...,182,10
+4092879,4092879,Absent kidney,Absent kidney,223,9
+4117957,4117957,Activity,Activity,286,9
+257581,257581,Acute asthma,Acute asthma,223,9
+436677,436677,Adjustment disorder,Adjustment disorder,223,9
+438409,438409,Attention deficit hyperactivity disorder,Attention deficit hyperactivity disorder,223,9
+2617820,2617820,Bmi is documented within normal parameters and no follow-up plan is required,Bmi is documented within normal parameters and no follow-up plan is required,223,9
+1009229,1009229,Cardiac rhythm,Cardiac rhythm,223,9
+317576,317576,Coronary arteriosclerosis,Coronary arteriosclerosis,286,9
+4012376,4012376,Currently not sexually active,Currently not sexually active,1625,0
+4151134,4151134,Cyst of pancreas,Cyst of pancreas,223,9
+195588,195588,Cystitis,Cystitis,667,9
+42873170,42873170,Dependence on supplemental oxygen,Dependence on supplemental oxygen,223,9
+4008576,4008576,Diabetes mellitus without complication,Diabetes mellitus without complication,400,9
+441830,441830,Disorder of fluid AND/OR electrolyte,Disorder of fluid AND/OR electrolyte,250,9
+439407,439407,Disorder of nasal cavity,Disorder of nasal cavity,87,9
+444211,444211,Disorder of thigh,Disorder of thigh,286,9
+4122339,4122339,Drug-induced immunodeficiency,Drug-induced immunodeficiency,1625,0
+433527,433527,Endometriosis (clinical),Endometriosis (clinical),223,9
+43531003,43531003,Essential tremor,Essential tremor,250,9
+4167696,4167696,Estrogen receptor positive tumor,Estrogen receptor positive tumor,400,9
+437986,437986,Failure to thrive,Failure to thrive,250,9
+4027470,4027470,Feeding disability,Feeding disability,223,9
+4299954,4299954,Feeding problem,Feeding problem,667,9
+4032878,4032878,Hair follicle disorder,Hair follicle disorder,223,9
+2314342,2314342,Handling and/or conveyance of specimen for transfer from the office to a laboratory,Handling and/or conveyance of specimen for transfer from the office to a laboratory,223,9
+198400,198400,Hemangioma of skin and subcutaneous tissue,Hemangioma of skin and subcutaneous tissue,223,9
+79864,79864,Hematuria syndrome,Hematuria syndrome,134,9
+3040464,3040464,Hospital discharge DRG [Interpretation],Hospital discharge DRG [Interpretation],167,9
+40771103,40771103,How often do you have a drink containing alcohol,How often do you have a drink containing alcohol,223,9
+4172432,4172432,Hyperpigmentation of skin,Hyperpigmentation of skin,223,9
+4110948,4110948,Hypertension secondary to endocrine disorder,Hypertension secondary to endocrine disorder,286,9
+440129,440129,Hypertrophy of nasal turbinates,Hypertrophy of nasal turbinates,286,9
+433740,433740,Immunodeficiency disorder,Immunodeficiency disorder,1300,0
+193518,193518,Intestinal obstruction,Intestinal obstruction,223,9
+4115991,4115991,Knee joint effusion,Knee joint effusion,134,9
+4115991,4115991,Knee joint effusion,Knee joint effusion,223,9
+374027,374027,Lesion of ulnar nerve,Lesion of ulnar nerve,223,9
+4152384,4152384,Non-rheumatic aortic sclerosis,Non-rheumatic aortic sclerosis,154,9
+4031164,4031164,Non-scarring alopecia,Non-scarring alopecia,223,9
+44784631,44784631,Pain due to neoplastic disease,Pain due to neoplastic disease,154,9
+4103476,4103476,Pain of ear,Pain of ear,286,9
+432881,432881,Pancytopenia,Pancytopenia,167,9
+36713112,36713112,Pancytopenia due to antineoplastic chemotherapy,Pancytopenia due to antineoplastic chemotherapy,223,9
+43530742,43530742,Paralytic syndrome on one side of the body as late effect of cerebrovascular accident,Paralytic syndrome on one side of the body as late effect of cerebrovascular accident,223,9
+40756893,40756893,"Patient screened for tobacco use and received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user (PV, CAD)","Patient screened for tobacco use and received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user (PV, CAD)",250,9
+257683,257683,Posterior rhinorrhea,Posterior rhinorrhea,6500,0
+26638,26638,Primary malignant neoplasm of esophagus,Primary malignant neoplasm of esophagus,223,9
+4168192,4168192,Procedure not done,Procedure not done,223,9
+4263748,4263748,Recurrent major depression in full remission,Recurrent major depression in full remission,223,9
+44784283,44784283,Requires influenza virus vaccination,Requires influenza virus vaccination,400,9
+438688,438688,Sarcoidosis,Sarcoidosis,223,9
+136497,136497,Scar conditions and fibrosis of skin,Scar conditions and fibrosis of skin,250,9
+195771,195771,Secondary diabetes mellitus,Secondary diabetes mellitus,223,9
+254443,254443,Sjögren's syndrome,Sjögren's syndrome,334,9
+435524,435524,Sleep disorder,Sleep disorder,2171,0
+436785,436785,Spinal stenosis in cervical region,Spinal stenosis in cervical region,223,9
+4133015,4133015,Sprain of anterior cruciate ligament of knee,Sprain of anterior cruciate ligament of knee,400,9
+4093347,4093347,Stool finding,Stool finding,400,9
+4037487,4037487,Symptom aggravating factors,Symptom aggravating factors,223,9
+4177206,4177206,Tubulointerstitial nephritis,Tubulointerstitial nephritis,223,9
+45768963,45768963,Uncomplicated mild persistent asthma,Uncomplicated mild persistent asthma,3250,0
+440785,440785,Vomiting of pregnancy,Vomiting of pregnancy,334,9
+192438,192438,Abdominal mass,Abdominal mass,286,8
+36715792,36715792,Acquired absence of breast,Acquired absence of breast,286,8
+138825,138825,Actinic keratosis,Actinic keratosis,134,8
+257004,257004,Acute exacerbation of chronic obstructive airways disease,Acute exacerbation of chronic obstructive airways disease,334,8
+134305,134305,Acute lymphoid leukemia,Acute lymphoid leukemia,112,8
+260123,260123,Acute sinusitis,Acute sinusitis,250,8
+4081648,4081648,Acute vaginitis,Acute vaginitis,250,8
+443800,443800,Amenorrhea,Amenorrhea,250,8
+46269816,46269816,Ascites due to alcoholic cirrhosis,Ascites due to alcoholic cirrhosis,182,8
+4112752,4112752,Basal cell carcinoma of skin,Basal cell carcinoma of skin,286,8
+4173824,4173824,B-cell chronic lymphocytic leukemia variant,B-cell chronic lymphocytic leukemia variant,250,8
+81878,81878,Benign paroxysmal positional vertigo,Benign paroxysmal positional vertigo,250,8
+194992,194992,Celiac disease,Celiac disease,667,8
+198964,198964,Chronic hepatitis C,Chronic hepatitis C,250,8
+195596,195596,Chronic pancreatitis,Chronic pancreatitis,250,8
+2108254,2108254,"Collection of blood specimen using established central or peripheral catheter, venous, not otherwise specified","Collection of blood specimen using established central or peripheral catheter, venous, not otherwise specified",400,8
+312723,312723,Congenital heart disease,Congenital heart disease,1000,8
+74132,74132,Degeneration of lumbosacral intervertebral disc,Degeneration of lumbosacral intervertebral disc,250,8
+201337,201337,Disorder of urinary bladder,Disorder of urinary bladder,250,8
+763082,763082,Documentation of past medical history,Documentation of past medical history,250,8
+30753,30753,Esophagitis,Esophagitis,400,8
+437175,437175,"Fall on same level from slipping, tripping or stumbling","Fall on same level from slipping, tripping or stumbling",250,8
+435655,435655,"Gestation period, 39 weeks","Gestation period, 39 weeks",250,8
+4031364,4031364,Healthcare supervision finding,Healthcare supervision finding,250,8
+30683,30683,Hemoglobin SS disease without crisis,Hemoglobin SS disease without crisis,200,8
+440329,440329,Herpes zoster without complication,Herpes zoster without complication,250,8
+376415,376415,Hypermetropia,Hypermetropia,400,8
+45757363,45757363,Hypoglycemia due to type 2 diabetes mellitus,Hypoglycemia due to type 2 diabetes mellitus,250,8
+36714388,36714388,Influenza caused by seasonal influenza virus,Influenza caused by seasonal influenza virus,250,8
+75576,75576,Irritable bowel syndrome,Irritable bowel syndrome,250,8
+197676,197676,Large liver,Large liver,250,8
+435224,435224,Leukopenia,Leukopenia,250,8
+46272453,46272453,Long-term current use of inhaled steroid,Long-term current use of inhaled steroid,819,0
+443392,443392,Malignant neoplastic disease,Malignant neoplastic disease,167,8
+373852,373852,Neuralgia,Neuralgia,200,8
+1244604,1244604,"Neuroendocrine neoplasm, malignant","Neuroendocrine neoplasm, malignant",250,8
+4280354,4280354,Nutritional anemia,Nutritional anemia,334,8
+4224926,4224926,Obstruction of esophagus,Obstruction of esophagus,286,8
+381290,381290,Ocular hypertension,Ocular hypertension,500,8
+43054907,43054907,"Pediatric diastolic blood pressure percentile [Per age, sex and height]","Pediatric diastolic blood pressure percentile [Per age, sex and height]",250,8
+4112839,4112839,Pneumonitis caused by inhalation of regurgitated food,Pneumonitis caused by inhalation of regurgitated food,400,8
+4299535,4299535,Pregnancy,Pregnancy,250,8
+42528957,42528957,Pregnancy status,Pregnancy status,250,8
+4216244,4216244,Preoperative state,Preoperative state,250,8
+440649,440649,Primary malignant neoplasm of head of pancreas,Primary malignant neoplasm of head of pancreas,250,8
+4157454,4157454,"Primary malignant neoplasm of lower lobe, bronchus or lung","Primary malignant neoplasm of lower lobe, bronchus or lung",250,8
+441515,441515,Primary malignant neoplasm of lower outer quadrant of female breast,Primary malignant neoplasm of lower outer quadrant of female breast,250,8
+436635,436635,Primary malignant neoplasm of sigmoid colon,Primary malignant neoplasm of sigmoid colon,334,8
+133424,133424,Primary malignant neoplasm of thyroid gland,Primary malignant neoplasm of thyroid gland,154,8
+43530685,43530685,Proliferative retinopathy due to type 2 diabetes mellitus,Proliferative retinopathy due to type 2 diabetes mellitus,154,8
+2102041,2102041,"Review of all medications by a prescribing practitioner or clinical pharmacist (such as, prescriptions, OTCs, herbal therapies and supplements) documented in the medical record (COA)","Review of all medications by a prescribing practitioner or clinical pharmacist (such as, prescriptions, OTCs, herbal therapies and supplements) documented in the medical record (COA)",250,8
+4088035,4088035,Screening status,Screening status,250,8
+374366,374366,Sensorineural hearing loss,Sensorineural hearing loss,200,8
+435524,435524,Sleep disorder,Sleep disorder,250,8
+79061,79061,Slow transit constipation,Slow transit constipation,200,8
+4206148,4206148,Syncope and collapse,Syncope and collapse,154,8
+36303803,36303803,Tobacco use duration,Tobacco use duration,250,8
+36714994,36714994,Typical atrial flutter,Typical atrial flutter,400,8
+374034,374034,Visual disturbance,Visual disturbance,3250,0
+36661382,36661382,Whether the patient was admitted to intensive care unit (ICU) for condition of interest,Whether the patient was admitted to intensive care unit (ICU) for condition of interest,286,8
+75911,75911,Acquired hallux valgus,Acquired hallux valgus,286,7
+443883,443883,Acute disease,Acute disease,167,7
+375519,375519,Alcohol withdrawal,Alcohol withdrawal,286,7
+35624756,35624756,Anemia due to and following chemotherapy,Anemia due to and following chemotherapy,334,7
+4241530,4241530,Asymptomatic human immunodeficiency virus infection,Asymptomatic human immunodeficiency virus infection,286,7
+45763549,45763549,Bilateral tinnitus,Bilateral tinnitus,286,7
+4110192,4110192,Cerebral infarction due to thrombosis of cerebral arteries,Cerebral infarction due to thrombosis of cerebral arteries,286,7
+443601,443601,Chronic kidney disease stage 2,Chronic kidney disease stage 2,223,7
+134603,134603,Chronic myeloid leukemia,Chronic myeloid leukemia,286,7
+255573,255573,Chronic obstructive lung disease,Chronic obstructive lung disease,65,7
+4211657,4211657,Closed fracture of lower leg,Closed fracture of lower leg,286,7
+78273,78273,Closed fracture of multiple ribs,Closed fracture of multiple ribs,286,7
+2211852,2211852,"Continuing medical physics consultation, including assessment of treatment parameters, quality assurance of dose delivery, and review of patient treatment documentation in support of the radiation oncologist, reported per week of therapy","Continuing medical physics consultation, including assessment of treatment parameters, quality assurance of dose delivery, and review of patient treatment documentation in support of the radiation oncologist, reported per week of therapy",286,7
+45884037,45884037,Current some day smoker,Current some day smoker,134,7
+40486120,40486120,Delay in physiological development,Delay in physiological development,286,7
+373499,373499,Disorder of eye region,Disorder of eye region,286,7
+72986,72986,Disorder of lower leg,Disorder of lower leg,286,7
+4062791,4062791,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium","Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",286,7
+376966,376966,Exudative age-related macular degeneration,Exudative age-related macular degeneration,182,7
+192671,192671,Gastrointestinal hemorrhage,Gastrointestinal hemorrhage,100,7
+4168217,4168217,Generalized hyperhidrosis,Generalized hyperhidrosis,286,7
+4169954,4169954,Genitourinary tract hemorrhage,Genitourinary tract hemorrhage,91,7
+4139934,4139934,Homeless,Homeless,286,7
+40772146,40772146,"How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]","How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]",286,7
+441829,441829,Hyperosmolality and or hypernatremia,Hyperosmolality and or hypernatremia,286,7
+443919,443919,Hypertensive renal failure,Hypertensive renal failure,200,7
+4103532,4103532,Immune thrombocytopenia,Immune thrombocytopenia,286,7
+74125,74125,Inflammatory polyarthropathy,Inflammatory polyarthropathy,500,7
+4119786,4119786,Interstitial lung disease,Interstitial lung disease,106,7
+40762520,40762520,Intravenous apparatus [Morse Fall Scale],Intravenous apparatus [Morse Fall Scale],250,7
+4060424,4060424,"Mental disorders during pregnancy, childbirth and the puerperium","Mental disorders during pregnancy, childbirth and the puerperium",400,7
+43531561,43531561,Myasthenia gravis without exacerbation,Myasthenia gravis without exacerbation,400,7
+4204047,4204047,Neurological symptom,Neurological symptom,1092,0
+4305297,4305297,Noncompliance with medication regimen,Noncompliance with medication regimen,667,7
+4322482,4322482,Noncompliance with treatment,Noncompliance with treatment,286,7
+141663,141663,Osteomyelitis,Osteomyelitis,400,7
+903656,903656,Passive smoker,Passive smoker,286,7
+2101922,2101922,Patient screened for future fall risk; documentation of no falls in the past year or only 1 fall without injury in the past year (GER),Patient screened for future fall risk; documentation of no falls in the past year or only 1 fall without injury in the past year (GER),400,7
+201131,201131,Pelvic mass,Pelvic mass,286,7
+443729,443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,Peripheral circulatory disorder due to type 2 diabetes mellitus,1625,0
+253796,253796,Pneumothorax,Pneumothorax,400,7
+380055,380055,Primary malignant neoplasm of brain,Primary malignant neoplasm of brain,143,7
+196360,196360,Primary malignant neoplasm of urinary bladder,Primary malignant neoplasm of urinary bladder,286,7
+314962,314962,Raynaud's disease,Raynaud's disease,286,7
+380706,380706,Regular astigmatism,Regular astigmatism,334,7
+4195677,4195677,Rheumatic tricuspid valve regurgitation,Rheumatic tricuspid valve regurgitation,334,7
+36713471,36713471,Routine postpartum follow-up,Routine postpartum follow-up,286,7
+4132624,4132624,Scheduling,Scheduling,182,7
+40762518,40762518,Secondary diagnosis is present,Secondary diagnosis is present,200,7
+201965,201965,Shock,Shock,667,7
+141825,141825,Simple goiter,Simple goiter,286,7
+137682,137682,Skin sensation disturbance,Skin sensation disturbance,286,7
+77079,77079,Spinal stenosis,Spinal stenosis,250,7
+81151,81151,Sprain of ankle,Sprain of ankle,223,7
+377575,377575,Tinnitus,Tinnitus,286,7
+318169,318169,Varicose veins of lower extremity,Varicose veins of lower extremity,286,7
+441188,441188,"Victim, pedestrian in vehicular AND/OR traffic accident","Victim, pedestrian in vehicular AND/OR traffic accident",286,7
+40484102,40484102,Abnormal finding on evaluation procedure,Abnormal finding on evaluation procedure,250,6
+257004,257004,Acute exacerbation of chronic obstructive airways disease,Acute exacerbation of chronic obstructive airways disease,1092,0
+44782733,44782733,Acute on chronic combined systolic and diastolic heart failure,Acute on chronic combined systolic and diastolic heart failure,334,6
+435508,435508,Adrenal cortical hypofunction,Adrenal cortical hypofunction,334,6
+4105886,4105886,Adverse reaction,Adverse reaction,334,6
+4228361,4228361,Asteatosis cutis,Asteatosis cutis,334,6
+378424,378424,Astigmatism,Astigmatism,334,6
+4289309,4289309,Atrial septal defect,Atrial septal defect,334,6
+442111,442111,Benign neoplasm of ascending colon,Benign neoplasm of ascending colon,334,6
+4242816,4242816,Benign neoplasm of pituitary gland,Benign neoplasm of pituitary gland,334,6
+256449,256449,Bronchiectasis,Bronchiectasis,334,6
+198571,198571,Cardiogenic shock,Cardiogenic shock,500,6
+759852,759852,Cellulitis of left lower limb,Cellulitis of left lower limb,250,6
+903667,903667,Chewing tobacco user,Chewing tobacco user,400,6
+439005,439005,Chronic alcoholism in remission,Chronic alcoholism in remission,200,6
+255841,255841,Chronic bronchitis,Chronic bronchitis,667,6
+320744,320744,Complete atrioventricular block,Complete atrioventricular block,167,6
+379019,379019,Conjunctivitis,Conjunctivitis,334,6
+44784264,44784264,Consultation for malignant neoplasm disease,Consultation for malignant neoplasm disease,223,6
+4009303,4009303,Diabetic ketoacidosis without coma,Diabetic ketoacidosis without coma,400,6
+4163710,4163710,Dilated cardiomyopathy,Dilated cardiomyopathy,334,6
+197917,197917,Disorder of biliary tract,Disorder of biliary tract,334,6
+4153380,4153380,Disorder of carotid artery,Disorder of carotid artery,182,6
+443733,443733,Disorder of eye due to type 2 diabetes mellitus,Disorder of eye due to type 2 diabetes mellitus,334,6
+192353,192353,Disorder of gallbladder,Disorder of gallbladder,334,6
+317248,317248,Disorder of hematopoietic structure,Disorder of hematopoietic structure,334,6
+4191597,4191597,Disorder of refraction,Disorder of refraction,334,6
+201603,201603,Disorder of teeth AND/OR supporting structures,Disorder of teeth AND/OR supporting structures,286,6
+4047982,4047982,Drug indicated,Drug indicated,250,6
+4070750,4070750,Drug-induced constipation,Drug-induced constipation,400,6
+439080,439080,Dyspareunia,Dyspareunia,334,6
+441085,441085,Elderly primigravida,Elderly primigravida,286,6
+379010,379010,Epiretinal membrane,Epiretinal membrane,334,6
+4140830,4140830,Fall on same level,Fall on same level,286,6
+4171594,4171594,Family history of malignant neoplasm,Family history of malignant neoplasm,334,6
+4168217,4168217,Generalized hyperhidrosis,Generalized hyperhidrosis,1000,6
+193871,193871,Genuine stress incontinence,Genuine stress incontinence,334,6
+443871,443871,"Gestation period, 38 weeks","Gestation period, 38 weeks",334,6
+442980,442980,Hand joint stiff,Hand joint stiff,500,6
+4247398,4247398,Health status,Health status,61,6
+37018854,37018854,Hematuria co-occurrent and due to acute cystitis,Hematuria co-occurrent and due to acute cystitis,334,6
+40481896,40481896,Hypertensive urgency,Hypertensive urgency,334,6
+440072,440072,Hypogammaglobulinemia,Hypogammaglobulinemia,334,6
+40483107,40483107,Inflamed seborrheic keratosis,Inflamed seborrheic keratosis,286,6
+444130,444130,Injury of foot,Injury of foot,500,6
+72404,72404,Joint stiffness,Joint stiffness,334,6
+4114222,4114222,Malignant tumor of head and neck,Malignant tumor of head and neck,500,6
+4202667,4202667,Medical consultation on inpatient,Medical consultation on inpatient,400,6
+372892,372892,Metabolic encephalopathy,Metabolic encephalopathy,200,6
+4146581,4146581,Mild intermittent asthma,Mild intermittent asthma,59,6
+45757435,45757435,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,286,6
+441277,441277,Mixed receptive-expressive language disorder,Mixed receptive-expressive language disorder,334,6
+443524,443524,Mixed urinary incontinence,Mixed urinary incontinence,334,6
+433930,433930,Motor vehicle on road in collision with another motor vehicle,Motor vehicle on road in collision with another motor vehicle,286,6
+4089048,4089048,New patient consultation,New patient consultation,400,6
+4170137,4170137,Non-suppurative otitis media,Non-suppurative otitis media,334,6
+4012865,4012865,Normal ocular motility,Normal ocular motility,334,6
+201066,201066,Obstruction of bile duct,Obstruction of bile duct,334,6
+43020581,43020581,On waiting list for organ transplant,On waiting list for organ transplant,286,6
+4025325,4025325,Periapical abscess,Periapical abscess,334,6
+255348,255348,Polymyalgia rheumatica,Polymyalgia rheumatica,286,6
+257683,257683,Posterior rhinorrhea,Posterior rhinorrhea,334,6
+194079,194079,Post-surgical malabsorption,Post-surgical malabsorption,334,6
+134159,134159,Precordial pain,Precordial pain,250,6
+321074,321074,"Pre-existing hypertension complicating pregnancy, childbirth and puerperium","Pre-existing hypertension complicating pregnancy, childbirth and puerperium",334,6
+4239381,4239381,Psychoactive substance abuse,Psychoactive substance abuse,334,6
+4256228,4256228,Respiratory failure,Respiratory failure,1625,0
+4286201,4286201,Schizoaffective disorder,Schizoaffective disorder,667,6
+137053,137053,Seborrheic dermatitis,Seborrheic dermatitis,134,6
+4083556,4083556,Seronegative rheumatoid arthritis,Seronegative rheumatoid arthritis,223,6
+4233565,4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),182,6
+4276360,4276360,Undernutrition,Undernutrition,334,6
+4147938,4147938,Uses depot contraception,Uses depot contraception,400,6
+37108763,37108763,Vaccination needed,Vaccination needed,400,6
+4093531,4093531,Absence of toe,Absence of toe,286,5
+194081,194081,Acute cystitis,Acute cystitis,182,5
+46273719,46273719,Acute hypercapnic respiratory failure,Acute hypercapnic respiratory failure,334,5
+315564,315564,Aortic valve regurgitation,Aortic valve regurgitation,286,5
+443563,443563,Arteriosclerosis of coronary artery bypass graft,Arteriosclerosis of coronary artery bypass graft,400,5
+4003171,4003171,Benign neoplasm of meninges,Benign neoplasm of meninges,400,5
+434626,434626,Borderline personality disorder,Borderline personality disorder,143,5
+256451,256451,Bronchitis,Bronchitis,143,5
+4067069,4067069,Callosity,Callosity,200,5
+4084966,4084966,Candida infection of genital region,Candida infection of genital region,400,5
+134668,134668,Chronic maxillary sinusitis,Chronic maxillary sinusitis,400,5
+4188331,4188331,Chronic pulmonary edema,Chronic pulmonary edema,400,5
+4307981,4307981,Clostridium difficile colitis,Clostridium difficile colitis,400,5
+4305272,4305272,Contraception care,Contraception care,400,5
+133228,133228,Dental caries,Dental caries,250,5
+443587,443587,Diastolic heart failure,Diastolic heart failure,167,5
+35622958,35622958,Disorder in remission,Disorder in remission,667,5
+4028387,4028387,Disorder of integument,Disorder of integument,286,5
+36717267,36717267,Ectasia of thoracic aorta,Ectasia of thoracic aorta,167,5
+4116166,4116166,Elbow joint pain,Elbow joint pain,154,5
+37017812,37017812,Environmental tobacco smoke exposure,Environmental tobacco smoke exposure,1000,5
+27918,27918,Eosinophilic esophagitis,Eosinophilic esophagitis,400,5
+45772937,45772937,Exacerbation of moderate persistent asthma,Exacerbation of moderate persistent asthma,286,5
+433577,433577,Hammer toe,Hammer toe,400,5
+1617701,1617701,"Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months","Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months",334,5
+23325,23325,Heartburn,Heartburn,286,5
+316866,316866,Hypertensive disorder,Hypertensive disorder,400,5
+4124693,4124693,Hypertrophic cardiomyopathy,Hypertrophic cardiomyopathy,286,5
+141375,141375,Hypertrophic condition of skin,Hypertrophic condition of skin,400,5
+440320,440320,Infection caused by Escherichia coli,Infection caused by Escherichia coli,400,5
+4208390,4208390,Inflammation of sacroiliac joint,Inflammation of sacroiliac joint,400,5
+137977,137977,Jaundice,Jaundice,400,5
+42528926,42528926,Lab test location performed [Type],Lab test location performed [Type],400,5
+4001171,4001171,Liver cell carcinoma,Liver cell carcinoma,400,5
+198520,198520,Lumbar spondylosis with myelopathy,Lumbar spondylosis with myelopathy,400,5
+439082,439082,Menopausal syndrome,Menopausal syndrome,334,5
+2106289,2106289,"Most recent diastolic blood pressure greater than or equal to 90 mm Hg (HTN, CKD, CAD) (DM)","Most recent diastolic blood pressure greater than or equal to 90 mm Hg (HTN, CKD, CAD) (DM)",400,5
+2106284,2106284,"Most recent systolic blood pressure greater than or equal to 140 mm Hg (HTN, CKD, CAD) (DM)","Most recent systolic blood pressure greater than or equal to 140 mm Hg (HTN, CKD, CAD) (DM)",200,5
+374313,374313,Neoplasm of uncertain behavior of soft tissues,Neoplasm of uncertain behavior of soft tissues,334,5
+4086701,4086701,No abnormality detected - examination result,No abnormality detected - examination result,400,5
+4053604,4053604,Open wound of lower leg,Open wound of lower leg,400,5
+4242103,4242103,Osteoarthrosis of the carpometacarpal joint of the thumb,Osteoarthrosis of the carpometacarpal joint of the thumb,400,5
+765131,765131,Pain in left foot,Pain in left foot,56,5
+43054908,43054908,"Pediatric systolic blood pressure percentile [Per age, sex and height]","Pediatric systolic blood pressure percentile [Per age, sex and height]",400,5
+139750,139750,Primary malignant neoplasm of skin,Primary malignant neoplasm of skin,400,5
+200687,200687,Renal disorder due to type 1 diabetes mellitus,Renal disorder due to type 1 diabetes mellitus,400,5
+4088034,4088034,Repeat prescription monitoring status,Repeat prescription monitoring status,250,5
+197006,197006,Residual hemorrhoidal skin tags,Residual hemorrhoidal skin tags,334,5
+35624213,35624213,Secondary cataract,Secondary cataract,400,5
+196236,196236,Septic shock,Septic shock,286,5
+4061844,4061844,Skin changes due to chronic exposure to non-ionizing radiation,Skin changes due to chronic exposure to non-ionizing radiation,334,5
+43530727,43530727,Spontaneous cerebral hemorrhage,Spontaneous cerebral hemorrhage,286,5
+36712695,36712695,Suspected fetal abnormality affecting management of mother,Suspected fetal abnormality affecting management of mother,286,5
+46235357,46235357,Total score [AUDIT-C],Total score [AUDIT-C],334,5
+4111412,4111412,"Tricuspid incompetence, non-rheumatic","Tricuspid incompetence, non-rheumatic",400,5
+45768965,45768965,Uncomplicated severe persistent asthma,Uncomplicated severe persistent asthma,223,5
+4207158,4207158,Uses IUD (intrauterine device) contraception,Uses IUD (intrauterine device) contraception,400,5
+197236,197236,Uterine leiomyoma,Uterine leiomyoma,250,5
+141095,141095,Acne,Acne,500,4
+4296653,4296653,Acute ST segment elevation myocardial infarction,Acute ST segment elevation myocardial infarction,500,4
+436075,436075,Adjustment disorder with anxious mood,Adjustment disorder with anxious mood,500,4
+2101942,2101942,"Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)","Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)",286,4
+4320803,4320803,Anomaly of chromosome pair 21,Anomaly of chromosome pair 21,500,4
+725112,725112,"Anticoagulant management for a patient taking warfarin, must include review and interpretation of a new home, office, or lab international normalized ratio (INR) test result, patient instructions, dosage adjustment (as needed), and scheduling of additional test(s), when performed","Anticoagulant management for a patient taking warfarin, must include review and interpretation of a new home, office, or lab international normalized ratio (INR) test result, patient instructions, dosage adjustment (as needed), and scheduling of additional test(s), when performed",167,4
+314054,314054,Aortic valve disorder,Aortic valve disorder,400,4
+138102,138102,Benign neoplasm of skin,Benign neoplasm of skin,667,4
+439674,439674,Chronic viral hepatitis B without delta-agent,Chronic viral hepatitis B without delta-agent,500,4
+2101897,2101897,"Current tobacco non-user (CAD, CAP, COPD, PV) (DM) (IBD)","Current tobacco non-user (CAD, CAP, COPD, PV) (DM) (IBD)",100,4
+201820,201820,Diabetes mellitus,Diabetes mellitus,500,4
+373474,373474,Diplopia,Diplopia,223,4
+193165,193165,Disorder of adrenal gland,Disorder of adrenal gland,250,4
+200452,200452,Disorder of female genital organs,Disorder of female genital organs,500,4
+45770886,45770886,Disorder of plasma protein metabolism,Disorder of plasma protein metabolism,500,4
+4138760,4138760,Exacerbation of intermittent asthma,Exacerbation of intermittent asthma,500,4
+40757770,40757770,"Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]","Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]",250,4
+43530690,43530690,Foot ulcer due to type 2 diabetes mellitus,Foot ulcer due to type 2 diabetes mellitus,134,4
+26942,26942,Hemoglobin SS disease with crisis,Hemoglobin SS disease with crisis,250,4
+3026671,3026671,History of Alcohol use Narrative,History of Alcohol use Narrative,500,4
+40770405,40770405,History of Procedure,History of Procedure,286,4
+40758549,40758549,Hours after meal [Time],Hours after meal [Time],286,4
+319034,319034,Hypertensive heart disease without congestive heart failure,Hypertensive heart disease without congestive heart failure,286,4
+78474,78474,Hypertrophy of breast,Hypertrophy of breast,500,4
+4098611,4098611,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,500,4
+197675,197675,Incontinence of feces,Incontinence of feces,400,4
+4044935,4044935,Indication of,Indication of,223,4
+4043371,4043371,Inflammatory disorder of digestive tract,Inflammatory disorder of digestive tract,500,4
+194993,194993,Intestinal malabsorption,Intestinal malabsorption,286,4
+4057826,4057826,Irritable bowel syndrome with diarrhea,Irritable bowel syndrome with diarrhea,500,4
+3002314,3002314,Last menstrual period start date,Last menstrual period start date,334,4
+81379,81379,Lateral epicondylitis,Lateral epicondylitis,500,4
+46271893,46271893,Long-term current use of immunosuppressive drug,Long-term current use of immunosuppressive drug,400,4
+4321437,4321437,Medication education,Medication education,334,4
+4172970,4172970,Nontraumatic rotator cuff tear,Nontraumatic rotator cuff tear,500,4
+73819,73819,Pain of breast,Pain of breast,167,4
+3016379,3016379,Pathologist name,Pathologist name,500,4
+192680,192680,Portal hypertension,Portal hypertension,500,4
+195321,195321,Postmenopausal bleeding,Postmenopausal bleeding,400,4
+4167493,4167493,Pregnancy-induced hypertension,Pregnancy-induced hypertension,500,4
+2101910,2101910,Presence or absence of urinary incontinence assessed (GER),Presence or absence of urinary incontinence assessed (GER),500,4
+4247719,4247719,Primary malignant neoplasm of ascending colon,Primary malignant neoplasm of ascending colon,667,4
+432845,432845,Primary malignant neoplasm of central portion of female breast,Primary malignant neoplasm of central portion of female breast,200,4
+46286594,46286594,Problem related to lifestyle,Problem related to lifestyle,500,4
+4117686,4117686,Rheumatoid arthritis of multiple joints,Rheumatoid arthritis of multiple joints,500,4
+4244078,4244078,"Schizoaffective disorder, bipolar type","Schizoaffective disorder, bipolar type",400,4
+42742432,42742432,Screening for depression performed (DEM),Screening for depression performed (DEM),500,4
+3001034,3001034,Specimen site Narrative,Specimen site Narrative,500,4
+135526,135526,Spinal cord disease,Spinal cord disease,500,4
+4059290,4059290,Steatosis of liver,Steatosis of liver,3250,0
+437969,437969,Talipes planus,Talipes planus,500,4
+26662,26662,Testicular hypofunction,Testicular hypofunction,106,4
+138387,138387,Thyrotoxicosis,Thyrotoxicosis,500,4
+40758326,40758326,Transfusion status Qualitative,Transfusion status Qualitative,400,4
+42539698,42539698,Transplanted lung present,Transplanted lung present,182,4
+4149369,4149369,Uses spermicidal contraception,Uses spermicidal contraception,500,4
+439935,439935,Abnormal posture,Abnormal posture,400,3
+77963,77963,Achilles tendinitis,Achilles tendinitis,667,3
+380111,380111,Acute atopic conjunctivitis,Acute atopic conjunctivitis,250,3
+40480602,40480602,Acute on chronic systolic heart failure,Acute on chronic systolic heart failure,106,3
+443558,443558,Allergic rhinitis caused by animal dander,Allergic rhinitis caused by animal dander,1000,3
+378419,378419,Alzheimer's disease,Alzheimer's disease,334,3
+441258,441258,Anemia in neoplastic disease,Anemia in neoplastic disease,400,3
+4145825,4145825,Anorectal disorder,Anorectal disorder,250,3
+37110250,37110250,Atherosclerosis of artery of lower limb,Atherosclerosis of artery of lower limb,154,3
+4130023,4130023,Atrophy of thyroid - acquired,Atrophy of thyroid - acquired,250,3
+374367,374367,Bilateral hearing loss,Bilateral hearing loss,667,3
+759853,759853,Cellulitis of right lower limb,Cellulitis of right lower limb,667,3
+4177862,4177862,Chronic hypoxemic respiratory failure,Chronic hypoxemic respiratory failure,286,3
+40217297,40217297,"Clinical decision support mechanism stanson, as defined by the medicare appropriate use criteria program","Clinical decision support mechanism stanson, as defined by the medicare appropriate use criteria program",250,3
+195575,195575,Crohn's disease of small and large intestines,Crohn's disease of small and large intestines,286,3
+196738,196738,Disorder of male genital organ,Disorder of male genital organ,667,3
+2102074,2102074,Functional status assessed (COA) (RA),Functional status assessed (COA) (RA),334,3
+45884038,45884038,Heavy tobacco smoker,Heavy tobacco smoker,500,3
+261687,261687,Hemoptysis,Hemoptysis,250,3
+4188155,4188155,Hernia of anterior abdominal wall,Hernia of anterior abdominal wall,334,3
+4057044,4057044,Injury of muscle and tendon at neck level,Injury of muscle and tendon at neck level,1000,3
+315085,315085,Lymphadenopathy,Lymphadenopathy,667,3
+141232,141232,Malignant melanoma of skin,Malignant melanoma of skin,667,3
+439795,439795,Minimal cognitive impairment,Minimal cognitive impairment,334,3
+4098458,4098458,Moderate protein-calorie malnutrition (weight for age 60-74 percent of standard),Moderate protein-calorie malnutrition (weight for age 60-74 percent of standard),667,3
+40481872,40481872,Multigravida of advanced maternal age,Multigravida of advanced maternal age,84,3
+4200520,4200520,Neck swelling,Neck swelling,400,3
+45766207,45766207,Non-rheumatic mitral valve stenosis with regurgitation,Non-rheumatic mitral valve stenosis with regurgitation,334,3
+4031164,4031164,Non-scarring alopecia,Non-scarring alopecia,2171,0
+73819,73819,Pain of breast,Pain of breast,286,3
+2101943,2101943,Pain severity quantified; pain present (COA) (ONC),Pain severity quantified; pain present (COA) (ONC),334,3
+196360,196360,Primary malignant neoplasm of bladder,Primary malignant neoplasm of bladder,667,3
+440956,440956,Primary malignant neoplasm of upper inner quadrant of female breast,Primary malignant neoplasm of upper inner quadrant of female breast,667,3
+4300515,4300515,Respiratory function,Respiratory function,3250,0
+435829,435829,Rheumatic disease of heart valve,Rheumatic disease of heart valve,250,3
+4036084,4036084,Snuff use,Snuff use,100,3
+4111921,4111921,Squamous cell carcinoma of skin,Squamous cell carcinoma of skin,667,3
+4306292,4306292,Upper abdominal pain,Upper abdominal pain,667,3
+36661383,36661383,Whether patient resides in a congregate care setting,Whether patient resides in a congregate care setting,667,3
+37109843,37109843,Absence of lower limb,Absence of lower limb,223,2
+141816,141816,Acute lymphoid leukemia in remission,Acute lymphoid leukemia in remission,500,2
+312327,312327,Acute myocardial infarction,Acute myocardial infarction,334,2
+40480603,40480603,Acute systolic heart failure,Acute systolic heart failure,286,2
+441482,441482,Administrative reason for encounter,Administrative reason for encounter,125,2
+256439,256439,Allergic rhinitis caused by pollen,Allergic rhinitis caused by pollen,167,2
+4338120,4338120,Altered bowel function,Altered bowel function,500,2
+440424,440424,Aphasia,Aphasia,1000,2
+4115173,4115173,Atrial premature complex,Atrial premature complex,286,2
+443344,443344,Barrett's esophagus,Barrett's esophagus,286,2
+4023310,4023310,Blindness AND/OR vision impairment level,Blindness AND/OR vision impairment level,1000,2
+256449,256449,Bronchiectasis,Bronchiectasis,2171,0
+40479192,40479192,Chronic systolic heart failure,Chronic systolic heart failure,1625,0
+31821,31821,Disorder of endocrine system,Disorder of endocrine system,1000,2
+73008,73008,Enthesopathy,Enthesopathy,400,2
+4197819,4197819,Fibrosis of lung,Fibrosis of lung,936,0
+4166231,4166231,Genetic predisposition,Genetic predisposition,125,2
+444267,444267,"Gestation period, 35 weeks","Gestation period, 35 weeks",500,2
+4231770,4231770,Hereditary thrombophilia,Hereditary thrombophilia,667,2
+443410,443410,Infective pneumonia,Infective pneumonia,1000,2
+444131,444131,Injury of lower leg,Injury of lower leg,500,2
+4001664,4001664,Intrahepatic bile duct carcinoma,Intrahepatic bile duct carcinoma,500,2
+4150299,4150299,Localization-related idiopathic epilepsy,Localization-related idiopathic epilepsy,250,2
+36713107,36713107,Lumbar spondylolisthesis,Lumbar spondylolisthesis,182,2
+4204047,4204047,Neurological symptom,Neurological symptom,1000,2
+372629,372629,Nonexudative age-related macular degeneration,Nonexudative age-related macular degeneration,1000,2
+135287,135287,Non-neoplastic nevus,Non-neoplastic nevus,2000,2
+3661408,3661408,Pneumonia caused by SARS-CoV-2,Pneumonia caused by SARS-CoV-2,819,0
+4084229,4084229,Primary gout,Primary gout,1000,2
+376647,376647,Primary malignant neoplasm of soft tissues,Primary malignant neoplasm of soft tissues,400,2
+46234710,46234710,Symptom,Symptom,200,2
+4127117,4127117,Varicose ulcer of lower extremity,Varicose ulcer of lower extremity,250,2
+140641,140641,Verruca vulgaris,Verruca vulgaris,223,2
+4104431,4104431,Alcohol intoxication,Alcohol intoxication,334,1
+4098292,4098292,Antiphospholipid syndrome,Antiphospholipid syndrome,500,1
+3015556,3015556,Blood bank comment,Blood bank comment,667,1
+3011011,3011011,Blood product unit [Identifier],Blood product unit [Identifier],334,1
+29735,29735,Candidiasis of mouth,Candidiasis of mouth,334,1
+377910,377910,Deviated nasal septum,Deviated nasal septum,200,1
+4302537,4302537,Digestive system finding,Digestive system finding,400,1
+442558,442558,"Gestation period, 32 weeks","Gestation period, 32 weeks",1000,1
+437541,437541,Glaucoma,Glaucoma,182,1
+4297894,4297894,Greater trochanteric pain syndrome,Greater trochanteric pain syndrome,1000,1
+139099,139099,Ingrowing nail,Ingrowing nail,286,1
+45768480,45768480,Longstanding persistent atrial fibrillation,Longstanding persistent atrial fibrillation,667,1
+4185711,4185711,Loss of sense of smell,Loss of sense of smell,2171,0
+380097,380097,Macular edema due to diabetes mellitus,Macular edema due to diabetes mellitus,400,1
+35624757,35624757,Neutropenia due to and following chemotherapy,Neutropenia due to and following chemotherapy,400,1
+4108814,4108814,Pericardial effusion - noninflammatory,Pericardial effusion - noninflammatory,334,1
+75897,75897,Polyarthropathy,Polyarthropathy,1000,1
+136934,136934,Primary hyperparathyroidism,Primary hyperparathyroidism,667,1
+43530714,43530714,Sensory disorder of smell and/or taste,Sensory disorder of smell and/or taste,1625,0
+139900,139900,Urticaria,Urticaria,2000,1
+46236895,46236895,Whether the patient was hospitalized for condition of interest,Whether the patient was hospitalized for condition of interest,667,1
+376707,376707,Acute conjunctivitis,Acute conjunctivitis,2000,0
+441542,441542,Anxiety,Anxiety,286,0
+4309063,4309063,Behavior finding,Behavior finding,667,0
+4134120,4134120,Cerebral palsy,Cerebral palsy,334,0
+434490,434490,Chill,Chill,500,0
+4165998,4165998,Generalized enlarged lymph nodes,Generalized enlarged lymph nodes,2000,0
+4033837,4033837,Melanocytic nevus of trunk,Melanocytic nevus of trunk,500,0
+435988,435988,"Motor vehicle accident, driver","Motor vehicle accident, driver",106,0
+4301699,4301699,Neuropathy,Neuropathy,250,0
+4202045,4202045,Postviral fatigue syndrome,Postviral fatigue syndrome,1625,0
+200527,200527,Splenomegaly,Splenomegaly,334,0
+45773394,45773394,Surveillance of oral contraception,Surveillance of oral contraception,400,0
