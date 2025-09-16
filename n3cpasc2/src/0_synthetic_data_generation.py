@@ -321,9 +321,11 @@ def generate_fact_table(
         )
 
         visit_df[col_name] = (
-            (visit_df["visit_date"] >= threshold_date) &
+            (visit_df["visit_start_date"] >= threshold_date) &
             (visit_df["person_id"] % seed_1 == 0) &
             (visit_df["visit_id"] % seed_2 == 0)
         ).astype(int)
 
     return visit_df
+
+
