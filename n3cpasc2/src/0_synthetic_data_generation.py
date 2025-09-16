@@ -310,7 +310,7 @@ def generate_fact_table(
     """
 
     visit_df = visit_df.copy()
-    visit_df["visit_date"] = pd.to_datetime(visit_df["visit_date"])
+    visit_df["visit_start_date"] = pd.to_datetime(visit_df["visit_start_date"])
 
     for col_name, seeds in probabilities.items():
         seed_1 = seeds["seed_1"]
