@@ -152,7 +152,7 @@ def selected_features(conditions_for_the_cohort,
 
     return df
     
-def condition_features_alt(conditions_for_the_cohort, selected_features, window_spans, basic_cohort):
+def condition_features(conditions_for_the_cohort, selected_features, window_spans, basic_cohort):
     selected_features = selected_features
     df = conditions_for_the_cohort
     df = df.join(selected_features, df['condition_concept_id'] == selected_features['descendant_concept_id'])
