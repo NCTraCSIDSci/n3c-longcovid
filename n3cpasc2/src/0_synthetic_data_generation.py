@@ -264,39 +264,13 @@ def generate_condition_table(
 
     return pd.DataFrame(condition_data)
 
-    """
-    Generate a synthetic OMOP CONDITION_OCCURRENCE table based on a VISIT_OCCURRENCE table.
-
-    Parameters:
-        visit_df (pd.DataFrame): DataFrame of VISIT_OCCURRENCE records.
-        max_conditions_per_visit (int): Maximum number of conditions per visit.
-
-    Returns:
-        pd.DataFrame: DataFrame containing synthetic CONDITION_OCCURRENCE records.
-    """
-    condition_data = []
-    condition_id = 1
-    for _, visit in visit_df.iterrows():
-        num_conditions = random.randint(1, max_conditions_per_visit)
-        for _ in range(num_conditions):
-            condition_data.append({
-                "condition_occurrence_id": condition_id,
-                "person_id": visit["person_id"],
-                "condition_concept_id": random.choice([319835, 432867, 440383]),
-                "condition_start_date": visit["visit_start_date"],
-                "condition_type_concept_id": random.choice([32020, 32021]),
-                "visit_occurrence_id": visit["visit_occurrence_id"],
-                "condition_source_value": f"Cond{condition_id}"
-            })
-            condition_id += 1
-    return pd.DataFrame(condition_data)
 
 def generate_fact_table(
     visit_df,
     covid_earliest_date="2020-03-01",
     long_covid_earliest_date="2020-06-01",
     probabilities = {
-            "PCR_AG_Pos": {"seed_1": 5, "seed_2": 5},
+            "PCR_AG_Pos": {"seed_1": 2, "seed_2": 5},
             "LL_COVID_diagnosis": {"seed_1": 13, "seed_2": 10},
             "PAX1_NIRMATRELVIR": {"seed_1": 5, "seed_2": 8},
             "PAX2_RITONAVIR": {"seed_1": 5, "seed_2": 12},
@@ -327,7 +301,7 @@ def generate_fact_table(
         Dictionary mapping each synthetic column name to its potential for being assigned a value of 1. 
         Assuming uniformly distributed ID numbers, the share of population is the inverse of the product of the seeds.
         This is a very pseudo level of pseudorandomness.
-        
+
     Returns:
     -------
     pyspark.sql.DataFrame
@@ -335,22 +309,21 @@ def generate_fact_table(
         Note that the synthetic binary flags are generated independently, therefore unrealistically.
     """
 
-    visit_skinny = visit_df.select("person_id", "visit_id", "visit_date")
+    visit_df = visit_df.copy()
+    visit_df["visit_date"] = pd.to_datetime(visit_df["visit_date"])
 
     for col_name, seeds in probabilities.items():
         seed_1 = seeds["seed_1"]
         seed_2 = seeds["seed_2"]
-        threshold_date = long_covid_earliest_date if "Long_COVID" in col_name or col_name == "B94_8" else covid_earliest_date
-
-        visit_skinny = visit_skinny.withColumn(
-            col_name,
-            F.when(
-                (F.col("visit_date") >= threshold_date) &
-                (F.col("person_id") % seed_1 == 0) &
-                (F.col("visit_id") % seed_2 == 0),
-                1
-            ).otherwise(0)
+        threshold_date = pd.to_datetime(
+            long_covid_earliest_date if "Long_COVID" in col_name or col_name == "B94_8"
+            else covid_earliest_date
         )
 
-    return visit_skinny
+        visit_df[col_name] = (
+            (visit_df["visit_date"] >= threshold_date) &
+            (visit_df["person_id"] % seed_1 == 0) &
+            (visit_df["visit_id"] % seed_2 == 0)
+        ).astype(int)
 
+    return visit_df
