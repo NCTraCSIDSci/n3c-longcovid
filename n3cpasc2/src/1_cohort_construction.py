@@ -4,8 +4,11 @@ from pyspark.sql import Window
 def covid_cohort(Pasc_all_patients_fact_day_combine):
     """
     This function is used to generate an intermediate table for the cohort_and_idx and infection_dates tables.
-
-
+    It identifies all patients with a positive COVID test, a COVID diagnosis, a Long COVID diagnosis, or a prescription for Paxlovid or Remdesivir.
+    It also identifies the earliest date of each of these events for each patient.
+    The output table is then used to generate the cohort_and_idx and infection_dates tables.
+    This function might be skipped in usage, as it is dependent on the non-standard fact table.
+    Users may finde it easier to create the cohort_and_idx and infection_dates tables directly without this intermediate step.
     """
 
     ###############################################
@@ -79,7 +82,11 @@ def covid_cohort(Pasc_all_patients_fact_day_combine):
 
 def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
     """
-    This is generated from the cohort and fact table, and is the end 
+    This is generated from the cohort and fact table, and is used to generate blackout dates around infection dates.
+    It identifies all patients with a positive COVID test, and then finds all subsequent positive tests that are at least 60 days after the previous positive test.
+    The output table contains one row per patient per infection, with the infection date and an infection number (0 for the first infection, 1 for the first reinfection, etc).
+    Note that this function is dependent on the non-standard fact table. 
+    Users may finde it easier to create the infection_dates table directly without this intermediate step.
     """
 
     all_patients_visit_table = Pasc_all_patients_fact_day_combine.select('person_id', 'date', 'PCR_AG_Pos')
@@ -152,7 +159,15 @@ def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
 
 def cohort_and_idx(covid_cohort):
     """
-    
+    This function generates the cohort_and_idx table, which contains one row per patient in the cohort, with their person_id and the earliest of their positive test date, COVID diagnosis date, or Paxlovid/Remdesivir prescription date as their RECOVER_covid_index_date.
+    The RECOVER_covid_index_date is used as the index date for the cohort.
+    It is generated from the covid_cohort table.
+    1. If a patient has a positive test date, that is their index date. 
+    2. If they do not have a positive test date but have a COVID diagnosis date, that is their index date.
+    3. If they have neither a positive test date nor a COVID diagnosis date, but have a Paxlovid or Remdesivir prescription date, that is their index date.
+    4. If they have none of these, they are not included in the cohort_and_idx table.
+    This function might be skipped in usage, as it is downstream of the covid_cohort table.
+    Users may finde it easier to create the cohort_and_idx table directly without this intermediate step.
     """
     df = covid_cohort
     df = df.withColumnRenamed('COVID_first_PCR_or_AG_lab_positive','pos_test_idx')
@@ -176,7 +191,14 @@ def cohort_and_idx(covid_cohort):
     df = df.filter(df['RECOVER_covid_index_date'].isNotNull())
     return df
 
-def blackout_dates(cohort_and_idx, infection_dates):
+def blackout_dates(cohort_and_idx, 
+                   infection_dates,
+                   blackout_before_days = 7,
+                   blackout_after_days = 28):
+    """
+    This function generates blackout dates around infection dates for each patient in the cohort.
+    The blackout period is defined as 7 days before to 28 days after each infection date
+    """
     # Black out the time around infection dates:
     infection_based = (
         cohort_and_idx
@@ -184,8 +206,8 @@ def blackout_dates(cohort_and_idx, infection_dates):
         .select(
             F.col("person_id"),
             F.col("infection_date"),
-            F.date_add(F.col("infection_date"), -7).alias("blackout_begin"),
-            F.date_add(F.col("infection_date"), 28).alias("blackout_end")
+            F.date_add(F.col("infection_date"), -blackout_before_days).alias("blackout_begin"),
+            F.date_add(F.col("infection_date"), blackout_after_days).alias("blackout_end")
         )
     )
     # Also black out time around inferred infections based on positive test dates, u07 diagnoses, and pax / rem prescriptions.
@@ -197,14 +219,25 @@ def blackout_dates(cohort_and_idx, infection_dates):
             F.col("pax_or_rem_idx").isNotNull()
         )
         .withColumn("infection_date", F.array_min(F.array("pos_test_idx", "u07_any_idx", "pax_or_rem_idx")))
-        .withColumn("blackout_begin", F.date_add(F.col("infection_date"), -7))
-        .withColumn("blackout_end", F.date_add(F.col("infection_date"), 28))
+        .withColumn("blackout_begin", F.date_add(F.col("infection_date"), -blackout_before_days))
+        .withColumn("blackout_end", F.date_add(F.col("infection_date"), blackout_after_days))
         .select("person_id", "infection_date", "blackout_begin", "blackout_end")
     )
     union_df = infection_based.unionByName(diag_rx_based).distinct()
     return union_df
 
-def basic_cohort(recover_release_person, cohort_and_idx, window_spans):
+def basic_cohort(recover_release_person, 
+                 cohort_and_idx, 
+                 window_spans,
+                 min_age = 18,
+                 max_age = 100,
+                 testing_limit = None):
+    """
+    Generate the basic cohort table, which contains one row per person per window.
+    This is generated from the person table, the cohort_and_idx table, and the window_spans table.
+    It is used extensively in downstream analyses.
+    The testing_limit parameter can be used to limit the number of rows for testing purposes.
+    """
     df = recover_release_person[['person_id','year_of_birth','gender_concept_name']]
     df2 = cohort_and_idx[['person_id']]
     df = df2.join(df, on='person_id')
@@ -217,10 +250,11 @@ def basic_cohort(recover_release_person, cohort_and_idx, window_spans):
     df = df.drop('window_start')
     df = df.withColumnRenamed('window_name','window')
 
-    df = df.filter(df['window_age'] >= 18)
-    df = df.filter(df['window_age'] < 100)
-    # Below line is used for faster testing cycles. If uncommented in a release branch, something is wrong.
-    # df = df.limit(100000)
+    df = df.filter(df['window_age'] >= min_age)
+    df = df.filter(df['window_age'] < max_age)
+    # Below line is used for faster testing cycles
+    if testing_limit is not None:
+        df = df.limit(testing_limit)
     return df
 
 def labels(recover_release_condition_occurrence, 
@@ -314,6 +348,10 @@ def labels(recover_release_condition_occurrence,
     return df
     
 def post_visit_counts_in_windows(basic_cohort, blackout_dates, recover_release_microvisit_to_macrovisit, window_spans):
+    """
+    This creates the visit counts features.
+    Visit count features do not always contribute significantly to model performance.
+    """
     # join the cohort with the blackout dates
     df = basic_cohort
     df = df.groupBy('person_id').count()

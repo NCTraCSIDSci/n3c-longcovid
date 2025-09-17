@@ -289,6 +289,9 @@ def generate_fact_table(
     This function adds binary indicator columns for various COVID-related diagnoses and treatments
     based on visit dates and randomized probabilities. It is useful for testing cohort logic or
     simulating patient data in the absence of real clinical records. 
+
+    Note that the labels are populated independently from this table, which may lead to unrealistic combinations.
+    With real data, these flags would be correlated with the conditions, observations, and visits tables.
     
     Parameters:
     ----------
