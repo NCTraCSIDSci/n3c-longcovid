@@ -34,9 +34,9 @@ def process_data_full(basic_cohort,
     return df
 
 def model_scores(input_data, pasc_trained_model):
-    model_training = pasc_trained_model
     df = input_data
-    model = model_training.stages[0].model
+    model = pasc_trained_model
+    # model = pasc_trained_model.stages[0].model
     def run_model(row):
         arr = np.array([x for x in row])[None,:]
         y_pred =  model.predict_proba(arr)
@@ -51,3 +51,4 @@ def model_scores(input_data, pasc_trained_model):
                     )
     new_df = X[['person_id','window','model_score']]
     return new_df
+
