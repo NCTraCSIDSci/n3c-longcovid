@@ -126,8 +126,8 @@ def train_data_full(training_set,
     df = df.drop('post_nonhosp_visit_count')
     df = df.drop('post_hosp_count')
     
-    df = df.orderBy(df.person_id)\
-        .withColumn('hold_for_val',F.rand(seed=rand_seed) < validation_share)
+    df = df.orderBy(df.person_id)
+    df = df.withColumn('hold_for_val',F.rand(seed=rand_seed) < validation_share)
     return df
     
 def pasc_train_model(model_train_data,
