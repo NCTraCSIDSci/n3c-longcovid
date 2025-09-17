@@ -22,7 +22,7 @@ The models, their intents, and their differences are described in the above pape
 ## Prerequisites
 In order to run this code, you will need:
 * EHR data in the OMOP data model
-* If utilizing the n3cpasc1 pipelien, at least some COVID positive patients in your data, indicated through positive PCR or antigen tests (LOINC-coded) or U07.1 diagnosis codes.
+* If utilizing the n3cpasc1 pipeline, at least some COVID positive patients in your data, indicated through positive PCR or antigen tests (LOINC-coded) or U07.1 diagnosis codes.
 * The ability to run Python against your OMOP data model.
 * If training a new model using the n3cpasc2 pipeline, at least some Long COVID positive patients in your data.
 
