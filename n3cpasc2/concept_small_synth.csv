@@ -1,0 +1,1011 @@
+concept_id,concept_name,domain_id
+4110815,Sensorineural hearing loss of bilateral ears,Condition
+4093672,Knee stiff,Condition
+442980,Hand joint stiff,Condition
+72711,Shoulder stiff,Condition
+4135932,Uterine scar from previous surgery affecting pregnancy,Condition
+196523,Diarrhea,Condition
+195575,Crohn's disease of small and large intestines,Condition
+4299535,Pregnancy,Observation
+604801,Pain of knee region,Condition
+197988,Generalized abdominal pain,Condition
+4012865,Normal ocular motility,Condition
+4011457,Patient visit for,Observation
+4019967,Dependence on renal dialysis,Observation
+4024561,Pain in lower limb,Condition
+135930,Musculoskeletal finding,Condition
+35609491,Alcohol units consumed per week,Observation
+439795,Minimal cognitive impairment,Condition
+4011683,Escherichia coli,Observation
+444094,Finding related to pregnancy,Condition
+4041285,Urogenital finding,Condition
+440072,Hypogammaglobulinemia,Condition
+760895,Mass of left breast,Condition
+765053,Mass of right breast,Condition
+37108763,Vaccination needed,Observation
+4031364,Healthcare supervision finding,Observation
+4305297,Noncompliance with medication regimen,Observation
+36717001,Long-term current use of aspirin,Observation
+4046550,Postoperative care,Observation
+4047564,Routine antenatal care,Observation
+4047982,Drug indicated,Observation
+443874,"Gestation period, 34 weeks",Condition
+443871,"Gestation period, 38 weeks",Condition
+40304526,Nocturia,Condition
+197320,Acute kidney injury,Condition
+75860,Constipation,Condition
+4033240,Preliminary diagnosis,Observation
+37016200,Exposure to viral disease,Observation
+4051114,Family history of diabetes mellitus,Observation
+439141,Abnormal weight gain,Observation
+134736,Backache,Condition
+259153,Pain in throat,Condition
+4037487,Symptom aggravating factors,Observation
+373852,Neuralgia,Condition
+4060705,Body mass index 25-29 - overweight,Observation
+4060985,Body mass index 30+ - obesity,Observation
+23325,Heartburn,Condition
+197672,Urinary incontinence,Condition
+27674,Nausea and vomiting,Condition
+4014295,Single live birth,Condition
+137977,Jaundice,Condition
+4081759,Transplant follow-up,Observation
+441482,Administrative reason for encounter,Observation
+4089048,New patient consultation,Observation
+4077895,Pain in finger,Condition
+436583,Fall,Observation
+375545,Cataract,Condition
+75004,Frank hematuria,Condition
+4113821,Anxiety state,Condition
+4116166,Elbow joint pain,Condition
+4115367,Wrist joint pain,Condition
+4056713,"Injury of muscle and tendon of abdomen, lower back and pelvis",Condition
+437165,Motor vehicle traffic accident,Observation
+200219,Abdominal pain,Condition
+437175,"Fall on same level from slipping, tripping or stumbling",Observation
+437478,Bite of nonvenomous arthropod,Observation
+193871,Genuine stress incontinence,Condition
+4329041,Pain,Condition
+437643,Abnormal gait,Observation
+4330445,Pleuritic pain,Condition
+4023050,Sexual partners,Observation
+4036084,Snuff use,Observation
+4044935,Indication of,Observation
+437525,Overweight,Observation
+4088034,Repeat prescription monitoring status,Observation
+4088035,Screening status,Observation
+4081648,Acute vaginitis,Condition
+4096682,Bleeding from nose,Condition
+4092879,Absent kidney,Observation
+4093347,Stool finding,Observation
+4093531,Absence of toe,Condition
+378253,Headache,Condition
+4108442,Nitrous oxide concentration,Observation
+4117957,Activity,Observation
+443782,Tremor,Condition
+79908,Muscle weakness,Condition
+194696,Dysmenorrhea,Condition
+4148407,FH: Cardiovascular disease,Observation
+4132434,"Gestation period, 8 weeks",Condition
+435928,Abnormal weight loss,Observation
+312437,Dyspnea,Condition
+433595,Edema,Condition
+441829,Hyperosmolality and or hypernatremia,Condition
+78232,Shoulder joint pain,Condition
+78508,Arthralgia of the ankle and/or foot,Condition
+312998,Pain in thoracic spine,Condition
+4147938,Uses depot contraception,Observation
+4149369,Uses spermicidal contraception,Observation
+433316,Dizziness and giddiness,Condition
+4152351,"Abdominal distension, gaseous",Condition
+192438,Abdominal mass,Condition
+4099889,Anemia of pregnancy,Condition
+4168216,Pelvic and perineal pain,Condition
+4171917,Localized edema,Condition
+433930,Motor vehicle on road in collision with another motor vehicle,Observation
+4171594,Family history of cancer,Observation
+194133,Low back pain,Condition
+4150125,Persistent pain following procedure,Condition
+4111231,Pain in toe,Condition
+4115169,Pain in left arm,Condition
+4115170,Pain in right arm,Condition
+4117695,Pain in left lower limb,Condition
+4115171,Pain in right lower limb,Condition
+441085,Elderly primigravida,Condition
+75650,Proteinuria,Condition
+77670,Chest pain,Condition
+200843,Finding of frequency of urination,Observation
+4103476,Pain of ear,Condition
+194175,Left upper quadrant pain,Condition
+195083,Left lower quadrant pain,Condition
+198263,Right upper quadrant pain,Condition
+193322,Right lower quadrant pain,Condition
+4200520,Neck swelling,Condition
+4200056,Finding of vision of eye,Observation
+4201387,Tracheostomy present,Condition
+4119307,Neurogenic claudication,Condition
+4119499,Not for resuscitation,Observation
+4147829,Pain in pelvis,Condition
+443364,Patient encounter status,Observation
+4137274,Discharge to establishment,Observation
+315085,Lymphadenopathy,Condition
+4204047,Neurological symptom,Condition
+4206148,Syncope and collapse,Condition
+4147565,Body mass index less than 20,Observation
+201916,Ureteric stone,Condition
+4207158,Uses IUD (intrauterine device) contraception,Observation
+4151134,Cyst of pancreas,Condition
+765131,Pain in left foot,Condition
+762294,Pain in right foot,Condition
+762296,Pain in right hand,Condition
+4139934,Homeless,Observation
+4140830,Fall on same level,Observation
+4141454,Recurrent major depression in partial remission,Condition
+440029,Viral disease,Condition
+435796,Dehydration,Condition
+141104,Intervertebral disc disorder of lumbar region with myelopathy,Condition
+444070,Tachycardia,Condition
+440383,Depressive disorder,Condition
+4261842,Sick sinus syndrome,Condition
+43530742,Paralytic syndrome on one side of the body as late effect of cerebrovascular accident,Condition
+253796,Pneumothorax,Condition
+75897,Polyarthropathy,Condition
+443392,Malignant neoplastic disease,Condition
+4271661,Characteristic of pain,Observation
+432456,Alcohol intake - finding,Observation
+4152283,Main spoken language,Observation
+141693,Elevated blood-pressure reading without diagnosis of hypertension,Observation
+4301699,Neuropathy,Condition
+435508,Adrenal cortical hypofunction,Condition
+4302537,Digestive system finding,Condition
+437663,Fever,Condition
+4305080,Abnormal breathing,Condition
+4308655,Nonstress test,Observation
+195588,Cystitis,Condition
+4305272,Contraception care,Observation
+4192791,Pain management (specialty),Observation
+80180,Osteoarthritis,Condition
+199075,Neurogenic bladder,Observation
+73553,Arthropathy,Condition
+4219336,Tobacco,Observation
+4247398,Health status,Observation
+4256640,Body mass index 40+ - severely obese,Observation
+4254485,Finding related to attentiveness,Observation
+4132624,Scheduling,Observation
+4135421,Body mass index 20-24 - normal,Observation
+443524,Mixed urinary incontinence,Condition
+4186037,Aftercare,Observation
+4218813,Third trimester pregnancy,Condition
+439224,Allergy to drug,Observation
+4168192,Procedure not done,Observation
+4167217,Family history of clinical finding,Observation
+4220163,Tidal volume setting,Observation
+4305831,Exposure to potentially harmful entity,Observation
+372448,Loss of consciousness,Observation
+436222,Altered mental status,Observation
+441408,Vomiting,Condition
+31967,Nausea,Condition
+4312538,Inadequate immune status,Observation
+4174707,Dietary management surveillance,Observation
+4138763,Acceptable pain level status,Observation
+4142875,Solitary nodule of lung,Condition
+4179963,Family history of breast cancer,Observation
+439935,Abnormal posture,Condition
+4334494,Family history of malignant neoplasm of digestive organ,Observation
+763082,Documentation of past medical history,Observation
+442355,"Gestation period, 37 weeks",Condition
+40479192,Chronic systolic heart failure,Condition
+40484102,Abnormal finding on evaluation procedure,Condition
+40481872,Multigravida of advanced maternal age,Observation
+40479426,Exposure to sexually transmissible disorder,Observation
+140821,Spasm,Condition
+4164898,Diverticulosis of large intestine without diverticulitis,Condition
+444101,Hypertensive heart failure,Condition
+201254,Type 1 diabetes mellitus,Condition
+601619,Pain of right knee joint,Condition
+601622,Pain of left knee region,Condition
+43020581,On waiting list for organ transplant,Observation
+4188598,High risk pregnancy,Observation
+439147,Amnesia,Condition
+441542,Anxiety,Condition
+441641,Delivery normal,Condition
+4169095,Bradycardia,Condition
+4170554,Hip pain,Condition
+197684,Dysuria,Condition
+254761,Cough,Condition
+435517,Acidosis,Condition
+4182210,Dementia,Condition
+4203942,Admitting diagnosis,Observation
+4204199,Hand pain,Condition
+73819,Pain of breast,Condition
+4182562,Lower abdominal pain,Condition
+314754,Wheezing,Condition
+4210989,Family history with explicit context,Observation
+379805,Myopia,Condition
+132736,Bacteremia,Condition
+4239938,First trimester pregnancy,Condition
+77074,Joint pain,Condition
+438543,"Gestation period, 36 weeks",Condition
+4240723,Patient discharge,Observation
+4244438,Second trimester pregnancy,Condition
+141663,Osteomyelitis,Condition
+43530881,Suspected fetal disorder,Observation
+4268911,Disorientated,Observation
+4271686,Uses rhythm method of contraception,Observation
+4273391,Suicidal thoughts,Condition
+4283657,Sexual orientation,Observation
+261687,Hemoptysis,Condition
+4195384,Chronic cough,Condition
+4195085,Nasal congestion,Condition
+442752,Muscle pain,Condition
+44784217,Cardiac arrhythmia,Condition
+44784283,Requires influenza virus vaccination,Observation
+45763842,Patient requests non-blood medical management,Observation
+45765650,Surveillance of contraception,Observation
+45773394,Surveillance of oral contraception,Observation
+45765728,Supervision of high risk pregnancy,Observation
+45771331,Temperature,Observation
+45766930,Admits alcohol use,Observation
+45772705,Denies alcohol use,Observation
+4322482,Noncompliance with treatment,Observation
+46271811,Child-Pugh score class A,Condition
+46271893,Long-term current use of immunosuppressive drug,Observation
+46272450,Long-term current use of drug therapy,Observation
+46272451,Long-term current use of insulin,Observation
+46272452,Long-term current use of steroid,Observation
+46272453,Long-term current use of inhaled steroid,Observation
+46272734,Long-term current use of antibiotic,Observation
+46273937,Long-term current use of anticoagulant,Observation
+439080,Dyspareunia,Condition
+37018196,Prediabetes,Condition
+36713471,Routine postpartum follow-up,Observation
+134159,Precordial pain,Condition
+197675,Incontinence of feces,Condition
+37109774,Requires vaccination,Observation
+37109843,Absence of lower limb,Condition
+4248728,Snoring,Condition
+201820,Diabetes mellitus,Condition
+42537729,Aortocoronary bypass graft present,Observation
+42537730,Coronary artery graft present,Observation
+42539502,Transplanted kidney present,Observation
+42539698,Transplanted lung present,Observation
+42537742,Transplanted liver present,Condition
+42538117,Transplanted heart present,Observation
+42538119,Transplanted heart valve present,Observation
+201131,Pelvic mass,Condition
+200845,Urgent desire to urinate,Condition
+195321,Postmenopausal bleeding,Observation
+442558,"Gestation period, 32 weeks",Condition
+4300515,Respiratory function,Observation
+4299954,Feeding problem,Observation
+197610,Cyst of ovary,Condition
+197381,Epigastric pain,Condition
+196168,Irregular periods,Observation
+315078,Palpitations,Condition
+435655,"Gestation period, 39 weeks",Condition
+137682,Skin sensation disturbance,Condition
+37311319,Hypovolemia,Condition
+24134,Neck pain,Condition
+436096,Chronic pain,Condition
+4307820,Unplanned pregnancy,Observation
+4306292,Upper abdominal pain,Condition
+4307376,Final inpatient visit with instructions at discharge,Observation
+37311059,Exposure to SARS-CoV-2,Observation
+444267,"Gestation period, 35 weeks",Condition
+72404,Joint stiffness,Condition
+435224,Leukopenia,Condition
+440424,Aphasia,Condition
+193326,Urge incontinence of urine,Condition
+316822,Heart murmur,Observation
+80767,Breast lump,Condition
+140168,Psoriasis,Condition
+138525,Pain in limb,Condition
+4236484,Paresthesia,Condition
+377091,Seizure,Condition
+44784631,Pain due to neoplastic disease,Condition
+139900,Urticaria,Condition
+438310,"Victim, motorcycle rider in vehicular AND/OR traffic accident",Observation
+44782429,Chronic kidney disease due to hypertension,Condition
+260139,Acute bronchitis,Condition
+437758,Dependence on enabling machine or device,Observation
+4023310,Blindness AND/OR vision impairment level,Condition
+201603,Disorder of teeth AND/OR supporting structures,Condition
+197917,Disorder of biliary tract,Condition
+194686,Acquired renal cystic disease,Condition
+74104,Fetal condition affecting obstetrical care of mother,Condition
+759852,Cellulitis of left lower limb,Condition
+759853,Cellulitis of right lower limb,Condition
+46269757,Chronic ulcer of skin of lower leg,Condition
+37016114,Acute on chronic hypoxemic respiratory failure,Condition
+46273463,Upper respiratory tract infection due to Influenza,Condition
+75576,Irritable bowel syndrome,Condition
+36712695,Suspected fetal abnormality affecting management of mother,Condition
+46269816,Ascites due to alcoholic cirrhosis,Condition
+4033837,Melanocytic nevus of trunk,Condition
+4001171,Liver cell carcinoma,Condition
+4001664,Intrahepatic bile duct carcinoma,Condition
+133711,Overlapping malignant neoplasm of female breast,Condition
+4003171,Benign neoplasm of meninges,Condition
+4002359,Monoclonal gammopathy (clinical),Condition
+437233,Multiple myeloma,Condition
+438383,Essential thrombocythemia,Condition
+138994,Myelodysplastic syndrome (clinical),Condition
+81878,Benign paroxysmal positional vertigo,Condition
+26662,Testicular hypofunction,Condition
+4008576,Diabetes mellitus without complication,Condition
+4009303,Diabetic ketoacidosis without coma,Condition
+138384,Acquired hypothyroidism,Condition
+438398,Leukocytosis,Condition
+440329,Herpes zoster without complication,Condition
+141095,Acne,Condition
+376400,Combined form of senile cataract,Condition
+77963,Achilles tendinitis,Condition
+4024659,Gestational diabetes mellitus,Condition
+4038838,Non-Hodgkin's lymphoma (clinical),Condition
+77630,Disorder of shoulder,Condition
+4000609,Disorder of upper gastrointestinal tract,Condition
+312648,Benign essential hypertension,Condition
+45757363,Hypoglycemia due to type 2 diabetes mellitus,Condition
+78273,Closed fracture of multiple ribs,Condition
+433577,Hammer toe,Condition
+256449,Bronchiectasis,Condition
+4048512,Sprain of upper extremity,Condition
+439082,Menopausal syndrome,Condition
+43530652,Chronic intractable migraine without aura,Condition
+444131,Injury of lower leg,Condition
+444130,Injury of foot,Condition
+4053604,Open wound of lower leg,Condition
+377910,Deviated nasal septum,Condition
+432881,Pancytopenia,Condition
+4130851,Injury of upper extremity,Condition
+4133015,Sprain of anterior cruciate ligament of knee,Condition
+440897,Motor vehicle accident victim,Observation
+435988,"Motor vehicle accident, driver",Observation
+435613,Cellulitis,Condition
+444211,Disorder of thigh,Condition
+72986,Disorder of lower leg,Condition
+4134120,Cerebral palsy,Condition
+4134121,Lumbar radiculopathy,Condition
+138841,Disorder of sacrum,Condition
+198964,Chronic hepatitis C,Condition
+4028387,Disorder of integument,Condition
+444239,Postprocedural state finding,Observation
+4043371,Inflammatory disorder of digestive tract,Condition
+433527,Endometriosis (clinical),Condition
+137275,Disorder of muscle,Condition
+438567,Adult failure to thrive syndrome,Condition
+312723,Congenital heart disease,Condition
+134460,Plantar fascial fibromatosis,Condition
+255573,Chronic obstructive lung disease,Condition
+436665,Bipolar disorder,Condition
+437113,Asthenia,Observation
+45757435,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,Condition
+434610,Hyperkalemia,Condition
+36717267,Ectasia of thoracic aorta,Condition
+22340,Esophageal varices without bleeding,Condition
+443800,Amenorrhea,Observation
+141253,Disorder of thyroid gland,Condition
+45770886,Disorder of plasma protein metabolism,Condition
+4032799,Opioid-induced organic mental disorder,Condition
+375281,Acute suppurative otitis media without spontaneous rupture of ear drum,Condition
+43530685,Proliferative retinopathy due to type 2 diabetes mellitus,Condition
+433753,Alcohol abuse,Condition
+377889,Hearing loss,Condition
+43530690,Foot ulcer due to type 2 diabetes mellitus,Condition
+77965,Acquired trigger finger,Condition
+44782719,Chronic combined systolic and diastolic heart failure,Condition
+44782733,Acute on chronic combined systolic and diastolic heart failure,Condition
+40319772,Psoriatic arthritis,Condition
+4049623,"Moderate major depression, single episode",Condition
+260123,Acute sinusitis,Condition
+43530666,Dementia with behavioral disturbance,Condition
+36712983,Angina co-occurrent and due to coronary arteriosclerosis,Condition
+435829,Rheumatic disease of heart valve,Condition
+4059015,Falls,Observation
+4012376,Currently not sexually active,Observation
+200527,Splenomegaly,Condition
+40326053,Dysphonia,Condition
+30753,Esophagitis,Condition
+42872398,"Maternal obesity complicating pregnancy, childbirth and the puerperium, antepartum",Condition
+437116,Closed fracture of distal end of radius,Condition
+436677,Adjustment disorder,Condition
+439658,Disorder of pregnancy,Condition
+440129,Hypertrophy of nasal turbinates,Condition
+314666,Old myocardial infarction,Condition
+374375,Impacted cerumen,Condition
+136788,Spinal stenosis of lumbar region,Condition
+439674,Chronic viral hepatitis B without delta-agent,Condition
+4092216,Malignant neoplasm of upper lobe of lung,Condition
+4077577,Moderate recurrent major depression,Condition
+134898,Non-toxic uninodular goiter,Condition
+133810,Hyperparathyroidism due to renal insufficiency,Condition
+4098458,Moderate protein-calorie malnutrition (weight for age 60-74 percent of standard),Condition
+4098604,Hypomagnesemia,Condition
+441267,Cystic fibrosis,Condition
+4098611,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,Condition
+441258,Anemia in neoplastic disease,Condition
+375519,Alcohol withdrawal,Condition
+374888,Dementia associated with another disease,Condition
+440374,Obsessive-compulsive disorder,Condition
+439005,Chronic alcoholism in remission,Condition
+4102986,Disorder of psychological development,Condition
+436962,Insomnia,Condition
+439297,Nuclear senile cataract,Condition
+439696,Hypertensive heart and renal disease with (congestive) heart failure,Condition
+4110948,Hypertension secondary to endocrine disorder,Condition
+321318,Angina pectoris,Condition
+4110961,Generalized ischemic myocardial dysfunction,Condition
+4108814,Pericardial effusion - noninflammatory,Condition
+4111412,"Tricuspid incompetence, non-rheumatic",Condition
+4110192,Cerebral infarction due to thrombosis of cerebral arteries,Condition
+314962,Raynaud's disease,Condition
+135287,Non-neoplastic nevus,Condition
+438485,Postoperative state,Observation
+257004,Acute exacerbation of chronic obstructive airways disease,Condition
+317009,Asthma,Condition
+4112839,Pneumonitis due to inhalation of regurgitated food,Condition
+4025325,Periapical abscess,Condition
+376208,Disorder of soft tissue,Condition
+4057826,Irritable bowel syndrome with diarrhea,Condition
+4059290,Steatosis of liver,Condition
+199074,Acute pancreatitis,Condition
+194993,Intestinal malabsorption,Condition
+442077,Anxiety disorder,Condition
+78472,Microscopic hematuria,Condition
+257907,Disorder of lung,Condition
+435875,"Complication of pregnancy, childbirth and/or puerperium",Condition
+321074,"Pre-existing hypertension complicating pregnancy, childbirth and puerperium",Condition
+4060424,"Mental disorders during pregnancy, childbirth and the puerperium",Condition
+4062791,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",Condition
+4064161,Cirrhosis of liver,Condition
+440795,Complication occurring during labor and delivery,Condition
+4067069,Callosity,Condition
+434626,Borderline personality disorder,Condition
+4061844,Skin changes due to chronic exposure to non-ionizing radiation,Condition
+138825,Actinic keratosis,Condition
+136497,Scar conditions and fibrosis of skin,Condition
+73840,"Localized, primary osteoarthritis of the shoulder region",Condition
+75036,"Localized, primary osteoarthritis of the hand",Condition
+78505,"Localized, primary osteoarthritis of the ankle and/or foot",Condition
+4114585,"Primary gonarthrosis, bilateral",Condition
+4115991,Knee joint effusion,Condition
+4068482,Prolapsed lumbar intervertebral disc,Condition
+4001450,Lumbago with sciatica,Condition
+81379,Lateral epicondylitis,Condition
+40405599,Fibromyalgia,Condition
+321596,Peripheral venous insufficiency,Condition
+4017107,Traumatic subdural hemorrhage,Condition
+434228,Passenger in vehicular AND/OR traffic accident,Observation
+4057044,Injury of muscle and tendon at neck level,Condition
+434004,Hypervolemia,Condition
+256439,Allergic rhinitis due to pollen,Condition
+4070750,Drug-induced constipation,Condition
+434613,Generalized anxiety disorder,Condition
+195867,Noninflammatory disorder of the vagina,Condition
+4027470,Feeding disability,Observation
+4042889,Finding relating to drug misuse behavior,Observation
+4043042,Sexually active,Observation
+377844,Status migrainosus,Condition
+372409,Sciatica,Condition
+439407,Disorder of nasal cavity,Condition
+255848,Pneumonia,Condition
+4119786,Interstitial lung disease,Condition
+4124693,Hypertrophic cardiomyopathy,Condition
+435839,Lymphedema,Condition
+437247,Anemia of chronic disease,Condition
+433740,Immunodeficiency disorder,Condition
+4122339,Drug-induced immunodeficiency,Condition
+195596,Chronic pancreatitis,Condition
+318800,Gastroesophageal reflux disease,Condition
+27918,Eosinophilic esophagitis,Condition
+195847,Gastroparesis syndrome,Condition
+194984,Disease of liver,Condition
+196456,Gallstone,Condition
+443211,Benign prostatic hyperplasia with outflow obstruction,Condition
+73008,Enthesopathy,Condition
+40443308,Polycystic ovary syndrome,Condition
+4130023,Atrophy of thyroid - acquired,Condition
+434005,Morbid obesity,Condition
+4031164,Non-scarring alopecia,Condition
+4032878,Hair follicle disorder,Condition
+318566,Flushing,Condition
+4035611,Seropositive rheumatoid arthritis,Condition
+4083556,Seronegative rheumatoid arthritis,Condition
+437541,Glaucoma,Condition
+4035439,Idiopathic osteoarthritis,Condition
+4079749,Osteoarthritis of hip,Condition
+4079750,Osteoarthritis of knee,Condition
+4346975,Lumbar spondylosis,Condition
+4344500,Impingement syndrome of shoulder region,Condition
+4084966,Candida infection of genital region,Condition
+133834,Atopic dermatitis,Condition
+74635,Lumbosacral radiculopathy,Condition
+200452,Disorder of female genital organs,Condition
+4084229,Primary gout,Condition
+374919,Multiple sclerosis,Condition
+141375,Hypertrophic condition of skin,Condition
+373474,Diplopia,Condition
+4092743,Unsteady when standing,Observation
+4089462,Ventricular premature complex,Condition
+4111921,Squamous cell carcinoma of skin,Condition
+4112752,Basal cell carcinoma of skin,Condition
+4114222,Malignant tumor of head and neck,Condition
+4103295,Ventricular tachycardia,Condition
+4104431,Alcohol intoxication,Condition
+441277,Mixed receptive-expressive language disorder,Condition
+43530714,Sensory disorder of smell and/or taste,Condition
+443769,Degeneration of lumbar intervertebral disc,Condition
+373503,Transient cerebral ischemia,Condition
+30437,Gastro-esophageal reflux disease with esophagitis,Condition
+4144111,Gastroesophageal reflux disease without esophagitis,Condition
+197925,Hemorrhage of rectum and anus,Condition
+194079,Post-surgical malabsorption,Condition
+198803,Benign prostatic hyperplasia,Condition
+197607,Excessive and frequent menstruation,Observation
+192450,Retention of urine,Condition
+141825,Simple goiter,Condition
+138717,Toxic diffuse goiter,Condition
+437827,Pure hypercholesterolemia,Condition
+440360,Pure hyperglyceridemia,Condition
+438720,Mixed hyperlipidemia,Condition
+435515,Hypo-osmolality and or hyponatremia,Condition
+434894,Acute posthemorrhagic anemia,Condition
+141941,Cervical spondylosis without myelopathy,Condition
+4098292,Antiphospholipid syndrome,Condition
+433758,Childhood emotional disorder,Condition
+435232,Disorder of speech and language development,Condition
+378419,Alzheimer's disease,Condition
+443883,Acute disease,Condition
+314379,First degree atrioventricular block,Condition
+137820,Postoperative hypothyroidism,Condition
+198400,Hemangioma of skin and subcutaneous tissue,Condition
+132412,Post-laminectomy syndrome,Condition
+439777,Anemia,Condition
+4155909,Anesthesia of skin,Observation
+140214,Eruption,Condition
+439794,Central sleep apnea syndrome,Condition
+4168217,Generalized hyperhidrosis,Condition
+4165998,Generalized enlarged lymph nodes,Condition
+4168700,Localized enlarged lymph nodes,Condition
+4170137,Non-suppurative otitis media,Condition
+4173824,B-cell chronic lymphocytic leukemia variant,Condition
+4150299,Localization-related idiopathic epilepsy,Condition
+320744,Complete atrioventricular block,Condition
+201965,Shock,Condition
+257581,Acute asthma,Condition
+4105886,Adverse reaction,Observation
+4086701,No abnormality detected - examination result,Observation
+4154290,Paroxysmal atrial fibrillation,Condition
+4114865,Finding relating to sexual activity,Observation
+4110772,Gender identity finding,Observation
+319041,Orthostatic hypotension,Condition
+4117686,Rheumatoid arthritis of multiple joints,Condition
+4115173,Atrial premature complex,Condition
+4103532,Immune thrombocytopenia,Condition
+4128329,Menopause present,Observation
+4103703,Melena,Condition
+43530727,Spontaneous cerebral hemorrhage,Condition
+72418,Scoliosis deformity of spine,Condition
+201066,Obstruction of bile duct,Condition
+193165,Disorder of adrenal gland,Condition
+4201388,Gastrostomy present,Observation
+432870,Thrombocytopenic disorder,Condition
+24609,Hypoglycemia,Condition
+443344,Barrett's esophagus,Condition
+4116323,Tear of medial meniscus of knee,Condition
+4127117,Varicose ulcer of lower extremity,Condition
+4149904,"Attention deficit hyperactivity disorder, combined type",Condition
+443410,Infective pneumonia,Condition
+380097,Macular edema due to diabetes mellitus,Condition
+443412,Type 1 diabetes mellitus without complication,Condition
+4193704,Type 2 diabetes mellitus without complication,Condition
+438688,Sarcoidosis,Condition
+4152384,Non-rheumatic aortic sclerosis,Condition
+197006,Residual hemorrhoidal skin tags,Condition
+440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",Condition
+36713107,Lumbar spondylolisthesis,Condition
+256451,Bronchitis,Condition
+36713112,Pancytopenia due to antineoplastic chemotherapy,Condition
+441188,"Victim, pedestrian in vehicular AND/OR traffic accident",Observation
+73754,Restless legs,Condition
+201606,Crohn's disease,Condition
+436070,Vitamin D deficiency,Condition
+192680,Portal hypertension,Condition
+4146209,Iron deficiency,Condition
+4149353,"Attention deficit hyperactivity disorder, predominantly inattentive type",Condition
+79061,Slow transit constipation,Condition
+439776,Autism spectrum disorder,Condition
+134668,Chronic maxillary sinusitis,Condition
+321887,Disorder of artery,Condition
+434500,Closed fracture of neck of femur,Condition
+4233565,Severe protein-calorie malnutrition (Gomez: less than 60 percent of standard weight),Condition
+136368,Non-toxic multinodular goiter,Condition
+4180628,Disorder of body system,Condition
+31821,Disorder of endocrine system,Condition
+136934,Primary hyperparathyroidism,Condition
+25297,Acute pharyngitis,Condition
+435220,Severe recurrent major depression without psychotic features,Condition
+37018854,Hematuria co-occurrent and due to acute cystitis,Condition
+4272240,Malaise,Observation
+374027,Lesion of ulnar nerve,Condition
+4280726,Seasonal allergic rhinitis,Condition
+379010,Epiretinal membrane,Condition
+37016348,Hyperglycemia due to type 1 diabetes mellitus,Condition
+37016349,Hyperglycemia due to type 2 diabetes mellitus,Condition
+4282096,"Major depression, single episode",Condition
+4153380,Disorder of carotid artery,Condition
+373499,Disorder of eye region,Condition
+436074,Panic disorder,Condition
+26638,Primary malignant neoplasm of esophagus,Condition
+199754,Primary malignant neoplasm of pancreas,Condition
+376647,Primary malignant neoplasm of soft tissues,Condition
+439392,Primary malignant neoplasm,Condition
+4157454,"Primary malignant neoplasm of lower lobe, bronchus or lung",Condition
+440649,Primary malignant neoplasm of head of pancreas,Condition
+78474,Hypertrophy of breast,Condition
+434327,Cannabis abuse,Condition
+440704,Chronic pain syndrome,Condition
+31610,Disorder of esophagus,Condition
+318736,Migraine,Condition
+4242103,Osteoarthrosis of the carpometacarpal joint of the thumb,Condition
+376415,Hypermetropia,Condition
+316866,Hypertensive disorder,Condition
+4244078,"Schizoaffective disorder, bipolar type",Condition
+192963,Disorder of pancreas,Condition
+200528,Ascites,Condition
+434272,Varicella,Condition
+437390,Hypoxemia,Condition
+4191597,Disorder of refraction,Condition
+4308509,Impaired fasting glycemia,Condition
+192353,Disorder of gallbladder,Condition
+4288544,Inguinal hernia,Condition
+194992,Celiac disease,Condition
+4245842,Umbilical hernia,Condition
+4215402,Primary insomnia,Condition
+4266809,Diverticular disease,Condition
+72693,Poor fetal growth affecting management,Condition
+376382,Tension-type headache,Condition
+201061,Diaphragmatic hernia,Condition
+141932,Senile hyperkeratosis,Condition
+136773,Rosacea,Condition
+435524,Sleep disorder,Condition
+4163710,Dilated cardiomyopathy,Condition
+321052,Peripheral vascular disease,Condition
+4271013,Melanocytic nevus,Condition
+139099,Ingrowing nail,Condition
+257012,Chronic sinusitis,Condition
+4296653,Acute ST segment elevation myocardial infarction,Condition
+4270024,Acute non-ST segment elevation myocardial infarction,Condition
+140648,Onychomycosis due to dermatophyte,Condition
+4228802,Mild recurrent major depression,Condition
+4300704,Diffuse large B-cell lymphoma (nodal/systemic with skin involvement),Condition
+441840,Clinical finding,Observation
+4224926,Obstruction of esophagus,Condition
+438409,Attention deficit hyperactivity disorder,Condition
+31317,Dysphagia,Condition
+140673,Hypothyroidism,Condition
+4256228,Respiratory failure,Condition
+321042,Cardiac arrest,Condition
+373478,Presbyopia,Condition
+4211657,Closed fracture of lower leg,Condition
+317248,Disorder of hematopoietic structure,Condition
+440371,Disorder of immune function,Condition
+376966,Exudative age-related macular degeneration,Condition
+4188155,Hernia of anterior abdominal wall,Condition
+372629,Nonexudative age-related macular degeneration,Condition
+433736,Obesity,Condition
+4167696,Estrogen receptor positive tumor,Condition
+30683,Hemoglobin SS disease without crisis,Condition
+432795,Traumatic or non-traumatic injury,Condition
+74125,Inflammatory polyarthropathy,Condition
+26942,Hemoglobin SS disease with crisis,Condition
+4169954,Genitourinary tract hemorrhage,Condition
+443580,Systolic heart failure,Condition
+443587,Diastolic heart failure,Condition
+4170770,Epidermoid cyst,Condition
+196463,Alcoholic cirrhosis,Condition
+443731,Renal disorder due to type 2 diabetes mellitus,Condition
+381290,Ocular hypertension,Condition
+376065,Disorder of nervous system due to type 2 diabetes mellitus,Condition
+200687,Renal disorder due to type 1 diabetes mellitus,Condition
+443733,Disorder of eye due to type 2 diabetes mellitus,Condition
+443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,Condition
+319835,Congestive heart failure,Condition
+4174262,Polyneuropathy,Condition
+4307981,Clostridium difficile colitis,Condition
+4172970,Nontraumatic rotator cuff tear,Condition
+4138617,Psychophysiologic insomnia,Condition
+4138760,Exacerbation of intermittent asthma,Condition
+201337,Disorder of bladder,Condition
+4141360,Chronic atrial fibrillation,Condition
+4145825,Anorectal disorder,Condition
+4146581,Mild intermittent asthma,Condition
+4177862,Chronic hypoxemic respiratory failure,Condition
+4177206,Tubulointerstitial nephritis,Condition
+443558,Allergic rhinitis due to animal dander,Condition
+4181965,Chronic ulcer of foot,Condition
+443563,Arteriosclerosis of coronary artery bypass graft,Condition
+443600,Localized infection of skin AND/OR subcutaneous tissue,Condition
+433811,Hydronephrosis,Condition
+443601,Chronic kidney disease stage 2,Condition
+443612,Chronic kidney disease stage 4,Condition
+443454,Cerebral infarction,Condition
+443597,Chronic kidney disease stage 3,Condition
+443611,Chronic kidney disease stage 5,Condition
+437833,Hypokalemia,Condition
+434490,Chill,Observation
+28060,Streptococcal sore throat,Condition
+4231770,Hereditary thrombophilia,Condition
+4232691,Permanent atrial fibrillation,Condition
+4232697,Persistent atrial fibrillation,Condition
+201826,Type 2 diabetes mellitus,Condition
+40479576,Chronic diastolic heart failure,Condition
+4185711,Loss of sense of smell,Observation
+40483107,Inflamed seborrheic keratosis,Condition
+40484532,Nonalcoholic steatohepatitis,Condition
+40480602,Acute on chronic systolic heart failure,Condition
+40480603,Acute systolic heart failure,Condition
+40481043,Acute on chronic diastolic heart failure,Condition
+40481896,Hypertensive urgency,Condition
+40481919,Coronary atherosclerosis,Condition
+40483287,Disorder of kidney and/or ureter,Condition
+81151,Sprain of ankle,Condition
+40481089,Embolism from thrombosis of vein of lower extremity,Condition
+381549,Migraine with aura,Condition
+40486120,Delay in physiological development,Observation
+435790,Secondary polycythemia,Condition
+317002,Low blood pressure,Condition
+764123,Atherosclerosis of coronary artery without angina pectoris,Condition
+201340,Gastritis,Condition
+378427,Tear film insufficiency,Condition
+193782,End-stage renal disease,Condition
+444100,Mood disorder,Condition
+4263748,Recurrent major depression in full remission,Condition
+261880,Atelectasis,Condition
+4188331,Chronic pulmonary edema,Condition
+43021202,Sexually active with men,Observation
+43021203,Sexually active with women,Observation
+436676,Posttraumatic stress disorder,Condition
+436075,Adjustment disorder with anxious mood,Condition
+4166231,Genetic predisposition,Observation
+437246,Vitamin B deficiency,Condition
+4167493,Pregnancy-induced hypertension,Condition
+80813,Lumbosacral spondylosis without myelopathy,Condition
+45763549,Bilateral tinnitus,Observation
+135526,Spinal cord disease,Condition
+4168796,Muscle strain,Condition
+443962,Mitral valve regurgitation,Condition
+381270,Parkinson's disease,Condition
+443919,Hypertensive renal failure,Condition
+313217,Atrial fibrillation,Condition
+4172432,Hyperpigmentation of skin,Condition
+372892,Metabolic encephalopathy,Condition
+137053,Seborrheic dermatitis,Condition
+197494,Viral hepatitis C,Condition
+4197819,Fibrosis of lung,Condition
+4202045,Postviral fatigue syndrome,Condition
+201078,Atrophic vaginitis,Condition
+432738,Chronic fatigue syndrome,Condition
+435510,Hypocalcemia,Condition
+437969,Talipes planus,Condition
+79864,Hematuria syndrome,Condition
+314665,Atrial flutter,Condition
+376707,Acute conjunctivitis,Condition
+317576,Coronary arteriosclerosis,Condition
+257011,Acute upper respiratory infection,Condition
+137548,Cervical radiculopathy,Condition
+437986,Failure to thrive,Condition
+4208390,Inflammation of sacroiliac joint,Condition
+257628,Systemic lupus erythematosus,Condition
+432867,Hyperlipidemia,Condition
+378735,Migraine without aura,Condition
+321588,Heart disease,Condition
+4209423,Nicotine dependence,Condition
+4211231,Panic disorder without agoraphobia,Condition
+436675,Anorexia nervosa,Condition
+140641,Verruca vulgaris,Condition
+312327,Acute myocardial infarction,Condition
+442306,Adjustment disorder with depressed mood,Condition
+380094,Carpal tunnel syndrome,Condition
+435783,Schizophrenia,Condition
+199991,Disorder of transplanted kidney,Condition
+314059,Right bundle branch block,Condition
+440417,Pulmonary embolism,Condition
+4241223,Hidradenitis suppurativa,Condition
+320128,Essential hypertension,Condition
+4245975,Hepatic failure,Condition
+254061,Pleural effusion,Condition
+320420,Vitreous degeneration,Condition
+315564,Aortic valve regurgitation,Condition
+4189343,Aortic valve stenosis,Condition
+374366,Sensorineural hearing loss,Condition
+377575,Tinnitus,Observation
+319034,Hypertensive heart disease without congestive heart failure,Condition
+43530807,Allergic disposition,Observation
+74132,Degeneration of lumbosacral intervertebral disc,Condition
+43530950,Complication occurring during pregnancy,Condition
+43531003,Essential tremor,Condition
+257007,Allergic rhinitis,Condition
+441207,Adverse reaction to drug,Observation
+374034,Visual disturbance,Condition
+316998,Left bundle branch block,Condition
+255841,Chronic bronchitis,Condition
+135618,Pruritic rash,Condition
+196738,Disorder of male genital organ,Condition
+4275423,Supraventricular tachycardia,Condition
+81893,Ulcerative colitis,Condition
+432585,Blood coagulation disorder,Condition
+80502,Osteoporosis,Condition
+43531681,Acute deep vein thrombosis of lower limb,Condition
+255348,Polymyalgia rheumatica,Condition
+75911,Acquired hallux valgus,Condition
+372328,Otitis media,Condition
+4276360,Undernutrition,Condition
+4282316,Recurrent major depression,Condition
+435243,Alcohol dependence,Condition
+4280354,Nutritional anemia,Condition
+435511,Hypercalcemia,Condition
+4281109,Autoimmune thyroiditis,Condition
+133729,Hyperparathyroidism,Condition
+440083,Acute stress disorder,Condition
+201909,Female infertility,Condition
+198520,Lumbar spondylosis with myelopathy,Condition
+380111,Acute atopic conjunctivitis,Condition
+4195677,Rheumatic tricuspid valve regurgitation,Condition
+194081,Acute cystitis,Condition
+141323,Acute maxillary sinusitis,Condition
+4286497,Centriacinar emphysema,Condition
+4285898,Polyp of colon,Condition
+81902,Urinary tract infectious disease,Condition
+4286201,Schizoaffective disorder,Condition
+380706,Regular astigmatism,Condition
+314131,Degeneration of cervical intervertebral disc,Condition
+372324,Eustachian tube disorder,Condition
+4288310,Carotid artery obstruction,Condition
+80809,Rheumatoid arthritis,Condition
+45763854,Chronic kidney disease stage 3A,Condition
+45763855,Chronic kidney disease stage 3B,Condition
+4289309,Atrial septal defect,Condition
+195562,Hemorrhoids,Condition
+4320803,Anomaly of chromosome pair 21,Condition
+45766207,Non-rheumatic mitral valve stenosis with regurgitation,Condition
+45766714,Inflammatory dermatosis,Condition
+45768480,Longstanding persistent atrial fibrillation,Condition
+45768812,Anemia in chronic kidney disease,Condition
+45768910,Uncomplicated asthma,Condition
+45772937,Exacerbation of moderate persistent asthma,Condition
+45768963,Uncomplicated mild persistent asthma,Condition
+45768964,Uncomplicated moderate persistent asthma,Condition
+45768965,Uncomplicated severe persistent asthma,Condition
+46271022,Chronic kidney disease,Condition
+46273719,Acute hypercapnic respiratory failure,Condition
+46271075,Acute hypoxemic respiratory failure,Condition
+4322024,Pulmonary hypertension,Condition
+440320,Infection due to Escherichia coli,Condition
+37017432,Polyneuropathy due to type 2 diabetes mellitus,Condition
+440530,Oropharyngeal dysphagia,Condition
+194406,Urinary tract obstruction,Condition
+36714126,Difficulty walking,Observation
+36714388,Influenza caused by seasonal influenza virus,Condition
+36714994,Typical atrial flutter,Condition
+4216244,Preoperative state,Observation
+36715792,Acquired absence of breast,Condition
+37110250,Atherosclerosis of artery of lower limb,Condition
+37119138,Iron deficiency anemia due to blood loss,Condition
+318169,Varicose veins of lower extremity,Condition
+313459,Sleep apnea,Condition
+42537748,Acquired absence of organ,Condition
+192671,Gastrointestinal hemorrhage,Condition
+442793,Complication due to diabetes mellitus,Condition
+441051,Thoracic aortic aneurysm without rupture,Condition
+438120,Opioid dependence,Condition
+257683,Posterior rhinorrhea,Condition
+321314,Abdominal aortic aneurysm without rupture,Condition
+75909,Disorder of bone,Condition
+77079,Spinal stenosis,Condition
+441830,Disorder of fluid AND/OR electrolyte,Condition
+35622958,Disorder in remission,Condition
+196236,Septic shock,Condition
+35624213,Secondary cataract,Condition
+4297894,Greater trochanteric pain syndrome,Condition
+35624756,Anemia due to and following chemotherapy,Condition
+35624757,Neutropenia due to and following chemotherapy,Condition
+435262,Primary open angle glaucoma,Condition
+43531578,Chronic kidney disease due to type 2 diabetes mellitus,Condition
+4300092,Cannabis-induced organic mental disorder,Condition
+43531561,Myasthenia gravis without exacerbation,Condition
+438134,Hypersomnia,Condition
+433968,Candidiasis,Condition
+36684319,Adjustment disorder with mixed anxiety and depressed mood,Condition
+442588,Obstructive sleep apnea syndrome,Condition
+37206607,Overactive bladder,Condition
+433440,Dysthymia,Condition
+4195572,"Mild major depression, single episode",Condition
+77030,Disorder of breast,Condition
+29735,Candidiasis of mouth,Condition
+4214376,Hyperglycemia,Condition
+197676,Large liver,Condition
+133228,Dental caries,Condition
+193518,Intestinal obstruction,Condition
+372887,Disorder of brain,Condition
+312934,Atherosclerosis of aorta,Condition
+314658,Cardiomegaly,Condition
+375415,Injury of head,Condition
+378424,Astigmatism,Condition
+4307956,Bipolar II disorder,Condition
+3663197,Glaucoma suspect,Condition
+436785,Spinal stenosis in cervical region,Condition
+254443,Sjögren's syndrome,Condition
+37311061,COVID-19,Condition
+316139,Heart failure,Condition
+4223659,Fatigue,Observation
+4309063,Behavior finding,Observation
+380378,Epilepsy,Condition
+4225273,Chronic gastritis,Condition
+4310235,Reduced mobility,Observation
+321319,Cardiomyopathy,Condition
+201618,Disorder of intestine,Condition
+3655355,Erectile dysfunction,Condition
+259848,Chronic rhinitis,Condition
+439727,Human immunodeficiency virus infection,Condition
+435788,Disorder of phosphorus metabolism,Condition
+314054,Aortic valve disorder,Condition
+261325,Pulmonary emphysema,Condition
+436659,Iron deficiency anemia,Condition
+432545,Bacterial infectious disease,Condition
+195771,Secondary diabetes mellitus,Condition
+4338120,Altered bowel function,Observation
+3661408,Pneumonia caused by SARS-CoV-2,Condition
+4227594,Acne vulgaris,Condition
+4229440,Chronic congestive heart failure,Condition
+4228361,Asteatosis cutis,Condition
+198571,Cardiogenic shock,Condition
+134442,Systemic sclerosis,Condition
+437264,Tobacco dependence syndrome,Condition
+440785,Vomiting of pregnancy,Condition
+440674,Gout,Condition
+138387,Thyrotoxicosis,Condition
+132797,Sepsis,Condition
+4239381,Psychoactive substance abuse,Condition
+135496,Acute leukemia in remission,Condition
+141816,Acute lymphoid leukemia in remission,Condition
+134305,Acute lymphoid leukemia,Condition
+140352,"Acute myeloid leukemia, disease",Condition
+4241530,Asymptomatic human immunodeficiency virus infection,Condition
+442111,Benign neoplasm of ascending colon,Condition
+77234,Benign neoplasm of colon,Condition
+4242816,Benign neoplasm of pituitary gland,Condition
+138102,Benign neoplasm of skin,Condition
+444444,Benign neoplasm of transverse colon,Condition
+138379,"Chronic lymphoid leukemia, disease",Condition
+134603,Chronic myeloid leukemia,Condition
+42873170,Dependence on supplemental oxygen,Observation
+132841,Malignant lymphoma of lymph nodes of multiple sites,Condition
+141232,Malignant melanoma of skin,Condition
+4247719,Primary malignant neoplasm of ascending colon,Condition
+196360,Primary malignant neoplasm of bladder,Condition
+380055,Primary malignant neoplasm of brain,Condition
+432845,Primary malignant neoplasm of central portion of female breast,Condition
+197500,Primary malignant neoplasm of colon,Condition
+4247238,Primary malignant neoplasm of endometrium,Condition
+137809,Primary malignant neoplasm of female breast,Condition
+198985,Primary malignant neoplasm of kidney,Condition
+441515,Primary malignant neoplasm of lower outer quadrant of female breast,Condition
+200051,Primary malignant neoplasm of ovary,Condition
+200962,Primary malignant neoplasm of prostate,Condition
+74582,Primary malignant neoplasm of rectum,Condition
+4311499,Primary malignant neoplasm of respiratory tract,Condition
+436635,Primary malignant neoplasm of sigmoid colon,Condition
+139750,Primary malignant neoplasm of skin,Condition
+133424,Primary malignant neoplasm of thyroid gland,Condition
+440956,Primary malignant neoplasm of upper inner quadrant of female breast,Condition
+436353,Primary malignant neoplasm of upper outer quadrant of female breast,Condition
+436059,Multiple myeloma in remission,Condition
+374313,Neoplasm of uncertain behavior of soft tissues,Condition
+135777,Neoplasm of uncertain behavior of skin,Condition
+197236,Uterine leiomyoma,Condition
+201620,Kidney stone,Condition
+374367,Bilateral hearing loss,Condition
+4321437,Medication education,Observation
+379019,Conjunctivitis,Condition
+46286594,Problem related to lifestyle,Observation
