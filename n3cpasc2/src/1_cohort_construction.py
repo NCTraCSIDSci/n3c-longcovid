@@ -2,6 +2,11 @@ from pyspark.sql import functions as F
 from pyspark.sql import Window
 
 def covid_cohort(Pasc_all_patients_fact_day_combine):
+    """
+    This function is used to generate an intermediate table for the cohort_and_idx and infection_dates tables.
+
+
+    """
 
     ###############################################
     ## Pull cols for COVID Cohort Identification ##
@@ -73,7 +78,9 @@ def covid_cohort(Pasc_all_patients_fact_day_combine):
     return df
 
 def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
-
+    """
+    This is generated from the cohort and fact table, and is the end 
+    """
 
     all_patients_visit_table = Pasc_all_patients_fact_day_combine.select('person_id', 'date', 'PCR_AG_Pos')
 
@@ -144,6 +151,9 @@ def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
     return r_df
 
 def cohort_and_idx(covid_cohort):
+    """
+    
+    """
     df = covid_cohort
     df = df.withColumnRenamed('COVID_first_PCR_or_AG_lab_positive','pos_test_idx')
     df = df.withColumnRenamed('COVID_first_diagnosis_date','u07_any_idx')
@@ -299,7 +309,13 @@ def post_visit_counts_in_windows(basic_cohort, blackout_dates, recover_release_m
     
     # trim the microvisit to the bare minimum required for output to save memory where possible
     mic = recover_release_microvisit_to_macrovisit
-    mic = mic[['person_id','visit_occurrence_id','visit_start_date','visit_concept_name','macrovisit_start_date','macrovisit_end_date', 'likely_hospitalization']]
+    mic = mic[['person_id',
+               'visit_occurrence_id',
+               'visit_start_date',
+               # 'visit_concept_name',
+               # 'macrovisit_start_date',
+               # 'macrovisit_end_date', 
+               'likely_hospitalization']]
     
     # join blackout dates to find all the blacked out visit_occurrence_id's
     df = df.join(mic, on='person_id')
