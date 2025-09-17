@@ -47,7 +47,6 @@ def generate_window_spans(start, end, window_length = 100):
         "window_end": window_end,
     }
     df = pd.DataFrame(data=data)
-
     return df
 
 def generate_person_table(
@@ -59,8 +58,7 @@ def generate_person_table(
     race_population=[8527, 8516, 8657, 8515, 0],
     race_weights=[0.68, 0.12, 0.03, 0.07, 0.10],
     ethnicity_population=[38003563, 38003564],
-    ethnicity_weights=[0.1, 0.9]
-):
+    ethnicity_weights=[0.1, 0.9]):
     """
     Generates a synthetic OMOP PERSON table.
 
@@ -119,10 +117,13 @@ def generate_person_table(
             "care_site_id": random.randint(1, 10),
             "person_source_value": f"PSV{person_id}",
             "gender_source_value": 'M' if gender_concept_id == 8507 else 'F',
+            "gender_concept_name": 'Male' if gender_concept_id == 8507 else 'Female',
             "race_source_value": f"Race{race_concept_id}",
             "ethnicity_source_value": f"Ethnicity{ethnicity_concept_id}"})
     return pd.DataFrame(person_data)
 
+# TO DO: Make sure the "special" visit code is included here. Also, make sure the "special" condition codes (see labels) are included. 
+# This may require updating the generate_fact_table function to include the conditions / observations.
 def generate_visit_table(
     person_df,
     max_visits_per_person=20,
@@ -163,6 +164,7 @@ def generate_visit_table(
                 "visit_start_date": visit_datetime.date(),
                 "visit_end_date": visit_datetime.date(), # Not dealing with multi-day visits
                 "visit_type_concept_id": random.choice([44818518, 44818517]),
+                "likely_hospitalization": random.choice([None,None,None,1]),
                 "provider_id": person["provider_id"],
                 "care_site_id": person["care_site_id"],
                 "visit_source_value": f"Visit{visit_id}"
@@ -173,8 +175,8 @@ def generate_visit_table(
 def generate_observation_table(
     visit_df,
     concept_df,
-    target_n_observations=3
-):
+    target_n_observations=3,
+    random_seed = 101):
     """
     Generate a synthetic OMOP OBSERVATION table using seeded concept logic.
 
@@ -200,7 +202,8 @@ def generate_observation_table(
         # Sample without replacement
         sampled_concepts = eligible_concepts.sample(
             n=min(target_n_observations, len(eligible_concepts)),
-            replace=False
+            replace=False,
+            random_state = random_seed
         )
 
         for _, concept in sampled_concepts.iterrows():
@@ -208,6 +211,7 @@ def generate_observation_table(
                 "observation_id": observation_id,
                 "person_id": person_id,
                 "observation_concept_id": concept["observation_concept_id"],
+                "observation_concept_name": concept["observation_concept_name"],
                 "observation_date": visit["visit_start_date"],
                 "observation_type_concept_id": random.choice([44786627, 44786629]),
                 "visit_occurrence_id": visit["visit_occurrence_id"],
@@ -220,8 +224,8 @@ def generate_observation_table(
 def generate_condition_table(
     visit_df,
     concept_df,
-    target_n_conditions=5
-):
+    target_n_conditions=5,
+    random_seed = 101):
     """
     Generate a synthetic OMOP CONDITION_OCCURRENCE table using seeded concept logic.
 
@@ -247,14 +251,15 @@ def generate_condition_table(
         # Sample without replacement
         sampled_concepts = eligible_concepts.sample(
             n=min(target_n_conditions, len(eligible_concepts)),
-            replace=False
-        )
+            replace=False,
+            random_state=random_seed)
 
         for _, concept in sampled_concepts.iterrows():
             condition_data.append({
                 "condition_occurrence_id": condition_id,
                 "person_id": person_id,
                 "condition_concept_id": concept["condition_concept_id"],
+                "condition_concept_name": concept["condition_concept_name"],
                 "condition_start_date": visit["visit_start_date"],
                 "condition_type_concept_id": random.choice([32020, 32021]),
                 "visit_occurrence_id": visit["visit_occurrence_id"],
@@ -263,7 +268,6 @@ def generate_condition_table(
             condition_id += 1
 
     return pd.DataFrame(condition_data)
-
 
 def generate_fact_table(
     visit_df,
@@ -284,12 +288,12 @@ def generate_fact_table(
 
     This function adds binary indicator columns for various COVID-related diagnoses and treatments
     based on visit dates and randomized probabilities. It is useful for testing cohort logic or
-    simulating patient data in the absence of real clinical records.
-
+    simulating patient data in the absence of real clinical records. 
+    
     Parameters:
     ----------
     visit_df : pyspark.sql.DataFrame
-        Input DataFrame containing at least 'person_id' and 'visit_date' columns.
+        Input DataFrame containing at least 'person_id,' 'visit_start_date,' and 'visit_occurrence_id' columns.
 
     covid_earliest_date : str, optional
         The earliest date to begin assigning COVID-related flags (default is "2020-03-01").
@@ -307,10 +311,14 @@ def generate_fact_table(
     pyspark.sql.DataFrame
         A DataFrame with the original visit data plus synthetic binary flags for COVID-related events.
         Note that the synthetic binary flags are generated independently, therefore unrealistically.
+        
+        This fact table is not a standard OMOP table. 
+        Users of this repository may prefer to directly identify infection dates and "true positive" Long COVID 
+        diagnoses in their own data.
     """
 
     visit_df = visit_df.copy()
-    visit_df["visit_start_date"] = pd.to_datetime(visit_df["visit_start_date"])
+    visit_df["date"] = pd.to_datetime(visit_df["visit_start_date"])
 
     for col_name, seeds in probabilities.items():
         seed_1 = seeds["seed_1"]
@@ -321,11 +329,10 @@ def generate_fact_table(
         )
 
         visit_df[col_name] = (
-            (visit_df["visit_start_date"] >= threshold_date) &
+            (visit_df["date"] >= threshold_date) &
             (visit_df["person_id"] % seed_1 == 0) &
-            (visit_df["visit_id"] % seed_2 == 0)
+            (visit_df["visit_occurrence_id"] % seed_2 == 0)
         ).astype(int)
-
     return visit_df
 
 
