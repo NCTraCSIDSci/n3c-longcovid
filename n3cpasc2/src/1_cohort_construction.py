@@ -223,9 +223,23 @@ def basic_cohort(recover_release_person, cohort_and_idx, window_spans):
     # df = df.limit(100000)
     return df
 
-def labels( recover_release_condition_occurrence, basic_cohort, recover_release_observation):
-    # MARKED FOR EXPORT
-    # U09 and B948 conditions:
+def labels(recover_release_condition_occurrence, 
+           basic_cohort, 
+           recover_release_observation):
+    """
+    Generate labels for the training set.
+    Labels are defined as having either:
+        2+ U09.9 diagnoses,
+        2+ B94.8 diagnoses, 
+        2+ LC clinic visits.
+    The label date is the earliest of:
+        The first date of U09.9 diagnosis (if 2+ U09.9 diagnoses),
+        The first date of B94.8 diagnosis (if 2+ B94.8 diagnoses),
+        The first date of LC clinic visit (if 2+ LC clinic visits).
+    The LC clinic visit code is 2004207791. This is not a standard OMOP concept.
+    U09.9 is 705076.
+    B94.8 is 36714927.
+    If none of these three codes are present 2+ times for any person, this will break the pipeline."""
     u99_b948_df = recover_release_condition_occurrence \
         .filter(
             (F.col("condition_concept_id").isin(705076, 36714927)) &
