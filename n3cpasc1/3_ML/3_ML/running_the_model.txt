@@ -1,0 +1,8 @@
+
+To run the model, load the .ubj file using xgboost as follows:
+
+
+# xgboost 1.4.2
+import xgboost
+xgb_model = xgboost.XGBClassifier()
+xgb_model.load_model(PATH_TO_MODEL.ubj)
