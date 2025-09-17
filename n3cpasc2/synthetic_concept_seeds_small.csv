@@ -1,4 +1,6 @@
 condition_concept_id,observation_concept_id,condition_concept_name,observation_concept_name,concept_seed_1,concept_seed_2
+705076,705076,U09.9 Long COVID code,U09.9 Long COVID code,130,0
+36714927,36714927,B94.8 Long COVID code,B94.8 Long COVID code,143,0
 320128,320128,Essential hypertension,Essential hypertension,2,0
 45879404,45879404,Never smoker,Never smoker,2,0
 320128,320128,Essential hypertension,Essential hypertension,117,0
