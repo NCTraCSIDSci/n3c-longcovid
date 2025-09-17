@@ -1,9 +1,17 @@
 from pyspark.sql import functions as F
 
-
-def conditions_for_the_cohort(basic_cohort, blackout_dates, recover_release_condition_occurrence, recover_release_observation):
+def conditions_for_the_cohort(basic_cohort, 
+                              blackout_dates, 
+                              condition_occurrence, 
+                              observation):
+    """
+    Combines conditions and observations to make a single pool of clinical features.
+    This is filtered for cohort membership and blackout dates.
+    Observation IDs are prefixed with "OBS-" to avoid collisions with condition_occurrence_ids.
+    """
+    
     # Transform observation data
-    obs_transformed = recover_release_observation.select(
+    obs_transformed = observation.select(
         F.concat(F.lit("OBS-"), F.col("observation_id")).alias("condition_occurrence_id"),
         F.col("person_id"),
         F.col("observation_date").alias("condition_start_date"),
@@ -12,7 +20,7 @@ def conditions_for_the_cohort(basic_cohort, blackout_dates, recover_release_cond
     )
 
     # Select relevant columns from condition_occurrence
-    cond_selected = recover_release_condition_occurrence.select(
+    cond_selected = condition_occurrence.select(
         "condition_occurrence_id",
         "person_id",
         "condition_start_date",
@@ -46,8 +54,8 @@ def conditions_for_the_cohort(basic_cohort, blackout_dates, recover_release_cond
 
 def selected_features(conditions_for_the_cohort, 
                     concept_ancestor, 
-                    recover_release_concept,
-                    cutoff_value = 25_000,
+                    concept_table,
+                    cutoff_value,
                     ancestor_blacklist = [
                         '4322976', #Procedure
                         '4254480' #Education
@@ -80,7 +88,13 @@ def selected_features(conditions_for_the_cohort,
                         '43021202', # Sexually active with men
                         '4119499' # Not for resuscitation                    
                         ]):
-    # MARKED FOR EXPORT
+    """
+    Selects features from the pool of conditions and observations based on a cutoff value.
+    Uses the concept_ancestor table to roll up counts to ancestors.
+    Also applies a blacklist to remove unwanted concepts.
+    Returns a DataFrame of selected features with their ancestor and descendant counts.
+    For N3C, the cutoff value was 25,000, but appropriate choices vary based on dataset size.
+    """
     #Parameters
     # Create full feature blacklist:
     blacklisted_features = concept_ancestor.filter(
@@ -88,7 +102,7 @@ def selected_features(conditions_for_the_cohort,
         (F.col("descendant_concept_id").isin(descendant_blacklist))
     )
     # Generate SNOMEDgraph
-    rr1 = recover_release_concept \
+    rr1 = concept_table \
         .filter(
             (F.col("vocabulary_id") == "SNOMED") &
             (F.col("standard_concept") == "S") &
@@ -99,7 +113,7 @@ def selected_features(conditions_for_the_cohort,
             F.col("concept_name").alias("anc_concept_name")
         )
 
-    rr2 = recover_release_concept \
+    rr2 = concept_table \
         .filter(
             (F.col("vocabulary_id") == "SNOMED") &
             (F.col("standard_concept") == "S") &
@@ -152,8 +166,15 @@ def selected_features(conditions_for_the_cohort,
 
     return df
     
-def condition_features(conditions_for_the_cohort, selected_features, window_spans, basic_cohort):
-    selected_features = selected_features
+def condition_features(conditions_for_the_cohort, 
+                       selected_features, 
+                       window_spans, 
+                       basic_cohort):
+    """
+    Joins the pool of conditions and observations with the selected features to create the final feature set.
+    This is then joined to the cohort and window spans to create a final table of person_id, window, and concept_id.
+    1 row per person_id, window, concept_id.
+    """
     df = conditions_for_the_cohort
     df = df.join(selected_features, df['condition_concept_id'] == selected_features['descendant_concept_id'])
     df = df[['person_id','condition_start_date','ancestor_concept_id','anc_concept_name']]
@@ -177,4 +198,3 @@ def condition_features(conditions_for_the_cohort, selected_features, window_span
         .select('person_id','window','concept_id') \
         .distinct()
     return conditions_alt
-

@@ -4,6 +4,10 @@ from xgboost.sklearn import XGBClassifier
 def training_set(basic_cohort, 
                  labels, 
                  window_spans):
+    """
+    Process the basic cohort and labels to create a training set with balanced classes.
+    For each person in the basic cohort, assigns a label (True/False) for each window.
+    """
     # Create windowed labels:
     outer_labels = labels \
         .select('person_id','label','label_date') \
@@ -39,6 +43,11 @@ def feature_downselect(training_set,
                        selected_features, 
                        condition_features_alt,
                        threshold = 0.0025):
+    """
+    Downselect features based on their covariance with the label in the training set.
+    The threshold parameter controls the sensitivity of the downselection, and has a big impact on the number of features selected.
+    Returns a DataFrame of selected features with their covariance values.
+    """
     # Select the training features by window and person
     ts = training_set[['person_id','window','label']]
     training_features = condition_features_alt.join(ts, on=['person_id','window'])
@@ -82,6 +91,11 @@ def train_data_full(training_set,
                     condition_features_alt,
                     rand_seed = 1234,
                     validation_share = 0.05):
+    """
+    Applies the downselection to the training features, and combines with demographic and visit count data.
+    Splits the data into training and validation sets based on the validation_share parameter.
+    Returns a DataFrame ready for model training.
+    """
     # Select the training features by window and person
     ts = training_set[['person_id','window','label']]
     training_features = condition_features_alt.join(ts, on=['person_id','window'])
@@ -116,18 +130,30 @@ def train_data_full(training_set,
         .withColumn('hold_for_val',F.rand(seed=rand_seed) < validation_share)
     return df
     
-def pasc_train_model(model_train_data):
+def pasc_train_model(model_train_data,
+                     colsample_bytree=0.1,
+                     gamma=0.4,
+                     learning_rate=0.09, 
+                     max_depth=12, 
+                     min_child_weight=0,
+                     n_estimators=400, 
+                     subsample=0.9, 
+                     random_state=42):
+    """
+    Train an XGBoost model on the provided training data.
+    This is not much more than a shell around the XGBoost training function.
+    """
     df = model_train_data.toPandas()
     y = (df["label"].to_numpy())
     X = df.drop(columns = ["label", "person_id", "window", "hold_for_val"])
     X = X.to_numpy()
-    model =  XGBClassifier(colsample_bytree=0.1,
-                           gamma=0.4, 
-                           learning_rate=0.09, 
-                           max_depth=12, 
-                           min_child_weight=0, 
-                           n_estimators=400, 
-                           subsample=0.9, 
-                           random_state=42)
+    model =  XGBClassifier(colsample_bytree=colsample_bytree,
+                           gamma=gamma, 
+                           learning_rate=learning_rate,
+                           max_depth=max_depth,
+                           min_child_weight=min_child_weight,
+                           n_estimators=n_estimators, 
+                           subsample=subsample,
+                           random_state=random_state)
     model.fit(X, y)
     return model

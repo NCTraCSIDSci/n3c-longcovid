@@ -1,7 +1,7 @@
 from pyspark.sql import functions as F
 from pyspark.sql import Window
 
-def covid_cohort(Pasc_all_patients_fact_day_combine):
+def covid_cohort(fact_table):
     """
     This function is used to generate an intermediate table for the cohort_and_idx and infection_dates tables.
     It identifies all patients with a positive COVID test, a COVID diagnosis, a Long COVID diagnosis, or a prescription for Paxlovid or Remdesivir.
@@ -15,7 +15,7 @@ def covid_cohort(Pasc_all_patients_fact_day_combine):
     ## Pull cols for COVID Cohort Identification ##
     ###############################################
 
-    all_patients_visit_table = Pasc_all_patients_fact_day_combine.select('person_id', 'date', 'PCR_AG_Pos', 'LL_COVID_diagnosis', 'PAX1_NIRMATRELVIR', 'PAX2_RITONAVIR', 'PAXLOVID', 'REMDISIVIR', 'LL_Long_COVID_diagnosis', 'B94_8', 'LL_MISC') \
+    all_patients_visit_table = fact_table.select('person_id', 'date', 'PCR_AG_Pos', 'LL_COVID_diagnosis', 'PAX1_NIRMATRELVIR', 'PAX2_RITONAVIR', 'PAXLOVID', 'REMDISIVIR', 'LL_Long_COVID_diagnosis', 'B94_8', 'LL_MISC') \
         .where(F.col('date') >= "2020-03-01")
 
     variable1 = "PAX1_NIRMATRELVIR"
@@ -80,7 +80,8 @@ def covid_cohort(Pasc_all_patients_fact_day_combine):
 
     return df
 
-def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
+def infection_dates(covid_cohort,  
+                    fact_table):
     """
     This is generated from the cohort and fact table, and is used to generate blackout dates around infection dates.
     It identifies all patients with a positive COVID test, and then finds all subsequent positive tests that are at least 60 days after the previous positive test.
@@ -89,7 +90,7 @@ def infection_dates(covid_cohort,  Pasc_all_patients_fact_day_combine):
     Users may finde it easier to create the infection_dates table directly without this intermediate step.
     """
 
-    all_patients_visit_table = Pasc_all_patients_fact_day_combine.select('person_id', 'date', 'PCR_AG_Pos')
+    all_patients_visit_table = fact_table.select('person_id', 'date', 'PCR_AG_Pos')
 
     cohort_df = covid_cohort.select('person_id', 'COVID_first_poslab_or_diagnosis_date')
 
@@ -226,7 +227,7 @@ def blackout_dates(cohort_and_idx,
     union_df = infection_based.unionByName(diag_rx_based).distinct()
     return union_df
 
-def basic_cohort(recover_release_person, 
+def basic_cohort(person_table, 
                  cohort_and_idx, 
                  window_spans,
                  min_age = 18,
@@ -238,7 +239,7 @@ def basic_cohort(recover_release_person,
     It is used extensively in downstream analyses.
     The testing_limit parameter can be used to limit the number of rows for testing purposes.
     """
-    df = recover_release_person[['person_id','year_of_birth','gender_concept_name']]
+    df = person_table[['person_id','year_of_birth','gender_concept_name']]
     df2 = cohort_and_idx[['person_id']]
     df = df2.join(df, on='person_id')
 
@@ -257,9 +258,9 @@ def basic_cohort(recover_release_person,
         df = df.limit(testing_limit)
     return df
 
-def labels(recover_release_condition_occurrence, 
+def labels(condition_occurrence, 
            basic_cohort, 
-           recover_release_observation):
+           observation_table):
     """
     Generate labels for the training set.
     Labels are defined as having either:
@@ -274,7 +275,7 @@ def labels(recover_release_condition_occurrence,
     U09.9 is 705076.
     B94.8 is 36714927.
     If none of these three codes are present 2+ times for any person, this will break the pipeline."""
-    u99_b948_df = recover_release_condition_occurrence \
+    u99_b948_df = condition_occurrence \
         .filter(
             (F.col("condition_concept_id").isin(705076, 36714927)) &
             (F.col("condition_start_date") >= "2020-02-01")
@@ -322,7 +323,7 @@ def labels(recover_release_condition_occurrence,
         )
 
     # LC clinic visits
-    LC_obs_df = recover_release_observation \
+    LC_obs_df = observation_table \
         .filter(
             F.col("observation_concept_id") == 2004207791
         ) \
@@ -347,7 +348,10 @@ def labels(recover_release_condition_occurrence,
     df = df.filter(df['label'])
     return df
     
-def post_visit_counts_in_windows(basic_cohort, blackout_dates, recover_release_microvisit_to_macrovisit, window_spans):
+def post_visit_counts_in_windows(basic_cohort, 
+                                 blackout_dates, 
+                                 visit_table, 
+                                 window_spans):
     """
     This creates the visit counts features.
     Visit count features do not always contribute significantly to model performance.
@@ -360,7 +364,7 @@ def post_visit_counts_in_windows(basic_cohort, blackout_dates, recover_release_m
     df = df[['person_id','blackout_begin','blackout_end']]
     
     # trim the microvisit to the bare minimum required for output to save memory where possible
-    mic = recover_release_microvisit_to_macrovisit
+    mic = visit_table
     mic = mic[['person_id',
                'visit_occurrence_id',
                'visit_start_date',

@@ -65,7 +65,7 @@ condition_features_df = condition_features(conditions_for_the_cohort_df,
                                            basic_cohort_df)
 
 
-# Third stage: Create the training set for the model from the cohort, labels, and features. 
+# Third stage: Training.
 training_set_df = training_set(basic_cohort_df,
                                labels_df,
                                window_spark)
